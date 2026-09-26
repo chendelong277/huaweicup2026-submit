@@ -104,11 +104,10 @@ def _sel(ctx, evs, key):
 
 
 if __name__ == '__main__':
-    root = os.path.abspath(os.path.join(os.path.dirname(__file__),
-                                        '..', '..', '..', '..'))
-    ctx = Context(os.path.join(root, 'members', 'WHLi', 'Q4', 'results', 'frozen'))
-    s = run_enumeration(ctx, os.path.abspath(os.path.join(
-        os.path.dirname(__file__), '..', 'results')))
+    results = os.path.abspath(os.path.join(os.path.dirname(__file__),
+                                           '..', 'results'))
+    ctx = Context(os.path.join(results, 'frozen_alns_q3_v2_seed_20260924'))
+    s = run_enumeration(ctx, results)
     for k in (2, 3):
         print('K=%d: %d partitions, best=%s' % (
             k, s['k%d' % k]['n_partitions'],

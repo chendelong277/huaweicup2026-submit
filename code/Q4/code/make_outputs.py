@@ -238,11 +238,12 @@ def run_outputs(ctx, results_dir, template_path=None):
 
 if __name__ == '__main__':
     root = os.path.abspath(os.path.join(os.path.dirname(__file__),
-                                        '..', '..', '..', '..'))
-    ctx = Context(os.path.join(root, 'members', 'WHLi', 'Q4', 'results', 'frozen'))
-    tpl = os.path.join(root, '..', '# D-项目文件夹-LW', 'D题题目', '结果提交模板.xlsx')
-    audit = run_outputs(ctx, os.path.abspath(os.path.join(
-        os.path.dirname(__file__), '..', 'results')), os.path.abspath(tpl))
+                                        '..', '..', '..'))
+    results = os.path.abspath(os.path.join(os.path.dirname(__file__),
+                                           '..', 'results'))
+    ctx = Context(os.path.join(results, 'frozen_alns_q3_v2_seed_20260924'))
+    tpl = os.path.join(root, '结果提交模板.xlsx')
+    audit = run_outputs(ctx, results, os.path.abspath(tpl))
     for k in (2, 3):
         a = audit['k%d' % k]
         print('K=%d feasible=%s gap0=%s partition=%s'

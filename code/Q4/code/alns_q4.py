@@ -13,7 +13,7 @@ Framework ported from members/weiliu/Q3/code/alns_q3_v2.py (ALNS-Q3-V2):
 - failure-guided operator gating (shortage-guided destroy only competes when
   the incumbent still has shortage), mirroring relay_shift in ALNS-Q3-V2.
 
-What changed versus ALNS-Q3-V2 (see ALNS-Q4.md for the full list):
+What changed versus ALNS-Q3-V2:
 - solution = component -> group assignment (dict over 6 components), not
   (trips, order); evaluation is an exact closed-form peak-concurrency
   accounting (microseconds), so the whole joint-decode layer (decode_joint,

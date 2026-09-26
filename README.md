@@ -17,7 +17,7 @@ code/
 
 - `code/`：可运行求解代码、配置与依赖说明（`requirements.txt` 或 `config.json`）
 - `results*/`：结果 CSV/JSON、约束审计、Pareto 档案、运行清单（含输入文件 SHA-256，可复现）
-- `README.md` / `model.md` / `analysis.md` / `assumptions.md` / `handoff.md`：模型、假设与接口文档
+- `README.md`：当前状态、复现命令与结果清单；`model.md`：数学模型与算法说明
 
 ## 运行方式
 

@@ -53,7 +53,7 @@
 ## 复现
 
 ```bash
-cd members/weiliu/Q2
+cd code/Q2
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python code/run_mo.py --budget 120 --seeds 0 1 2
 ```
 

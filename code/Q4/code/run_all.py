@@ -2,18 +2,16 @@
 """Full ALNS-Q4 experiment driver: runs, enumeration baseline, outputs, audit.
 
 Usage (from repo root):
-    python members/weiliu/Q4/code/run_all.py --budget 60
+    python code/Q4/code/run_all.py --budget 60
 """
 import argparse
 import os
 import subprocess
 import sys
 
-ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__),
-                                    '..', '..', '..', '..'))
 CODE = os.path.dirname(os.path.abspath(__file__))
 RESULTS = os.path.abspath(os.path.join(CODE, '..', 'results'))
-FROZEN = os.path.join(ROOT, 'members', 'WHLi', 'Q4', 'results', 'frozen')
+FROZEN = os.path.join(RESULTS, 'frozen_alns_q3_v2_seed_20260924')
 SEEDS = (20260924, 20260925, 20260926, 20260927, 20260928)
 
 
