@@ -16,10 +16,18 @@ code/
 
 - `code/`：可运行求解代码、配置与依赖说明（`requirements.txt` 或 `config.json`）
 - `results*/`：结果 CSV/JSON、约束审计、Pareto 档案、运行清单（含输入文件 SHA-256，可复现）
-- `README.md`：当前状态、复现命令与结果清单；`model.md`：数学模型与算法说明
 
 ## 运行方式
 
-各问代码均为 Python 3.8+，原始题目数据（`调度中心与服务区.xlsx`、`物资需求与配送时限.xlsx`、`运输无人机数据.xlsx`、`中继无人机数据.xlsx`、`通信链路参数.xlsx`、`镇龙乡及周边30米DEM.mat`）由 `--data-root` 参数指定本地目录，不随仓库分发。逐问的复现命令见各 `Q*/README.md` 的“复现命令”一节。
+各问代码均为 Python 3.8+，原始题目数据（`调度中心与服务区.xlsx`、`物资需求与配送时限.xlsx`、`运输无人机数据.xlsx`、`中继无人机数据.xlsx`、`通信链路参数.xlsx`、`镇龙乡及周边30米DEM.mat`）由 `--data-root` 参数指定本地目录，不随仓库分发。各问主求解器的运行入口：
+
+```bash
+python "code/Q1/code/q1_solver.py"       --data-root "<题目数据目录>" --output-dir "<输出目录>"
+python "code/Q2/code/q2_solver_v2.py"    --data-root "<题目数据目录>" --output-dir "<输出目录>"
+python "code/Q3/code/run_alns_q3_v2.py"  --data-root "<题目数据目录>" --output-dir "<输出目录>" --budget 600 --seed 20260924
+python "code/Q4/code/run_alns_q4.py"     --frozen-dir "code/Q4/results/frozen_alns_q3_v2_seed_20260924" --k 2 --budget 60 --seed 20260924 --output-dir "<输出目录>"
+```
+
+算法模型、算子逻辑与输入输出的完整说明见论文附录 C「四问求解算法算子说明」。
 
 各问之间的数据依赖：Q2 复用 Q1 的航段库与组批基线；Q3 复用 Q2 的运输解码器并接受 Q2 方案作为可选暖启动；Q4 只读 Q3 冻结的联合方案（已随 `code/Q4/results/frozen_alns_q3_v2_seed_20260924/` 一并提交，可直接运行）。
