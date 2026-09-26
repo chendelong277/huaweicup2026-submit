@@ -24,5 +24,3 @@ code/
 各问代码均为 Python 3.8+，原始题目数据（`调度中心与服务区.xlsx`、`物资需求与配送时限.xlsx`、`运输无人机数据.xlsx`、`中继无人机数据.xlsx`、`通信链路参数.xlsx`、`镇龙乡及周边30米DEM.mat`）由 `--data-root` 参数指定本地目录，不随仓库分发。逐问的复现命令见各 `Q*/README.md` 的“复现命令”一节。
 
 各问之间的数据依赖：Q2 复用 Q1 的航段库与组批基线；Q3 复用 Q2 的运输解码器并接受 Q2 方案作为可选暖启动；Q4 只读 Q3 冻结的联合方案（已随 `code/Q4/results/frozen_alns_q3_v2_seed_20260924/` 一并提交，可直接运行）。
-
-开发协作仓库为 [chendelong277/huaweicup-2026](https://github.com/chendelong277/huaweicup-2026)，本仓库只存放冻结后的提交物。
