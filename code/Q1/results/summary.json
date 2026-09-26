@@ -1,0 +1,13 @@
+{
+  "status": "integrable",
+  "primary_objective": "flights_energy_time",
+  "default_reserve_fraction": 0.2,
+  "delivered_boxes": 80,
+  "flights": 18,
+  "energy_kwh": 59.26390830535006,
+  "cumulative_operation_time_s": 32804.87341936896,
+  "audit_pass": true,
+  "energy_model_version": "q1_energy_v1_equivalent_range_plus_climb",
+  "geometry_model_version": "q1_dem_supercover_v1",
+  "elapsed_seconds": 46.570133399999996
+}

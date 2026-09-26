@@ -1,0 +1,4003 @@
+{
+  "shortage_first": {
+    "2": {
+      "candidate_count": 255,
+      "eligible_count": 255,
+      "threshold": null,
+      "threshold_candidate_count": null,
+      "no_candidate": false,
+      "selected": {
+        "scenario": "shortage_first",
+        "scenario_name": "缺口优先",
+        "k": 2,
+        "role": "selected",
+        "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S012}",
+        "assignment": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "hard_violations": 0,
+        "shortage_total": 4,
+        "relay_extra": 1,
+        "balance_time": 1.917119,
+        "max_group_workload_s": 44512.874883,
+        "redundancy_total": 4,
+        "workload_times_s": [
+          44512.874883,
+          1924.380805
+        ],
+        "shortage": {
+          "transport_A": 0,
+          "transport_B": 1,
+          "transport_C": 0,
+          "battery_A": 1,
+          "battery_B": 1,
+          "battery_C": 0,
+          "relay": 1,
+          "energy_component": 0
+        },
+        "redundancy": {
+          "transport_A": 0,
+          "transport_B": 1,
+          "transport_C": 0,
+          "battery_A": 0,
+          "battery_B": 1,
+          "battery_C": 0,
+          "relay": 1,
+          "energy_component": 1
+        },
+        "totals": {
+          "transport_A": 4,
+          "transport_B": 3,
+          "transport_C": 2,
+          "battery_A": 7,
+          "battery_B": 5,
+          "battery_C": 4,
+          "relay": 3,
+          "energy_component": 4
+        },
+        "within_inventory": false,
+        "score": [
+          0,
+          4,
+          1,
+          1.917119,
+          4
+        ]
+      }
+    },
+    "3": {
+      "candidate_count": 3025,
+      "eligible_count": 3025,
+      "threshold": null,
+      "threshold_candidate_count": null,
+      "no_candidate": false,
+      "selected": {
+        "scenario": "shortage_first",
+        "scenario_name": "缺口优先",
+        "k": 3,
+        "role": "selected",
+        "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S012}|{S015}",
+        "assignment": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2
+        ],
+        "hard_violations": 0,
+        "shortage_total": 6,
+        "relay_extra": 2,
+        "balance_time": 2.757457,
+        "max_group_workload_s": 42682.91523,
+        "redundancy_total": 7,
+        "workload_times_s": [
+          42682.91523,
+          1924.380805,
+          1829.959653
+        ],
+        "shortage": {
+          "transport_A": 0,
+          "transport_B": 2,
+          "transport_C": 0,
+          "battery_A": 1,
+          "battery_B": 1,
+          "battery_C": 0,
+          "relay": 2,
+          "energy_component": 0
+        },
+        "redundancy": {
+          "transport_A": 0,
+          "transport_B": 2,
+          "transport_C": 0,
+          "battery_A": 0,
+          "battery_B": 1,
+          "battery_C": 0,
+          "relay": 2,
+          "energy_component": 2
+        },
+        "totals": {
+          "transport_A": 4,
+          "transport_B": 4,
+          "transport_C": 2,
+          "battery_A": 7,
+          "battery_B": 5,
+          "battery_C": 4,
+          "relay": 4,
+          "energy_component": 5
+        },
+        "within_inventory": false,
+        "score": [
+          0,
+          6,
+          2,
+          2.757457,
+          7
+        ]
+      }
+    }
+  },
+  "balance_first": {
+    "2": {
+      "candidate_count": 255,
+      "eligible_count": 255,
+      "threshold": null,
+      "threshold_candidate_count": null,
+      "no_candidate": false,
+      "selected": {
+        "scenario": "balance_first",
+        "scenario_name": "工作量均衡优先",
+        "k": 2,
+        "role": "selected",
+        "partition": "{S001,S006,S007,S009,S010,S012,S013,S014,S015}|{S002,S003,S004,S005,S008,S011}",
+        "assignment": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hard_violations": 0,
+        "shortage_total": 16,
+        "relay_extra": 1,
+        "balance_time": 1.003357,
+        "max_group_workload_s": 23296.575103,
+        "redundancy_total": 16,
+        "workload_times_s": [
+          23296.575103,
+          23140.680585
+        ],
+        "shortage": {
+          "transport_A": 4,
+          "transport_B": 1,
+          "transport_C": 2,
+          "battery_A": 4,
+          "battery_B": 1,
+          "battery_C": 2,
+          "relay": 2,
+          "energy_component": 0
+        },
+        "redundancy": {
+          "transport_A": 4,
+          "transport_B": 1,
+          "transport_C": 2,
+          "battery_A": 3,
+          "battery_B": 1,
+          "battery_C": 2,
+          "relay": 2,
+          "energy_component": 1
+        },
+        "totals": {
+          "transport_A": 8,
+          "transport_B": 3,
+          "transport_C": 4,
+          "battery_A": 10,
+          "battery_B": 5,
+          "battery_C": 6,
+          "relay": 4,
+          "energy_component": 4
+        },
+        "within_inventory": false,
+        "score": [
+          0,
+          16,
+          1,
+          1.003357,
+          16
+        ]
+      }
+    },
+    "3": {
+      "candidate_count": 3025,
+      "eligible_count": 3025,
+      "threshold": null,
+      "threshold_candidate_count": null,
+      "no_candidate": false,
+      "selected": {
+        "scenario": "balance_first",
+        "scenario_name": "工作量均衡优先",
+        "k": 3,
+        "role": "selected",
+        "partition": "{S001,S006,S007,S013,S014}|{S002,S004,S005,S010,S012,S015}|{S003,S008,S009,S011}",
+        "assignment": [
+          0,
+          1,
+          2,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1
+        ],
+        "hard_violations": 0,
+        "shortage_total": 19,
+        "relay_extra": 3,
+        "balance_time": 1.061178,
+        "max_group_workload_s": 16426.064524,
+        "redundancy_total": 21,
+        "workload_times_s": [
+          16426.064524,
+          15601.62947,
+          14409.561695
+        ],
+        "shortage": {
+          "transport_A": 5,
+          "transport_B": 2,
+          "transport_C": 2,
+          "battery_A": 4,
+          "battery_B": 1,
+          "battery_C": 2,
+          "relay": 3,
+          "energy_component": 0
+        },
+        "redundancy": {
+          "transport_A": 5,
+          "transport_B": 2,
+          "transport_C": 2,
+          "battery_A": 3,
+          "battery_B": 1,
+          "battery_C": 2,
+          "relay": 3,
+          "energy_component": 3
+        },
+        "totals": {
+          "transport_A": 9,
+          "transport_B": 4,
+          "transport_C": 4,
+          "battery_A": 10,
+          "battery_B": 5,
+          "battery_C": 6,
+          "relay": 5,
+          "energy_component": 6
+        },
+        "within_inventory": false,
+        "score": [
+          0,
+          19,
+          3,
+          1.061178,
+          21
+        ]
+      }
+    }
+  },
+  "balanced_shortage_first": {
+    "2": {
+      "candidate_count": 255,
+      "eligible_count": 180,
+      "threshold": 1.5,
+      "threshold_candidate_count": 180,
+      "no_candidate": false,
+      "selected": {
+        "scenario": "balanced_shortage_first",
+        "scenario_name": "均衡约束下缺口优先",
+        "k": 2,
+        "role": "selected",
+        "partition": "{S001,S003,S004,S005,S006,S007,S009,S010,S012,S013,S014,S015}|{S002,S008,S011}",
+        "assignment": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hard_violations": 0,
+        "shortage_total": 8,
+        "relay_extra": 1,
+        "balance_time": 1.482317,
+        "max_group_workload_s": 34417.358932,
+        "redundancy_total": 8,
+        "workload_times_s": [
+          34417.358932,
+          12019.896757
+        ],
+        "shortage": {
+          "transport_A": 3,
+          "transport_B": 1,
+          "transport_C": 1,
+          "battery_A": 2,
+          "battery_B": 0,
+          "battery_C": 0,
+          "relay": 1,
+          "energy_component": 0
+        },
+        "redundancy": {
+          "transport_A": 3,
+          "transport_B": 1,
+          "transport_C": 1,
+          "battery_A": 1,
+          "battery_B": 0,
+          "battery_C": 0,
+          "relay": 1,
+          "energy_component": 1
+        },
+        "totals": {
+          "transport_A": 7,
+          "transport_B": 3,
+          "transport_C": 3,
+          "battery_A": 8,
+          "battery_B": 4,
+          "battery_C": 4,
+          "relay": 3,
+          "energy_component": 4
+        },
+        "within_inventory": false,
+        "score": [
+          0,
+          8,
+          1,
+          1.482317,
+          8
+        ]
+      }
+    },
+    "3": {
+      "candidate_count": 3025,
+      "eligible_count": 2403,
+      "threshold": 2.0,
+      "threshold_candidate_count": 2403,
+      "no_candidate": false,
+      "selected": {
+        "scenario": "balanced_shortage_first",
+        "scenario_name": "均衡约束下缺口优先",
+        "k": 3,
+        "role": "selected",
+        "partition": "{S001,S003,S004,S005,S006,S007,S009,S010,S013,S014}|{S002,S008,S011,S015}|{S012}",
+        "assignment": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          1
+        ],
+        "hard_violations": 0,
+        "shortage_total": 10,
+        "relay_extra": 2,
+        "balance_time": 1.980932,
+        "max_group_workload_s": 30663.018473,
+        "redundancy_total": 11,
+        "workload_times_s": [
+          30663.018473,
+          13849.85641,
+          1924.380805
+        ],
+        "shortage": {
+          "transport_A": 3,
+          "transport_B": 1,
+          "transport_C": 1,
+          "battery_A": 2,
+          "battery_B": 1,
+          "battery_C": 0,
+          "relay": 2,
+          "energy_component": 0
+        },
+        "redundancy": {
+          "transport_A": 3,
+          "transport_B": 1,
+          "transport_C": 1,
+          "battery_A": 1,
+          "battery_B": 1,
+          "battery_C": 0,
+          "relay": 2,
+          "energy_component": 2
+        },
+        "totals": {
+          "transport_A": 7,
+          "transport_B": 3,
+          "transport_C": 3,
+          "battery_A": 8,
+          "battery_B": 5,
+          "battery_C": 4,
+          "relay": 4,
+          "energy_component": 5
+        },
+        "within_inventory": false,
+        "score": [
+          0,
+          10,
+          2,
+          1.980932,
+          11
+        ]
+      }
+    }
+  },
+  "pareto": {
+    "2": {
+      "candidate_count": 255,
+      "eligible_count": 18,
+      "threshold": 1.5,
+      "threshold_candidate_count": 12,
+      "no_candidate": false,
+      "front": [
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S011,S012,S013,S014}|{S010,S015}",
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 4,
+          "relay_extra": 2,
+          "balance_time": 1.854203,
+          "max_group_workload_s": 43052.054009,
+          "redundancy_total": 5,
+          "workload_times_s": [
+            43052.054009,
+            3385.201679
+          ],
+          "shortage": {
+            "transport_A": 0,
+            "transport_B": 1,
+            "transport_C": 0,
+            "battery_A": 1,
+            "battery_B": 0,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 0,
+            "transport_B": 1,
+            "transport_C": 0,
+            "battery_A": 0,
+            "battery_B": 0,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 4,
+            "transport_B": 3,
+            "transport_C": 2,
+            "battery_A": 7,
+            "battery_B": 4,
+            "battery_C": 4,
+            "relay": 4,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            4,
+            2,
+            1.854203,
+            5
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S012}",
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "hard_violations": 0,
+          "shortage_total": 4,
+          "relay_extra": 1,
+          "balance_time": 1.917119,
+          "max_group_workload_s": 44512.874883,
+          "redundancy_total": 4,
+          "workload_times_s": [
+            44512.874883,
+            1924.380805
+          ],
+          "shortage": {
+            "transport_A": 0,
+            "transport_B": 1,
+            "transport_C": 0,
+            "battery_A": 1,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 1,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 0,
+            "transport_B": 1,
+            "transport_C": 0,
+            "battery_A": 0,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 1,
+            "energy_component": 1
+          },
+          "totals": {
+            "transport_A": 4,
+            "transport_B": 3,
+            "transport_C": 2,
+            "battery_A": 7,
+            "battery_B": 5,
+            "battery_C": 4,
+            "relay": 3,
+            "energy_component": 4
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            4,
+            1,
+            1.917119,
+            4
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S002,S004,S005,S006,S007,S008,S009,S010,S011,S012,S013,S014,S015}|{S003}",
+          "assignment": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "hard_violations": 0,
+          "shortage_total": 5,
+          "relay_extra": 1,
+          "balance_time": 1.797578,
+          "max_group_workload_s": 41737.298015,
+          "redundancy_total": 5,
+          "workload_times_s": [
+            41737.298015,
+            4699.957673
+          ],
+          "shortage": {
+            "transport_A": 1,
+            "transport_B": 0,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 0,
+            "battery_C": 1,
+            "relay": 1,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 1,
+            "transport_B": 0,
+            "transport_C": 1,
+            "battery_A": 0,
+            "battery_B": 0,
+            "battery_C": 1,
+            "relay": 1,
+            "energy_component": 1
+          },
+          "totals": {
+            "transport_A": 5,
+            "transport_B": 2,
+            "transport_C": 3,
+            "battery_A": 7,
+            "battery_B": 4,
+            "battery_C": 5,
+            "relay": 3,
+            "energy_component": 4
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            5,
+            1,
+            1.797578,
+            5
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S004,S005,S006,S007,S008,S009,S011,S012,S013,S014}|{S002,S010,S015}",
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 6,
+          "relay_extra": 2,
+          "balance_time": 1.687474,
+          "max_group_workload_s": 39180.833179,
+          "redundancy_total": 7,
+          "workload_times_s": [
+            39180.833179,
+            7256.42251
+          ],
+          "shortage": {
+            "transport_A": 0,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 0,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 0,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 4,
+            "transport_B": 3,
+            "transport_C": 3,
+            "battery_A": 7,
+            "battery_B": 5,
+            "battery_C": 4,
+            "relay": 4,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            6,
+            2,
+            1.687474,
+            7
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S004,S005,S006,S007,S008,S009,S010,S011,S012,S013,S014}|{S002,S015}",
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 6,
+          "relay_extra": 1,
+          "balance_time": 1.754457,
+          "max_group_workload_s": 40736.075205,
+          "redundancy_total": 6,
+          "workload_times_s": [
+            40736.075205,
+            5701.180484
+          ],
+          "shortage": {
+            "transport_A": 0,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 2,
+            "battery_C": 0,
+            "relay": 1,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 0,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 0,
+            "battery_B": 2,
+            "battery_C": 0,
+            "relay": 1,
+            "energy_component": 1
+          },
+          "totals": {
+            "transport_A": 4,
+            "transport_B": 3,
+            "transport_C": 3,
+            "battery_A": 7,
+            "battery_B": 6,
+            "battery_C": 4,
+            "relay": 3,
+            "energy_component": 4
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            6,
+            1,
+            1.754457,
+            6
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S002,S003,S004,S005,S006,S007,S010,S012,S013,S014,S015}|{S008,S009,S011}",
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "hard_violations": 0,
+          "shortage_total": 7,
+          "relay_extra": 1,
+          "balance_time": 1.581818,
+          "max_group_workload_s": 36727.651666,
+          "redundancy_total": 7,
+          "workload_times_s": [
+            36727.651666,
+            9709.604022
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 0,
+            "battery_A": 2,
+            "battery_B": 0,
+            "battery_C": 0,
+            "relay": 1,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 0,
+            "battery_A": 1,
+            "battery_B": 0,
+            "battery_C": 0,
+            "relay": 1,
+            "energy_component": 1
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 3,
+            "transport_C": 2,
+            "battery_A": 8,
+            "battery_B": 4,
+            "battery_C": 4,
+            "relay": 3,
+            "energy_component": 4
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            7,
+            1,
+            1.581818,
+            7
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S004,S005,S006,S007,S009,S010,S012,S013,S014,S015}|{S002,S008,S011}",
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "hard_violations": 0,
+          "shortage_total": 8,
+          "relay_extra": 1,
+          "balance_time": 1.482317,
+          "max_group_workload_s": 34417.358932,
+          "redundancy_total": 8,
+          "workload_times_s": [
+            34417.358932,
+            12019.896757
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 0,
+            "battery_C": 0,
+            "relay": 1,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 0,
+            "battery_C": 0,
+            "relay": 1,
+            "energy_component": 1
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 3,
+            "transport_C": 3,
+            "battery_A": 8,
+            "battery_B": 4,
+            "battery_C": 4,
+            "relay": 3,
+            "energy_component": 4
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            8,
+            1,
+            1.482317,
+            8
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S004,S005,S006,S007,S009,S012,S013,S014}|{S002,S008,S010,S011,S015}",
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 9,
+          "relay_extra": 2,
+          "balance_time": 1.33652,
+          "max_group_workload_s": 31032.157252,
+          "redundancy_total": 10,
+          "workload_times_s": [
+            31032.157252,
+            15405.098436
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 0,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 0,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 3,
+            "transport_C": 3,
+            "battery_A": 8,
+            "battery_B": 4,
+            "battery_C": 4,
+            "relay": 4,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            9,
+            2,
+            1.33652,
+            10
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S004,S005,S006,S007,S009,S010,S012,S013,S014}|{S002,S008,S011,S015}",
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 9,
+          "relay_extra": 1,
+          "balance_time": 1.403502,
+          "max_group_workload_s": 32587.399278,
+          "redundancy_total": 9,
+          "workload_times_s": [
+            32587.399278,
+            13849.85641
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 1,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 1,
+            "energy_component": 1
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 3,
+            "transport_C": 3,
+            "battery_A": 8,
+            "battery_B": 5,
+            "battery_C": 4,
+            "relay": 3,
+            "energy_component": 4
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            9,
+            1,
+            1.403502,
+            9
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S004,S005,S006,S007,S013,S014}|{S002,S008,S009,S010,S011,S012,S015}",
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 10,
+          "relay_extra": 2,
+          "balance_time": 1.186412,
+          "max_group_workload_s": 27546.848352,
+          "redundancy_total": 11,
+          "workload_times_s": [
+            27546.848352,
+            18890.407337
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 3,
+            "transport_C": 3,
+            "battery_A": 8,
+            "battery_B": 5,
+            "battery_C": 4,
+            "relay": 4,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            10,
+            2,
+            1.186412,
+            11
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S006,S007,S009,S013,S014}|{S002,S004,S005,S008,S010,S011,S012,S015}",
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 11,
+          "relay_extra": 2,
+          "balance_time": 1.022899,
+          "max_group_workload_s": 23750.305396,
+          "redundancy_total": 12,
+          "workload_times_s": [
+            22686.950292,
+            23750.305396
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 3,
+            "battery_B": 0,
+            "battery_C": 1,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 0,
+            "battery_C": 1,
+            "relay": 2,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 3,
+            "transport_C": 3,
+            "battery_A": 9,
+            "battery_B": 4,
+            "battery_C": 5,
+            "relay": 4,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            11,
+            2,
+            1.022899,
+            12
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S004,S005,S006,S007,S009,S010,S012,S013,S014,S015}|{S002,S003,S008,S011}",
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "hard_violations": 0,
+          "shortage_total": 11,
+          "relay_extra": 1,
+          "balance_time": 1.279895,
+          "max_group_workload_s": 29717.401259,
+          "redundancy_total": 11,
+          "workload_times_s": [
+            29717.401259,
+            16719.85443
+          ],
+          "shortage": {
+            "transport_A": 4,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 3,
+            "battery_B": 0,
+            "battery_C": 1,
+            "relay": 1,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 4,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 0,
+            "battery_C": 1,
+            "relay": 1,
+            "energy_component": 1
+          },
+          "totals": {
+            "transport_A": 8,
+            "transport_B": 3,
+            "transport_C": 3,
+            "battery_A": 9,
+            "battery_B": 4,
+            "battery_C": 5,
+            "relay": 3,
+            "energy_component": 4
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            11,
+            1,
+            1.279895,
+            11
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S006,S007,S013,S014,S015}|{S002,S004,S005,S008,S009,S010,S011,S012}",
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "hard_violations": 0,
+          "shortage_total": 12,
+          "relay_extra": 2,
+          "balance_time": 1.011312,
+          "max_group_workload_s": 23481.273838,
+          "redundancy_total": 13,
+          "workload_times_s": [
+            22955.98185,
+            23481.273838
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 3,
+            "battery_B": 1,
+            "battery_C": 1,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 1,
+            "battery_C": 1,
+            "relay": 2,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 3,
+            "transport_C": 3,
+            "battery_A": 9,
+            "battery_B": 5,
+            "battery_C": 5,
+            "relay": 4,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            12,
+            2,
+            1.011312,
+            13
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S004,S005,S006,S007,S009,S010,S012,S013,S014}|{S002,S003,S008,S011,S015}",
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 12,
+          "relay_extra": 1,
+          "balance_time": 1.201081,
+          "max_group_workload_s": 27887.441605,
+          "redundancy_total": 12,
+          "workload_times_s": [
+            27887.441605,
+            18549.814083
+          ],
+          "shortage": {
+            "transport_A": 4,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 3,
+            "battery_B": 1,
+            "battery_C": 1,
+            "relay": 1,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 4,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 1,
+            "battery_C": 1,
+            "relay": 1,
+            "energy_component": 1
+          },
+          "totals": {
+            "transport_A": 8,
+            "transport_B": 3,
+            "transport_C": 3,
+            "battery_A": 9,
+            "battery_B": 5,
+            "battery_C": 5,
+            "relay": 3,
+            "energy_component": 4
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            12,
+            1,
+            1.201081,
+            12
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S006,S007,S012,S013,S014}|{S002,S004,S005,S008,S009,S010,S011,S015}",
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 14,
+          "relay_extra": 2,
+          "balance_time": 1.007245,
+          "max_group_workload_s": 23386.852687,
+          "redundancy_total": 15,
+          "workload_times_s": [
+            23050.403002,
+            23386.852687
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 3,
+            "battery_B": 2,
+            "battery_C": 1,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 2,
+            "battery_C": 1,
+            "relay": 2,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 4,
+            "transport_C": 3,
+            "battery_A": 9,
+            "battery_B": 6,
+            "battery_C": 5,
+            "relay": 4,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            14,
+            2,
+            1.007245,
+            15
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S006,S007,S009,S010,S012,S013,S014}|{S002,S004,S005,S008,S011,S015}",
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 14,
+          "relay_extra": 1,
+          "balance_time": 1.126965,
+          "max_group_workload_s": 26166.573123,
+          "redundancy_total": 14,
+          "workload_times_s": [
+            26166.573123,
+            20270.682565
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 3,
+            "battery_B": 2,
+            "battery_C": 1,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 2,
+            "battery_C": 1,
+            "relay": 2,
+            "energy_component": 1
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 4,
+            "transport_C": 3,
+            "battery_A": 9,
+            "battery_B": 6,
+            "battery_C": 5,
+            "relay": 4,
+            "energy_component": 4
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            14,
+            1,
+            1.126965,
+            14
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S006,S007,S010,S012,S013,S014}|{S002,S004,S005,S008,S009,S011,S015}",
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 15,
+          "relay_extra": 1,
+          "balance_time": 1.059737,
+          "max_group_workload_s": 24605.645028,
+          "redundancy_total": 15,
+          "workload_times_s": [
+            24605.645028,
+            21831.610661
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 3,
+            "battery_B": 3,
+            "battery_C": 1,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 3,
+            "battery_C": 1,
+            "relay": 2,
+            "energy_component": 1
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 4,
+            "transport_C": 3,
+            "battery_A": 9,
+            "battery_B": 7,
+            "battery_C": 5,
+            "relay": 4,
+            "energy_component": 4
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            15,
+            1,
+            1.059737,
+            15
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "pareto_front",
+          "partition": "{S001,S006,S007,S009,S010,S012,S013,S014,S015}|{S002,S003,S004,S005,S008,S011}",
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "hard_violations": 0,
+          "shortage_total": 16,
+          "relay_extra": 1,
+          "balance_time": 1.003357,
+          "max_group_workload_s": 23296.575103,
+          "redundancy_total": 16,
+          "workload_times_s": [
+            23296.575103,
+            23140.680585
+          ],
+          "shortage": {
+            "transport_A": 4,
+            "transport_B": 1,
+            "transport_C": 2,
+            "battery_A": 4,
+            "battery_B": 1,
+            "battery_C": 2,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 4,
+            "transport_B": 1,
+            "transport_C": 2,
+            "battery_A": 3,
+            "battery_B": 1,
+            "battery_C": 2,
+            "relay": 2,
+            "energy_component": 1
+          },
+          "totals": {
+            "transport_A": 8,
+            "transport_B": 3,
+            "transport_C": 4,
+            "battery_A": 10,
+            "battery_B": 5,
+            "battery_C": 6,
+            "relay": 4,
+            "energy_component": 4
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            16,
+            1,
+            1.003357,
+            16
+          ]
+        }
+      ],
+      "representatives": {
+        "shortage_first": {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "shortage_first",
+          "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S012}",
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "hard_violations": 0,
+          "shortage_total": 4,
+          "relay_extra": 1,
+          "balance_time": 1.917119,
+          "max_group_workload_s": 44512.874883,
+          "redundancy_total": 4,
+          "workload_times_s": [
+            44512.874883,
+            1924.380805
+          ],
+          "shortage": {
+            "transport_A": 0,
+            "transport_B": 1,
+            "transport_C": 0,
+            "battery_A": 1,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 1,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 0,
+            "transport_B": 1,
+            "transport_C": 0,
+            "battery_A": 0,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 1,
+            "energy_component": 1
+          },
+          "totals": {
+            "transport_A": 4,
+            "transport_B": 3,
+            "transport_C": 2,
+            "battery_A": 7,
+            "battery_B": 5,
+            "battery_C": 4,
+            "relay": 3,
+            "energy_component": 4
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            4,
+            1,
+            1.917119,
+            4
+          ]
+        },
+        "balance_first": {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "balance_first",
+          "partition": "{S001,S006,S007,S009,S010,S012,S013,S014,S015}|{S002,S003,S004,S005,S008,S011}",
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "hard_violations": 0,
+          "shortage_total": 16,
+          "relay_extra": 1,
+          "balance_time": 1.003357,
+          "max_group_workload_s": 23296.575103,
+          "redundancy_total": 16,
+          "workload_times_s": [
+            23296.575103,
+            23140.680585
+          ],
+          "shortage": {
+            "transport_A": 4,
+            "transport_B": 1,
+            "transport_C": 2,
+            "battery_A": 4,
+            "battery_B": 1,
+            "battery_C": 2,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 4,
+            "transport_B": 1,
+            "transport_C": 2,
+            "battery_A": 3,
+            "battery_B": 1,
+            "battery_C": 2,
+            "relay": 2,
+            "energy_component": 1
+          },
+          "totals": {
+            "transport_A": 8,
+            "transport_B": 3,
+            "transport_C": 4,
+            "battery_A": 10,
+            "battery_B": 5,
+            "battery_C": 6,
+            "relay": 4,
+            "energy_component": 4
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            16,
+            1,
+            1.003357,
+            16
+          ]
+        },
+        "balanced_threshold": {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 2,
+          "role": "balanced_threshold",
+          "partition": "{S001,S003,S004,S005,S006,S007,S009,S010,S012,S013,S014,S015}|{S002,S008,S011}",
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "hard_violations": 0,
+          "shortage_total": 8,
+          "relay_extra": 1,
+          "balance_time": 1.482317,
+          "max_group_workload_s": 34417.358932,
+          "redundancy_total": 8,
+          "workload_times_s": [
+            34417.358932,
+            12019.896757
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 0,
+            "battery_C": 0,
+            "relay": 1,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 0,
+            "battery_C": 0,
+            "relay": 1,
+            "energy_component": 1
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 3,
+            "transport_C": 3,
+            "battery_A": 8,
+            "battery_B": 4,
+            "battery_C": 4,
+            "relay": 3,
+            "energy_component": 4
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            8,
+            1,
+            1.482317,
+            8
+          ]
+        }
+      }
+    },
+    "3": {
+      "candidate_count": 3025,
+      "eligible_count": 29,
+      "threshold": 2.0,
+      "threshold_candidate_count": 24,
+      "no_candidate": false,
+      "front": [
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S012}|{S015}",
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2
+          ],
+          "hard_violations": 0,
+          "shortage_total": 6,
+          "relay_extra": 2,
+          "balance_time": 2.757457,
+          "max_group_workload_s": 42682.91523,
+          "redundancy_total": 7,
+          "workload_times_s": [
+            42682.91523,
+            1924.380805,
+            1829.959653
+          ],
+          "shortage": {
+            "transport_A": 0,
+            "transport_B": 2,
+            "transport_C": 0,
+            "battery_A": 1,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 0,
+            "transport_B": 2,
+            "transport_C": 0,
+            "battery_A": 0,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 4,
+            "transport_B": 4,
+            "transport_C": 2,
+            "battery_A": 7,
+            "battery_B": 5,
+            "battery_C": 4,
+            "relay": 4,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            6,
+            2,
+            2.757457,
+            7
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S002}|{S012}",
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          "hard_violations": 0,
+          "shortage_total": 7,
+          "relay_extra": 2,
+          "balance_time": 2.625585,
+          "max_group_workload_s": 40641.654053,
+          "redundancy_total": 8,
+          "workload_times_s": [
+            40641.654053,
+            3871.22083,
+            1924.380805
+          ],
+          "shortage": {
+            "transport_A": 0,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 0,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 0,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 4,
+            "transport_B": 4,
+            "transport_C": 3,
+            "battery_A": 7,
+            "battery_B": 5,
+            "battery_C": 4,
+            "relay": 4,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            7,
+            2,
+            2.625585,
+            8
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S004,S005,S006,S007,S008,S009,S011,S013,S014}|{S002,S010,S015}|{S012}",
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 8,
+          "relay_extra": 3,
+          "balance_time": 2.40689,
+          "max_group_workload_s": 37256.452374,
+          "redundancy_total": 10,
+          "workload_times_s": [
+            37256.452374,
+            7256.42251,
+            1924.380805
+          ],
+          "shortage": {
+            "transport_A": 0,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 0,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 0,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 3,
+            "energy_component": 3
+          },
+          "totals": {
+            "transport_A": 4,
+            "transport_B": 4,
+            "transport_C": 3,
+            "battery_A": 7,
+            "battery_B": 5,
+            "battery_C": 4,
+            "relay": 5,
+            "energy_component": 6
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            8,
+            3,
+            2.40689,
+            10
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S002,S015}|{S012}",
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 8,
+          "relay_extra": 2,
+          "balance_time": 2.507364,
+          "max_group_workload_s": 38811.6944,
+          "redundancy_total": 9,
+          "workload_times_s": [
+            38811.6944,
+            5701.180484,
+            1924.380805
+          ],
+          "shortage": {
+            "transport_A": 0,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 2,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 0,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 0,
+            "battery_B": 2,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 4,
+            "transport_B": 4,
+            "transport_C": 3,
+            "battery_A": 7,
+            "battery_B": 6,
+            "battery_C": 4,
+            "relay": 4,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            8,
+            2,
+            2.507364,
+            9
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S002,S003}|{S012}",
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          "hard_violations": 0,
+          "shortage_total": 9,
+          "relay_extra": 2,
+          "balance_time": 2.321952,
+          "max_group_workload_s": 35941.69638,
+          "redundancy_total": 10,
+          "workload_times_s": [
+            35941.69638,
+            8571.178504,
+            1924.380805
+          ],
+          "shortage": {
+            "transport_A": 1,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 1,
+            "battery_C": 1,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 1,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 0,
+            "battery_B": 1,
+            "battery_C": 1,
+            "relay": 2,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 5,
+            "transport_B": 4,
+            "transport_C": 3,
+            "battery_A": 7,
+            "battery_B": 5,
+            "battery_C": 5,
+            "relay": 4,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            9,
+            2,
+            2.321952,
+            10
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S004,S005,S006,S007,S009,S010,S013,S014}|{S002,S008,S011,S015}|{S012}",
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 10,
+          "relay_extra": 2,
+          "balance_time": 1.980932,
+          "max_group_workload_s": 30663.018473,
+          "redundancy_total": 11,
+          "workload_times_s": [
+            30663.018473,
+            13849.85641,
+            1924.380805
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 3,
+            "transport_C": 3,
+            "battery_A": 8,
+            "battery_B": 5,
+            "battery_C": 4,
+            "relay": 4,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            10,
+            2,
+            1.980932,
+            11
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S004,S005,S006,S007,S009,S013,S014}|{S002,S008,S010,S011,S015}|{S012}",
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 11,
+          "relay_extra": 3,
+          "balance_time": 1.880458,
+          "max_group_workload_s": 29107.776447,
+          "redundancy_total": 13,
+          "workload_times_s": [
+            29107.776447,
+            15405.098436,
+            1924.380805
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 3,
+            "energy_component": 3
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 3,
+            "transport_C": 3,
+            "battery_A": 8,
+            "battery_B": 5,
+            "battery_C": 4,
+            "relay": 5,
+            "energy_component": 6
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            11,
+            3,
+            1.880458,
+            13
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S004,S005,S006,S007,S013,S014}|{S002,S008,S011}|{S009,S010,S012,S015}",
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "hard_violations": 0,
+          "shortage_total": 12,
+          "relay_extra": 3,
+          "balance_time": 1.779617,
+          "max_group_workload_s": 27546.848352,
+          "redundancy_total": 14,
+          "workload_times_s": [
+            27546.848352,
+            12019.896757,
+            6870.51058
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 3,
+            "energy_component": 3
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 4,
+            "transport_C": 3,
+            "battery_A": 8,
+            "battery_B": 5,
+            "battery_C": 4,
+            "relay": 5,
+            "energy_component": 6
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            12,
+            3,
+            1.779617,
+            14
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S004,S005,S006,S007,S013,S014}|{S002,S010,S012,S015}|{S008,S009,S011}",
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 12,
+          "relay_extra": 3,
+          "balance_time": 1.779617,
+          "max_group_workload_s": 27546.848352,
+          "redundancy_total": 14,
+          "workload_times_s": [
+            27546.848352,
+            9180.803315,
+            9709.604022
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 3,
+            "energy_component": 3
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 4,
+            "transport_C": 3,
+            "battery_A": 8,
+            "battery_B": 5,
+            "battery_C": 4,
+            "relay": 5,
+            "energy_component": 6
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            12,
+            3,
+            1.779617,
+            14
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S004,S005,S006,S007,S013,S014}|{S002}|{S008,S009,S010,S011,S012,S015}",
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "hard_violations": 0,
+          "shortage_total": 12,
+          "relay_extra": 3,
+          "balance_time": 1.779617,
+          "max_group_workload_s": 27546.848352,
+          "redundancy_total": 14,
+          "workload_times_s": [
+            27546.848352,
+            3871.22083,
+            15019.186506
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 3,
+            "energy_component": 3
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 4,
+            "transport_C": 3,
+            "battery_A": 8,
+            "battery_B": 5,
+            "battery_C": 4,
+            "relay": 5,
+            "energy_component": 6
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            12,
+            3,
+            1.779617,
+            14
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S004,S005,S006,S007,S010,S013,S014}|{S002,S008,S009,S011,S015}|{S012}",
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            2,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 12,
+          "relay_extra": 2,
+          "balance_time": 1.880091,
+          "max_group_workload_s": 29102.090378,
+          "redundancy_total": 13,
+          "workload_times_s": [
+            29102.090378,
+            15410.784506,
+            1924.380805
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 2,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 2,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 4,
+            "transport_C": 3,
+            "battery_A": 8,
+            "battery_B": 6,
+            "battery_C": 4,
+            "relay": 4,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            12,
+            2,
+            1.880091,
+            13
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S004,S005,S006,S007,S009,S010,S013,S014}|{S002,S003,S008,S011,S015}|{S012}",
+          "assignment": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            2,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 13,
+          "relay_extra": 2,
+          "balance_time": 1.677299,
+          "max_group_workload_s": 25963.0608,
+          "redundancy_total": 14,
+          "workload_times_s": [
+            25963.0608,
+            18549.814083,
+            1924.380805
+          ],
+          "shortage": {
+            "transport_A": 4,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 3,
+            "battery_B": 1,
+            "battery_C": 1,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 4,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 1,
+            "battery_C": 1,
+            "relay": 2,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 8,
+            "transport_B": 3,
+            "transport_C": 3,
+            "battery_A": 9,
+            "battery_B": 5,
+            "battery_C": 5,
+            "relay": 4,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            13,
+            2,
+            1.677299,
+            14
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S006,S007,S009,S013,S014}|{S002,S004,S005,S008,S010,S011,S012}|{S015}",
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            2
+          ],
+          "hard_violations": 0,
+          "shortage_total": 14,
+          "relay_extra": 3,
+          "balance_time": 1.465652,
+          "max_group_workload_s": 22686.950292,
+          "redundancy_total": 16,
+          "workload_times_s": [
+            22686.950292,
+            21920.345743,
+            1829.959653
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 3,
+            "battery_B": 1,
+            "battery_C": 1,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 1,
+            "battery_C": 1,
+            "relay": 3,
+            "energy_component": 3
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 4,
+            "transport_C": 3,
+            "battery_A": 9,
+            "battery_B": 5,
+            "battery_C": 5,
+            "relay": 5,
+            "energy_component": 6
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            14,
+            3,
+            1.465652,
+            16
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S006,S007,S009,S013,S014}|{S002,S004,S005,S008,S010,S011,S015}|{S012}",
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 14,
+          "relay_extra": 3,
+          "balance_time": 1.465652,
+          "max_group_workload_s": 22686.950292,
+          "redundancy_total": 16,
+          "workload_times_s": [
+            22686.950292,
+            21825.924591,
+            1924.380805
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 3,
+            "battery_B": 1,
+            "battery_C": 1,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 1,
+            "battery_C": 1,
+            "relay": 3,
+            "energy_component": 3
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 4,
+            "transport_C": 3,
+            "battery_A": 9,
+            "battery_B": 5,
+            "battery_C": 5,
+            "relay": 5,
+            "energy_component": 6
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            14,
+            3,
+            1.465652,
+            16
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S006,S007,S009,S013,S014}|{S002,S004,S005,S008,S011,S012,S015}|{S010}",
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            2,
+            1,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 14,
+          "relay_extra": 3,
+          "balance_time": 1.465652,
+          "max_group_workload_s": 22686.950292,
+          "redundancy_total": 16,
+          "workload_times_s": [
+            22686.950292,
+            22195.06337,
+            1555.242026
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 3,
+            "battery_B": 1,
+            "battery_C": 1,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 1,
+            "battery_C": 1,
+            "relay": 3,
+            "energy_component": 3
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 4,
+            "transport_C": 3,
+            "battery_A": 9,
+            "battery_B": 5,
+            "battery_C": 5,
+            "relay": 5,
+            "energy_component": 6
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            14,
+            3,
+            1.465652,
+            16
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S006,S007,S013,S014}|{S002,S004,S005,S010,S012,S015}|{S008,S009,S011}",
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 15,
+          "relay_extra": 3,
+          "balance_time": 1.364811,
+          "max_group_workload_s": 21126.022197,
+          "redundancy_total": 17,
+          "workload_times_s": [
+            21126.022197,
+            15601.62947,
+            9709.604022
+          ],
+          "shortage": {
+            "transport_A": 4,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 3,
+            "battery_B": 1,
+            "battery_C": 1,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 4,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 1,
+            "battery_C": 1,
+            "relay": 3,
+            "energy_component": 3
+          },
+          "totals": {
+            "transport_A": 8,
+            "transport_B": 4,
+            "transport_C": 3,
+            "battery_A": 9,
+            "battery_B": 5,
+            "battery_C": 5,
+            "relay": 5,
+            "energy_component": 6
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            15,
+            3,
+            1.364811,
+            17
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S006,S007,S009,S010,S013,S014}|{S002,S004,S005,S008,S011,S015}|{S012}",
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            2,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 15,
+          "relay_extra": 2,
+          "balance_time": 1.566126,
+          "max_group_workload_s": 24242.192318,
+          "redundancy_total": 16,
+          "workload_times_s": [
+            24242.192318,
+            20270.682565,
+            1924.380805
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 3,
+            "battery_B": 2,
+            "battery_C": 1,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 2,
+            "battery_C": 1,
+            "relay": 3,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 4,
+            "transport_C": 3,
+            "battery_A": 9,
+            "battery_B": 6,
+            "battery_C": 5,
+            "relay": 5,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            15,
+            2,
+            1.566126,
+            16
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S006,S007,S010,S013,S014}|{S002,S004,S005,S008,S009,S011,S015}|{S012}",
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            2,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 16,
+          "relay_extra": 2,
+          "balance_time": 1.465285,
+          "max_group_workload_s": 22681.264223,
+          "redundancy_total": 17,
+          "workload_times_s": [
+            22681.264223,
+            21831.610661,
+            1924.380805
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 3,
+            "battery_B": 3,
+            "battery_C": 1,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 2,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 3,
+            "battery_C": 1,
+            "relay": 3,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 4,
+            "transport_C": 3,
+            "battery_A": 9,
+            "battery_B": 7,
+            "battery_C": 5,
+            "relay": 5,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            16,
+            2,
+            1.465285,
+            17
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S006,S007,S010,S013,S014,S015}|{S002,S003}|{S004,S005,S008,S009,S011,S012}",
+          "assignment": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            0,
+            2,
+            0
+          ],
+          "hard_violations": 0,
+          "shortage_total": 17,
+          "relay_extra": 3,
+          "balance_time": 1.279873,
+          "max_group_workload_s": 19811.266203,
+          "redundancy_total": 19,
+          "workload_times_s": [
+            19811.266203,
+            8571.178504,
+            18054.810982
+          ],
+          "shortage": {
+            "transport_A": 4,
+            "transport_B": 1,
+            "transport_C": 2,
+            "battery_A": 4,
+            "battery_B": 1,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 4,
+            "transport_B": 1,
+            "transport_C": 2,
+            "battery_A": 3,
+            "battery_B": 1,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 3
+          },
+          "totals": {
+            "transport_A": 8,
+            "transport_B": 3,
+            "transport_C": 4,
+            "battery_A": 10,
+            "battery_B": 5,
+            "battery_C": 6,
+            "relay": 5,
+            "energy_component": 6
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            17,
+            3,
+            1.279873,
+            19
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S003,S006,S007,S013,S014}|{S002,S004,S005,S008,S009,S011,S015}|{S010,S012}",
+          "assignment": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            2,
+            2,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 17,
+          "relay_extra": 2,
+          "balance_time": 1.410394,
+          "max_group_workload_s": 21831.610661,
+          "redundancy_total": 18,
+          "workload_times_s": [
+            21126.022197,
+            21831.610661,
+            3479.622831
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 3,
+            "transport_C": 1,
+            "battery_A": 3,
+            "battery_B": 3,
+            "battery_C": 1,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 3,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 3,
+            "battery_C": 1,
+            "relay": 3,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 5,
+            "transport_C": 3,
+            "battery_A": 9,
+            "battery_B": 7,
+            "battery_C": 5,
+            "relay": 5,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            17,
+            2,
+            1.410394,
+            18
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S006,S007,S009,S013,S014}|{S002,S003,S008,S011}|{S004,S005,S010,S012,S015}",
+          "assignment": [
+            0,
+            1,
+            1,
+            2,
+            1,
+            0,
+            2,
+            2,
+            2
+          ],
+          "hard_violations": 0,
+          "shortage_total": 18,
+          "relay_extra": 3,
+          "balance_time": 1.162019,
+          "max_group_workload_s": 17986.992619,
+          "redundancy_total": 20,
+          "workload_times_s": [
+            17986.992619,
+            16719.85443,
+            11730.408639
+          ],
+          "shortage": {
+            "transport_A": 5,
+            "transport_B": 2,
+            "transport_C": 2,
+            "battery_A": 4,
+            "battery_B": 0,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 5,
+            "transport_B": 2,
+            "transport_C": 2,
+            "battery_A": 3,
+            "battery_B": 0,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 3
+          },
+          "totals": {
+            "transport_A": 9,
+            "transport_B": 4,
+            "transport_C": 4,
+            "battery_A": 10,
+            "battery_B": 4,
+            "battery_C": 6,
+            "relay": 5,
+            "energy_component": 6
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            18,
+            3,
+            1.162019,
+            20
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S006,S007,S013,S014}|{S002,S004,S005,S010,S012,S015}|{S003,S008,S009,S011}",
+          "assignment": [
+            0,
+            1,
+            2,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 19,
+          "relay_extra": 3,
+          "balance_time": 1.061178,
+          "max_group_workload_s": 16426.064524,
+          "redundancy_total": 21,
+          "workload_times_s": [
+            16426.064524,
+            15601.62947,
+            14409.561695
+          ],
+          "shortage": {
+            "transport_A": 5,
+            "transport_B": 2,
+            "transport_C": 2,
+            "battery_A": 4,
+            "battery_B": 1,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 5,
+            "transport_B": 2,
+            "transport_C": 2,
+            "battery_A": 3,
+            "battery_B": 1,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 3
+          },
+          "totals": {
+            "transport_A": 9,
+            "transport_B": 4,
+            "transport_C": 4,
+            "battery_A": 10,
+            "battery_B": 5,
+            "battery_C": 6,
+            "relay": 5,
+            "energy_component": 6
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            19,
+            3,
+            1.061178,
+            21
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S006,S007,S009,S010,S012,S013,S014}|{S002,S003,S015}|{S004,S005,S008,S011}",
+          "assignment": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 19,
+          "relay_extra": 2,
+          "balance_time": 1.386814,
+          "max_group_workload_s": 21466.61545,
+          "redundancy_total": 20,
+          "workload_times_s": [
+            21466.61545,
+            10401.138157,
+            14569.502081
+          ],
+          "shortage": {
+            "transport_A": 4,
+            "transport_B": 2,
+            "transport_C": 2,
+            "battery_A": 4,
+            "battery_B": 2,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 4,
+            "transport_B": 2,
+            "transport_C": 2,
+            "battery_A": 3,
+            "battery_B": 2,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 8,
+            "transport_B": 4,
+            "transport_C": 4,
+            "battery_A": 10,
+            "battery_B": 6,
+            "battery_C": 6,
+            "relay": 5,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            19,
+            2,
+            1.386814,
+            20
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S006,S007,S009,S010,S012,S013,S014}|{S002,S004,S005,S008,S011,S015}|{S003}",
+          "assignment": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 19,
+          "relay_extra": 2,
+          "balance_time": 1.386814,
+          "max_group_workload_s": 21466.61545,
+          "redundancy_total": 20,
+          "workload_times_s": [
+            21466.61545,
+            20270.682565,
+            4699.957673
+          ],
+          "shortage": {
+            "transport_A": 4,
+            "transport_B": 2,
+            "transport_C": 2,
+            "battery_A": 4,
+            "battery_B": 2,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 4,
+            "transport_B": 2,
+            "transport_C": 2,
+            "battery_A": 3,
+            "battery_B": 2,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 8,
+            "transport_B": 4,
+            "transport_C": 4,
+            "battery_A": 10,
+            "battery_B": 6,
+            "battery_C": 6,
+            "relay": 5,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            19,
+            2,
+            1.386814,
+            20
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S006,S007,S009,S010,S012,S013,S014}|{S002,S004,S005,S008,S011}|{S003,S015}",
+          "assignment": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            2
+          ],
+          "hard_violations": 0,
+          "shortage_total": 19,
+          "relay_extra": 2,
+          "balance_time": 1.386814,
+          "max_group_workload_s": 21466.61545,
+          "redundancy_total": 20,
+          "workload_times_s": [
+            21466.61545,
+            18440.722912,
+            6529.917326
+          ],
+          "shortage": {
+            "transport_A": 4,
+            "transport_B": 2,
+            "transport_C": 2,
+            "battery_A": 4,
+            "battery_B": 2,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 4,
+            "transport_B": 2,
+            "transport_C": 2,
+            "battery_A": 3,
+            "battery_B": 2,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 8,
+            "transport_B": 4,
+            "transport_C": 4,
+            "battery_A": 10,
+            "battery_B": 6,
+            "battery_C": 6,
+            "relay": 5,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            19,
+            2,
+            1.386814,
+            20
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S006,S007,S010,S012,S013,S014}|{S002,S003,S015}|{S004,S005,S008,S009,S011}",
+          "assignment": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            2,
+            0,
+            0,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 20,
+          "relay_extra": 2,
+          "balance_time": 1.285973,
+          "max_group_workload_s": 19905.687355,
+          "redundancy_total": 21,
+          "workload_times_s": [
+            19905.687355,
+            10401.138157,
+            16130.430177
+          ],
+          "shortage": {
+            "transport_A": 4,
+            "transport_B": 2,
+            "transport_C": 2,
+            "battery_A": 4,
+            "battery_B": 3,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 4,
+            "transport_B": 2,
+            "transport_C": 2,
+            "battery_A": 3,
+            "battery_B": 3,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 8,
+            "transport_B": 4,
+            "transport_C": 4,
+            "battery_A": 10,
+            "battery_B": 7,
+            "battery_C": 6,
+            "relay": 5,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            20,
+            2,
+            1.285973,
+            21
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S006,S007,S013,S014}|{S002,S003,S004,S005}|{S008,S009,S010,S011,S012,S015}",
+          "assignment": [
+            0,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "hard_violations": 0,
+          "shortage_total": 21,
+          "relay_extra": 3,
+          "balance_time": 1.061178,
+          "max_group_workload_s": 16426.064524,
+          "redundancy_total": 23,
+          "workload_times_s": [
+            16426.064524,
+            14992.004659,
+            15019.186506
+          ],
+          "shortage": {
+            "transport_A": 5,
+            "transport_B": 2,
+            "transport_C": 2,
+            "battery_A": 4,
+            "battery_B": 2,
+            "battery_C": 2,
+            "relay": 4,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 5,
+            "transport_B": 2,
+            "transport_C": 2,
+            "battery_A": 3,
+            "battery_B": 2,
+            "battery_C": 2,
+            "relay": 4,
+            "energy_component": 3
+          },
+          "totals": {
+            "transport_A": 9,
+            "transport_B": 4,
+            "transport_C": 4,
+            "battery_A": 10,
+            "battery_B": 6,
+            "battery_C": 6,
+            "relay": 6,
+            "energy_component": 6
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            21,
+            3,
+            1.061178,
+            23
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S006,S007,S013,S014}|{S002,S008,S011,S015}|{S003,S004,S005,S009,S010,S012}",
+          "assignment": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 21,
+          "relay_extra": 3,
+          "balance_time": 1.061178,
+          "max_group_workload_s": 16426.064524,
+          "redundancy_total": 23,
+          "workload_times_s": [
+            16426.064524,
+            13849.85641,
+            16161.334755
+          ],
+          "shortage": {
+            "transport_A": 5,
+            "transport_B": 2,
+            "transport_C": 3,
+            "battery_A": 4,
+            "battery_B": 2,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 5,
+            "transport_B": 2,
+            "transport_C": 3,
+            "battery_A": 3,
+            "battery_B": 2,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 3
+          },
+          "totals": {
+            "transport_A": 9,
+            "transport_B": 4,
+            "transport_C": 5,
+            "battery_A": 10,
+            "battery_B": 6,
+            "battery_C": 6,
+            "relay": 5,
+            "energy_component": 6
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            21,
+            3,
+            1.061178,
+            23
+          ]
+        },
+        {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "pareto_front",
+          "partition": "{S001,S006,S007,S010,S012,S013,S014}|{S002,S004,S005,S008,S011}|{S003,S009,S015}",
+          "assignment": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            2,
+            0,
+            0,
+            2
+          ],
+          "hard_violations": 0,
+          "shortage_total": 21,
+          "relay_extra": 2,
+          "balance_time": 1.285973,
+          "max_group_workload_s": 19905.687355,
+          "redundancy_total": 22,
+          "workload_times_s": [
+            19905.687355,
+            18440.722912,
+            8090.845422
+          ],
+          "shortage": {
+            "transport_A": 4,
+            "transport_B": 3,
+            "transport_C": 2,
+            "battery_A": 4,
+            "battery_B": 3,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 4,
+            "transport_B": 3,
+            "transport_C": 2,
+            "battery_A": 3,
+            "battery_B": 3,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 8,
+            "transport_B": 5,
+            "transport_C": 4,
+            "battery_A": 10,
+            "battery_B": 7,
+            "battery_C": 6,
+            "relay": 5,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            21,
+            2,
+            1.285973,
+            22
+          ]
+        }
+      ],
+      "representatives": {
+        "shortage_first": {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "shortage_first",
+          "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S012}|{S015}",
+          "assignment": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2
+          ],
+          "hard_violations": 0,
+          "shortage_total": 6,
+          "relay_extra": 2,
+          "balance_time": 2.757457,
+          "max_group_workload_s": 42682.91523,
+          "redundancy_total": 7,
+          "workload_times_s": [
+            42682.91523,
+            1924.380805,
+            1829.959653
+          ],
+          "shortage": {
+            "transport_A": 0,
+            "transport_B": 2,
+            "transport_C": 0,
+            "battery_A": 1,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 0,
+            "transport_B": 2,
+            "transport_C": 0,
+            "battery_A": 0,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 4,
+            "transport_B": 4,
+            "transport_C": 2,
+            "battery_A": 7,
+            "battery_B": 5,
+            "battery_C": 4,
+            "relay": 4,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            6,
+            2,
+            2.757457,
+            7
+          ]
+        },
+        "balance_first": {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "balance_first",
+          "partition": "{S001,S006,S007,S013,S014}|{S002,S004,S005,S010,S012,S015}|{S003,S008,S009,S011}",
+          "assignment": [
+            0,
+            1,
+            2,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 19,
+          "relay_extra": 3,
+          "balance_time": 1.061178,
+          "max_group_workload_s": 16426.064524,
+          "redundancy_total": 21,
+          "workload_times_s": [
+            16426.064524,
+            15601.62947,
+            14409.561695
+          ],
+          "shortage": {
+            "transport_A": 5,
+            "transport_B": 2,
+            "transport_C": 2,
+            "battery_A": 4,
+            "battery_B": 1,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 5,
+            "transport_B": 2,
+            "transport_C": 2,
+            "battery_A": 3,
+            "battery_B": 1,
+            "battery_C": 2,
+            "relay": 3,
+            "energy_component": 3
+          },
+          "totals": {
+            "transport_A": 9,
+            "transport_B": 4,
+            "transport_C": 4,
+            "battery_A": 10,
+            "battery_B": 5,
+            "battery_C": 6,
+            "relay": 5,
+            "energy_component": 6
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            19,
+            3,
+            1.061178,
+            21
+          ]
+        },
+        "balanced_threshold": {
+          "scenario": "pareto",
+          "scenario_name": "非支配前沿",
+          "k": 3,
+          "role": "balanced_threshold",
+          "partition": "{S001,S003,S004,S005,S006,S007,S009,S010,S013,S014}|{S002,S008,S011,S015}|{S012}",
+          "assignment": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            1
+          ],
+          "hard_violations": 0,
+          "shortage_total": 10,
+          "relay_extra": 2,
+          "balance_time": 1.980932,
+          "max_group_workload_s": 30663.018473,
+          "redundancy_total": 11,
+          "workload_times_s": [
+            30663.018473,
+            13849.85641,
+            1924.380805
+          ],
+          "shortage": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 2,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 0
+          },
+          "redundancy": {
+            "transport_A": 3,
+            "transport_B": 1,
+            "transport_C": 1,
+            "battery_A": 1,
+            "battery_B": 1,
+            "battery_C": 0,
+            "relay": 2,
+            "energy_component": 2
+          },
+          "totals": {
+            "transport_A": 7,
+            "transport_B": 3,
+            "transport_C": 3,
+            "battery_A": 8,
+            "battery_B": 5,
+            "battery_C": 4,
+            "relay": 4,
+            "energy_component": 5
+          },
+          "within_inventory": false,
+          "score": [
+            0,
+            10,
+            2,
+            1.980932,
+            11
+          ]
+        }
+      }
+    }
+  }
+}

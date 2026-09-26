@@ -1,0 +1,43 @@
+{
+  "algorithm": "hill",
+  "seed": 0,
+  "budget_s": 0.2,
+  "elapsed_s": 0.2055235999999998,
+  "iterations": 48,
+  "initial_score": [
+    0,
+    53481.48548818642,
+    8834.219670949185,
+    18,
+    59.39882353891195
+  ],
+  "final_score": [
+    0,
+    53481.48548818642,
+    8834.219670949185,
+    18,
+    59.39882353891195
+  ],
+  "initial_source": "warm_start",
+  "trace": [
+    {
+      "elapsed_s": 0.0,
+      "score": [
+        0,
+        53481.48548818642,
+        8834.219670949185,
+        18,
+        59.39882353891195
+      ],
+      "operator": "initial"
+    }
+  ],
+  "objective_order": [
+    "hard_deadline_violations",
+    "weighted_tardiness_priority_seconds",
+    "makespan_s",
+    "trip_count",
+    "energy_kwh"
+  ],
+  "communication_checked": false
+}

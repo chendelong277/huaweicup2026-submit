@@ -1,0 +1,4 @@
+﻿objective_priority,flights,energy_kwh,cumulative_operation_time_s,delivered_boxes
+flights_energy_time,18,59.26390830535006,32804.87341936896,80
+energy_flights_time,19,59.16585275868003,34472.95644149004,80
+time_flights_energy,18,59.26390830535006,32804.87341936896,80

@@ -1,0 +1,428 @@
+{
+  "source": "ALNS-Q2 trip_summary.csv",
+  "trips": [
+    {
+      "trip": 1,
+      "site": "S001",
+      "boxes": [
+        "S001-FOD-02",
+        "S001-HYG-02",
+        "S001-MED-01",
+        "S001-WAT-04",
+        "S001-WAT-05",
+        "S001-WAT-07"
+      ],
+      "drone": "U07",
+      "battery": "C-B00",
+      "model": "C",
+      "start": 0.0,
+      "return_time": 1495.5050262646027,
+      "route": [
+        "S001"
+      ]
+    },
+    {
+      "trip": 2,
+      "site": "S002",
+      "boxes": [
+        "S002-MED-01",
+        "S002-WAT-01",
+        "S002-WAT-03",
+        "S002-WAT-04",
+        "S002-WAT-02",
+        "S002-FOD-02"
+      ],
+      "drone": "U08",
+      "battery": "C-B01",
+      "model": "C",
+      "start": 0.0,
+      "return_time": 2111.1694575711444,
+      "route": [
+        "S002"
+      ]
+    },
+    {
+      "trip": 3,
+      "site": "S011",
+      "boxes": [
+        "S011-WAT-01"
+      ],
+      "drone": "U05",
+      "battery": "B-B00",
+      "model": "B",
+      "start": 0.0,
+      "return_time": 1069.6921885089582,
+      "route": [
+        "S011"
+      ]
+    },
+    {
+      "trip": 4,
+      "site": "S006",
+      "boxes": [
+        "S006-HYG-01",
+        "S006-WAT-02",
+        "S007-HYG-01",
+        "S007-MED-01",
+        "S007-WAT-01",
+        "S007-WAT-02"
+      ],
+      "drone": "U07",
+      "battery": "C-B02",
+      "model": "C",
+      "start": 1495.5050262646027,
+      "return_time": 3843.7877644033465,
+      "route": [
+        "S006",
+        "S007"
+      ]
+    },
+    {
+      "trip": 5,
+      "site": "S006",
+      "boxes": [
+        "S006-FOD-01",
+        "S006-WAT-03"
+      ],
+      "drone": "U01",
+      "battery": "A-B00",
+      "model": "A",
+      "start": 0.0,
+      "return_time": 1313.2108669657812,
+      "route": [
+        "S006"
+      ]
+    },
+    {
+      "trip": 6,
+      "site": "S002",
+      "boxes": [
+        "S002-FOD-01",
+        "S002-HYG-01"
+      ],
+      "drone": "U06",
+      "battery": "B-B01",
+      "model": "B",
+      "start": 0.0,
+      "return_time": 1760.0513728543474,
+      "route": [
+        "S002"
+      ]
+    },
+    {
+      "trip": 7,
+      "site": "S006",
+      "boxes": [
+        "S006-MED-01",
+        "S006-WAT-01"
+      ],
+      "drone": "U05",
+      "battery": "B-B02",
+      "model": "B",
+      "start": 1069.6921885089582,
+      "return_time": 2276.7495816258543,
+      "route": [
+        "S006"
+      ]
+    },
+    {
+      "trip": 8,
+      "site": "S001",
+      "boxes": [
+        "S001-FOD-03",
+        "S001-HYG-01",
+        "S001-MED-02",
+        "S001-WAT-01",
+        "S001-WAT-02",
+        "S001-WAT-03",
+        "S001-WAT-06"
+      ],
+      "drone": "U08",
+      "battery": "C-B03",
+      "model": "C",
+      "start": 2111.1694575711444,
+      "return_time": 3672.674483835747,
+      "route": [
+        "S001"
+      ]
+    },
+    {
+      "trip": 9,
+      "site": "S001",
+      "boxes": [
+        "S001-WAT-08",
+        "S007-FOD-01"
+      ],
+      "drone": "U02",
+      "battery": "A-B01",
+      "model": "A",
+      "start": 0.0,
+      "return_time": 2199.18854588284,
+      "route": [
+        "S001",
+        "S007"
+      ]
+    },
+    {
+      "trip": 10,
+      "site": "S012",
+      "boxes": [
+        "S012-MED-01",
+        "S012-WAT-01",
+        "S012-FOD-01"
+      ],
+      "drone": "U06",
+      "battery": "B-B03",
+      "model": "B",
+      "start": 1760.0513728543474,
+      "return_time": 3684.4321779020474,
+      "route": [
+        "S012"
+      ]
+    },
+    {
+      "trip": 11,
+      "site": "S013",
+      "boxes": [
+        "S013-FOD-01",
+        "S013-MED-01",
+        "S014-MED-01"
+      ],
+      "drone": "U03",
+      "battery": "A-B02",
+      "model": "A",
+      "start": 0.0,
+      "return_time": 2406.2174096537847,
+      "route": [
+        "S013",
+        "S014"
+      ]
+    },
+    {
+      "trip": 12,
+      "site": "S014",
+      "boxes": [
+        "S014-FOD-01",
+        "S014-WAT-01"
+      ],
+      "drone": "U04",
+      "battery": "A-B03",
+      "model": "A",
+      "start": 0.0,
+      "return_time": 1989.9708270167878,
+      "route": [
+        "S014"
+      ]
+    },
+    {
+      "trip": 13,
+      "site": "S010",
+      "boxes": [
+        "S010-MED-01",
+        "S010-WAT-01",
+        "S010-FOD-01"
+      ],
+      "drone": "U05",
+      "battery": "B-B00",
+      "model": "B",
+      "start": 2276.7495816258543,
+      "return_time": 3831.9916075833025,
+      "route": [
+        "S010"
+      ]
+    },
+    {
+      "trip": 14,
+      "site": "S003",
+      "boxes": [
+        "S003-FOD-01",
+        "S003-HYG-01"
+      ],
+      "drone": "U06",
+      "battery": "B-B01",
+      "model": "B",
+      "start": 3684.4321779020474,
+      "return_time": 5705.505279093844,
+      "route": [
+        "S003"
+      ]
+    },
+    {
+      "trip": 15,
+      "site": "S011",
+      "boxes": [
+        "S008-WAT-02",
+        "S011-FOD-01"
+      ],
+      "drone": "U01",
+      "battery": "A-B04",
+      "model": "A",
+      "start": 1313.2108669657812,
+      "return_time": 3734.560613708033,
+      "route": [
+        "S011",
+        "S008"
+      ]
+    },
+    {
+      "trip": 16,
+      "site": "S015",
+      "boxes": [
+        "S015-MED-01",
+        "S015-WAT-01",
+        "S015-FOD-01"
+      ],
+      "drone": "U05",
+      "battery": "B-B02",
+      "model": "B",
+      "start": 3831.9916075833025,
+      "return_time": 5661.951260817291,
+      "route": [
+        "S015"
+      ]
+    },
+    {
+      "trip": 17,
+      "site": "S005",
+      "boxes": [
+        "S005-WAT-01",
+        "S005-WAT-03"
+      ],
+      "drone": "U05",
+      "battery": "B-B00",
+      "model": "B",
+      "start": 5661.951260817291,
+      "return_time": 7180.977999806592,
+      "route": [
+        "S005"
+      ]
+    },
+    {
+      "trip": 18,
+      "site": "S011",
+      "boxes": [
+        "S008-HYG-01",
+        "S008-MED-01",
+        "S011-MED-01"
+      ],
+      "drone": "U04",
+      "battery": "A-B05",
+      "model": "A",
+      "start": 1989.9708270167878,
+      "return_time": 4471.32057375904,
+      "route": [
+        "S011",
+        "S008"
+      ]
+    },
+    {
+      "trip": 19,
+      "site": "S001",
+      "boxes": [
+        "S001-FOD-01",
+        "S013-WAT-01"
+      ],
+      "drone": "U02",
+      "battery": "A-B00",
+      "model": "A",
+      "start": 2205.0542205803545,
+      "return_time": 4110.180910912672,
+      "route": [
+        "S001",
+        "S013"
+      ]
+    },
+    {
+      "trip": 20,
+      "site": "S003",
+      "boxes": [
+        "S003-MED-01",
+        "S003-WAT-01",
+        "S003-WAT-02",
+        "S003-WAT-04",
+        "S003-WAT-03",
+        "S003-FOD-02"
+      ],
+      "drone": "U08",
+      "battery": "C-B00",
+      "model": "C",
+      "start": 3672.674483835747,
+      "return_time": 6109.315631088742,
+      "route": [
+        "S003"
+      ]
+    },
+    {
+      "trip": 21,
+      "site": "S005",
+      "boxes": [
+        "S004-HYG-01",
+        "S004-MED-01",
+        "S004-WAT-02",
+        "S004-WAT-03",
+        "S005-FOD-01",
+        "S005-HYG-01",
+        "S005-MED-01",
+        "S005-WAT-02"
+      ],
+      "drone": "U07",
+      "battery": "C-B01",
+      "model": "C",
+      "start": 4651.21932184322,
+      "return_time": 7369.0449076558925,
+      "route": [
+        "S005",
+        "S004"
+      ]
+    },
+    {
+      "trip": 22,
+      "site": "S009",
+      "boxes": [
+        "S009-MED-01",
+        "S009-WAT-01",
+        "S009-FOD-01"
+      ],
+      "drone": "U06",
+      "battery": "B-B03",
+      "model": "B",
+      "start": 5705.505279093844,
+      "return_time": 7266.433374700386,
+      "route": [
+        "S009"
+      ]
+    },
+    {
+      "trip": 23,
+      "site": "S008",
+      "boxes": [
+        "S008-FOD-01",
+        "S008-WAT-01"
+      ],
+      "drone": "U03",
+      "battery": "A-B03",
+      "model": "A",
+      "start": 3174.1559407745963,
+      "return_time": 5350.440185039708,
+      "route": [
+        "S008"
+      ]
+    },
+    {
+      "trip": 24,
+      "site": "S004",
+      "boxes": [
+        "S004-FOD-01",
+        "S004-WAT-01"
+      ],
+      "drone": "U01",
+      "battery": "A-B01",
+      "model": "A",
+      "start": 3734.560613708033,
+      "return_time": 5918.534443964122,
+      "route": [
+        "S004"
+      ]
+    }
+  ]
+}

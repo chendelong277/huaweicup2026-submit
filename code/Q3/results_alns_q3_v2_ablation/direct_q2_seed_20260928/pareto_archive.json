@@ -1,0 +1,10 @@
+{
+  "objectives": [
+    "weighted_tardiness",
+    "joint_makespan_s",
+    "sorties_total",
+    "joint_energy_kwh"
+  ],
+  "feasible_only": true,
+  "entries": []
+}

@@ -1,0 +1,3 @@
+﻿plan,hard_deadline_violations,weighted_tardiness_priority_seconds,makespan_s,energy_kwh,trip_count
+q1_batches_schedule,2,366306.77770790557,10098.715128451324,59.26390830535005,18
+alns_deadline_repacked,0,0.0,6374.351717254821,70.71666616475245,24

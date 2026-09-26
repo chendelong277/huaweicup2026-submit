@@ -1,0 +1,153 @@
+{
+  "protocol": "2s coarse scan + 0.05s refined resampling (strict pixel-interior LOS) around per-trip weakest instants, blind window bounds and relay service bounds (+-5s)",
+  "q3_source": "members\\weiliu\\Q3\\results_alns_q3_v2_hardcap_600s\\seed_20260927\\gate_whli_strict_1s\\assembled.json",
+  "bad_relay_backhaul": [],
+  "regions_checked": 89,
+  "refined_samples": 17832,
+  "per_trip": {
+    "1": {
+      "coarse_2s_min": 1.8644,
+      "coarse_time": 652.0,
+      "refined_005_min": 1.8643,
+      "refined_time": 651.8
+    },
+    "2": {
+      "coarse_2s_min": 2.9363,
+      "coarse_time": 574.0,
+      "refined_005_min": 2.9362,
+      "refined_time": 573.75
+    },
+    "3": {
+      "coarse_2s_min": 2.2131,
+      "coarse_time": 774.0,
+      "refined_005_min": 2.2128,
+      "refined_time": 772.45
+    },
+    "4": {
+      "coarse_2s_min": 2.2131,
+      "coarse_time": 744.0,
+      "refined_005_min": 2.2128,
+      "refined_time": 742.45
+    },
+    "5": {
+      "coarse_2s_min": 5.3051,
+      "coarse_time": 2359.69,
+      "refined_005_min": 5.3013,
+      "refined_time": 2359.792
+    },
+    "6": {
+      "coarse_2s_min": 0.8312,
+      "coarse_time": 2757.06,
+      "refined_005_min": 0.8159,
+      "refined_time": 2755.457
+    },
+    "7": {
+      "coarse_2s_min": 0.8108,
+      "coarse_time": 3576.93,
+      "refined_005_min": 0.8108,
+      "refined_time": 3576.934
+    },
+    "8": {
+      "coarse_2s_min": 8.5742,
+      "coarse_time": 3889.44,
+      "refined_005_min": 8.5673,
+      "refined_time": 3889.288
+    },
+    "9": {
+      "coarse_2s_min": 0.9487,
+      "coarse_time": 808.0,
+      "refined_005_min": 0.9153,
+      "refined_time": 809.15
+    },
+    "10": {
+      "coarse_2s_min": 0.0399,
+      "coarse_time": 808.0,
+      "refined_005_min": 0.0096,
+      "refined_time": 809.15
+    },
+    "11": {
+      "coarse_2s_min": 3.6529,
+      "coarse_time": 5464.99,
+      "refined_005_min": 3.6529,
+      "refined_time": 5463.536
+    },
+    "12": {
+      "coarse_2s_min": 0.8108,
+      "coarse_time": 2589.51,
+      "refined_005_min": 0.8108,
+      "refined_time": 2588.505
+    },
+    "13": {
+      "coarse_2s_min": 0.0197,
+      "coarse_time": 1332.0,
+      "refined_005_min": 0.0032,
+      "refined_time": 1332.85
+    },
+    "14": {
+      "coarse_2s_min": 2.2128,
+      "coarse_time": 664.0,
+      "refined_005_min": 2.2127,
+      "refined_time": 663.8
+    },
+    "15": {
+      "coarse_2s_min": 5.5028,
+      "coarse_time": 2497.13,
+      "refined_005_min": 5.4737,
+      "refined_time": 2496.177
+    },
+    "16": {
+      "coarse_2s_min": 0.2839,
+      "coarse_time": 2831.51,
+      "refined_005_min": 0.282,
+      "refined_time": 2831.605
+    },
+    "17": {
+      "coarse_2s_min": 7.0061,
+      "coarse_time": 5404.67,
+      "refined_005_min": 6.9851,
+      "refined_time": 5403.774
+    },
+    "18": {
+      "coarse_2s_min": 2.1605,
+      "coarse_time": 5846.69,
+      "refined_005_min": 2.1605,
+      "refined_time": 5844.79
+    },
+    "19": {
+      "coarse_2s_min": 1.8645,
+      "coarse_time": 2941.97,
+      "refined_005_min": 1.8643,
+      "refined_time": 2942.421
+    },
+    "20": {
+      "coarse_2s_min": 3.6529,
+      "coarse_time": 5159.79,
+      "refined_005_min": 3.6529,
+      "refined_time": 5159.588
+    },
+    "21": {
+      "coarse_2s_min": 5.8734,
+      "coarse_time": 4208.85,
+      "refined_005_min": 5.8734,
+      "refined_time": 4207.248
+    },
+    "22": {
+      "coarse_2s_min": 5.5028,
+      "coarse_time": 3796.16,
+      "refined_005_min": 5.4737,
+      "refined_time": 3795.206
+    },
+    "23": {
+      "coarse_2s_min": 0.0923,
+      "coarse_time": 7431.87,
+      "refined_005_min": 0.0625,
+      "refined_time": 7430.97
+    }
+  },
+  "global_refined_min_db": 0.0032086204247718797,
+  "global_refined_where": {
+    "trip": 13,
+    "time": 1332.85
+  },
+  "continuous_feasible": true
+}

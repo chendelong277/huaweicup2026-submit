@@ -1,0 +1,57 @@
+{
+  "solver_status": 2,
+  "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+  "relay_count": 2,
+  "task_count": 19,
+  "candidate_sorties": 1172,
+  "selected": [],
+  "limitations": "20s sampled access coverage; static hover; no energy component assignment/charging, continuous-time proof, or exhaustive location search",
+  "coverage_only": {
+    "sorties": 3,
+    "peak_relay_occupancy": 3,
+    "selected": [
+      {
+        "candidate": "grid10-8/300",
+        "covers": [
+          "6",
+          "8",
+          "13",
+          "17",
+          "20",
+          "23"
+        ],
+        "launch": 96.77415735987478,
+        "ready": 7711.4556400529
+      },
+      {
+        "candidate": "grid16-3/200",
+        "covers": [
+          "5",
+          "8",
+          "12",
+          "9",
+          "15"
+        ],
+        "launch": 94.8825540928766,
+        "ready": 3916.9948016450508
+      },
+      {
+        "candidate": "grid5-5/300",
+        "covers": [
+          "7",
+          "4",
+          "11",
+          "10",
+          "14",
+          "22",
+          "18",
+          "20",
+          "21",
+          "24"
+        ],
+        "launch": 33.17814050970833,
+        "ready": 7964.953838918673
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "version": "mo-r1",
+  "generated_at": "2026-09-24T20:00:59+0800",
+  "python": "3.8.5",
+  "data_dir": "D:\\iFiles\\文档\\3.学术竞赛\\2026 华为杯\\huaweicup-2026\\problem\\数据",
+  "budget_s_per_seed": 120.0,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "data_load_and_warm_audit_s": 0.38,
+  "objectives": {
+    "minimize": [
+      "weighted_tardiness_s",
+      "makespan_s"
+    ],
+    "weighted_tardiness_note": "普通物资期望送达时间为软目标（加权延误）；医疗/首批等原始硬截止仍为硬约束，由 base Decoder 拒绝违反者"
+  },
+  "decoder": "members/chendelong/pipeline/algorithms/q2_search.py::Decoder (base, 未修改)",
+  "controller": {
+    "operators": [
+      "swap_order",
+      "relocate_order",
+      "type",
+      "route",
+      "relocate_boxes",
+      "exchange_boxes",
+      "merge",
+      "split"
+    ],
+    "weight_smoothing": 0.95,
+    "rewards": {
+      "dominating_insert": 8.0,
+      "nondominated_insert": 3.0,
+      "accepted": 1.0,
+      "rejected": 0.2
+    },
+    "annealing": {
+      "scale": [
+        174000.0,
+        6400.0
+      ],
+      "temp0": 0.012,
+      "temp_min": 5e-05
+    },
+    "archive_limit": 32,
+    "stagnation_limit": 80,
+    "max_stops_per_trip": 3
+  },
+  "warm_starts": [
+    {
+      "label": "e001_q2_full_seed_1",
+      "path": "members\\chendelong\\experiments\\e001\\q2_full\\seed_1\\solution.json",
+      "sha256": "3a136bf22e2da3d8ad19c368ab306a2dad8cf0a93be7f665e569a48eaf6ac948",
+      "weighted_tardiness_s": 0.0,
+      "makespan_s": 6374.351717254823
+    },
+    {
+      "label": "e001_q2_order_seed_0",
+      "path": "members\\chendelong\\experiments\\e001\\q2_order\\seed_0\\solution.json",
+      "sha256": "8240976733f21f536e5deea2bc9336200c69cc0a63d2c495b108803a63b51068",
+      "weighted_tardiness_s": 174093.2026172153,
+      "makespan_s": 9626.530962431001
+    },
+    {
+      "label": "e001_q2_energy_seed_0",
+      "path": "members\\chendelong\\experiments\\e001\\q2_energy\\seed_0\\solution.json",
+      "sha256": "a4fe604f879478b68103a5ba11dacbd1a9ea64baa8a0323c53de1817507151b1",
+      "weighted_tardiness_s": 25408.171642762434,
+      "makespan_s": 9233.048865803346
+    }
+  ],
+  "scope_statement": "Q2 纯运输调度：不含 Q3 通信连续性验证；暖启动解的生成成本不计入本实验预算。"
+}

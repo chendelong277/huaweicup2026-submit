@@ -1,0 +1,54 @@
+{
+  "algorithm": "memetic",
+  "seed": 1,
+  "budget_s": 1.0,
+  "elapsed_s": 1.003703,
+  "iterations": 523,
+  "initial_score": [
+    0,
+    53481.48548818642,
+    8834.219670949185,
+    18,
+    59.39882353891195
+  ],
+  "final_score": [
+    0,
+    53481.48548818642,
+    8834.219670949185,
+    18,
+    59.39882353891194
+  ],
+  "initial_source": "warm_start",
+  "trace": [
+    {
+      "elapsed_s": 0.0,
+      "score": [
+        0,
+        53481.48548818642,
+        8834.219670949185,
+        18,
+        59.39882353891195
+      ],
+      "operator": "initial"
+    },
+    {
+      "elapsed_s": 0.023975700000000044,
+      "score": [
+        0,
+        53481.48548818642,
+        8834.219670949185,
+        18,
+        59.39882353891194
+      ],
+      "operator": "memetic"
+    }
+  ],
+  "objective_order": [
+    "hard_deadline_violations",
+    "weighted_tardiness_priority_seconds",
+    "makespan_s",
+    "trip_count",
+    "energy_kwh"
+  ],
+  "communication_checked": false
+}

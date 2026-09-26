@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "weighted_tardiness": 0.0,
+    "makespan_s": 6374.351717254821,
+    "joint_makespan_s": 6606.551838015807,
+    "transport_energy_kwh": 70.71666616475245,
+    "relay_energy_kwh": 3.3057787367378464,
+    "status": "frozen_weiliu_alns_q3_v2_strict_gate",
+    "source_dir": "members/weiliu/Q3/results_alns_q3_v2_hardcap_600s/seed_20260924",
+    "strict_gate_dir": "members/weiliu/Q3/results_alns_q3_v2_hardcap_600s/seed_20260924/gate_whli_strict_1s",
+    "random_seed": 20260924,
+    "hard_relay_cap": true,
+    "strict_gate_status": "fully_audited_feasible",
+    "dense_check_step_s": 1.0,
+    "continuity_closure_feasible": true
+  }
+}

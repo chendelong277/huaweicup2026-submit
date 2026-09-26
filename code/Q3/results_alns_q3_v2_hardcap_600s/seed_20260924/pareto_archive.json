@@ -1,0 +1,45 @@
+{
+  "objectives": [
+    "weighted_tardiness",
+    "joint_makespan_s",
+    "sorties_total",
+    "joint_energy_kwh"
+  ],
+  "feasible_only": true,
+  "entries": [
+    {
+      "id": "J001",
+      "source": "alns_q3_v2",
+      "iteration": 0,
+      "decode_round": 1,
+      "weighted_tardiness": 0.0,
+      "makespan_s": 6374.351717254821,
+      "joint_makespan_s": 6374.351717254821,
+      "transport_makespan_s": 6374.351717254821,
+      "sorties_total": 27,
+      "transport_sorties": 24,
+      "relay_sorties": 3,
+      "energy_kwh": 73.72493613414427,
+      "joint_energy_kwh": 73.72493613414427,
+      "transport_energy_kwh": 70.71666616475245,
+      "relay_energy_kwh": 3.008269969391821
+    },
+    {
+      "id": "J011",
+      "source": "alns_q3_v2",
+      "iteration": 15490,
+      "decode_round": 11,
+      "weighted_tardiness": 0.0,
+      "makespan_s": 7791.917127443331,
+      "joint_makespan_s": 7791.917127443331,
+      "transport_makespan_s": 7791.917127443331,
+      "sorties_total": 26,
+      "transport_sorties": 23,
+      "relay_sorties": 3,
+      "energy_kwh": 72.37424719575405,
+      "joint_energy_kwh": 72.37424719575405,
+      "transport_energy_kwh": 69.2094557734008,
+      "relay_energy_kwh": 3.1647914223532516
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+﻿check,passed,detail
+every_box_exactly_once,True,"delivered=80, expected=80"
+Q2-S001:route_closed,True,
+Q2-S001:route_continuity,True,
+Q2-S001:mass,True,
+Q2-S001:volume,True,
+Q2-S001:energy,True,energy=2.821564
+Q2-S001:soc,True,
+Q2-S002:route_closed,True,
+Q2-S002:route_continuity,True,
+Q2-S002:mass,True,
+Q2-S002:volume,True,
+Q2-S002:energy,True,energy=1.098241
+Q2-S002:soc,True,
+Q2-S003:route_closed,True,
+Q2-S003:route_continuity,True,
+Q2-S003:mass,True,
+Q2-S003:volume,True,
+Q2-S003:energy,True,energy=2.467888
+Q2-S003:soc,True,
+Q2-S004:route_closed,True,
+Q2-S004:route_continuity,True,
+Q2-S004:mass,True,
+Q2-S004:volume,True,
+Q2-S004:energy,True,energy=0.939317
+Q2-S004:soc,True,
+Q2-S005:route_closed,True,
+Q2-S005:route_continuity,True,
+Q2-S005:mass,True,
+Q2-S005:volume,True,
+Q2-S005:energy,True,energy=1.356381
+Q2-S005:soc,True,
+Q2-S006:route_closed,True,
+Q2-S006:route_continuity,True,
+Q2-S006:mass,True,
+Q2-S006:volume,True,
+Q2-S006:energy,True,energy=6.301723
+Q2-S006:soc,True,
+Q2-S007:route_closed,True,
+Q2-S007:route_continuity,True,
+Q2-S007:mass,True,
+Q2-S007:volume,True,
+Q2-S007:energy,True,energy=2.698229
+Q2-S007:soc,True,
+Q2-S008:route_closed,True,
+Q2-S008:route_continuity,True,
+Q2-S008:mass,True,
+Q2-S008:volume,True,
+Q2-S008:energy,True,energy=4.046772
+Q2-S008:soc,True,
+Q2-S009:route_closed,True,
+Q2-S009:route_continuity,True,
+Q2-S009:mass,True,
+Q2-S009:volume,True,
+Q2-S009:energy,True,energy=6.392742
+Q2-S009:soc,True,
+Q2-S010:route_closed,True,
+Q2-S010:route_continuity,True,
+Q2-S010:mass,True,
+Q2-S010:volume,True,
+Q2-S010:energy,True,energy=5.900191
+Q2-S010:soc,True,
+Q2-S011:route_closed,True,
+Q2-S011:route_continuity,True,
+Q2-S011:mass,True,
+Q2-S011:volume,True,
+Q2-S011:energy,True,energy=3.085152
+Q2-S011:soc,True,
+Q2-S012:route_closed,True,
+Q2-S012:route_continuity,True,
+Q2-S012:mass,True,
+Q2-S012:volume,True,
+Q2-S012:energy,True,energy=2.756735
+Q2-S012:soc,True,
+Q2-S013:route_closed,True,
+Q2-S013:route_continuity,True,
+Q2-S013:mass,True,
+Q2-S013:volume,True,
+Q2-S013:energy,True,energy=1.822787
+Q2-S013:soc,True,
+Q2-S014:route_closed,True,
+Q2-S014:route_continuity,True,
+Q2-S014:mass,True,
+Q2-S014:volume,True,
+Q2-S014:energy,True,energy=2.228265
+Q2-S014:soc,True,
+Q2-S015:route_closed,True,
+Q2-S015:route_continuity,True,
+Q2-S015:mass,True,
+Q2-S015:volume,True,
+Q2-S015:energy,True,energy=2.614982
+Q2-S015:soc,True,
+Q2-S016:route_closed,True,
+Q2-S016:route_continuity,True,
+Q2-S016:mass,True,
+Q2-S016:volume,True,
+Q2-S016:energy,True,energy=3.320624
+Q2-S016:soc,True,
+Q2-S017:route_closed,True,
+Q2-S017:route_continuity,True,
+Q2-S017:mass,True,
+Q2-S017:volume,True,
+Q2-S017:energy,True,energy=2.311872
+Q2-S017:soc,True,
+Q2-S018:route_closed,True,
+Q2-S018:route_continuity,True,
+Q2-S018:mass,True,
+Q2-S018:volume,True,
+Q2-S018:energy,True,energy=2.368333
+Q2-S018:soc,True,
+Q2-S019:route_closed,True,
+Q2-S019:route_continuity,True,
+Q2-S019:mass,True,
+Q2-S019:volume,True,
+Q2-S019:energy,True,energy=2.368999
+Q2-S019:soc,True,
+Q2-S020:route_closed,True,
+Q2-S020:route_continuity,True,
+Q2-S020:mass,True,
+Q2-S020:volume,True,
+Q2-S020:energy,True,energy=3.267222
+Q2-S020:soc,True,
+Q2-S021:route_closed,True,
+Q2-S021:route_continuity,True,
+Q2-S021:mass,True,
+Q2-S021:volume,True,
+Q2-S021:energy,True,energy=2.102826
+Q2-S021:soc,True,
+Q2-S022:route_closed,True,
+Q2-S022:route_continuity,True,
+Q2-S022:mass,True,
+Q2-S022:volume,True,
+Q2-S022:energy,True,energy=3.148319
+Q2-S022:soc,True,
+Q2-S023:route_closed,True,
+Q2-S023:route_continuity,True,
+Q2-S023:mass,True,
+Q2-S023:volume,True,
+Q2-S023:energy,True,energy=3.203353
+Q2-S023:soc,True,
+Q2-S024:route_closed,True,
+Q2-S024:route_continuity,True,
+Q2-S024:mass,True,
+Q2-S024:volume,True,
+Q2-S024:energy,True,energy=2.094150
+Q2-S024:soc,True,
+hard_deadlines,True,
+resource_nonoverlap:transport_uav:U07,True,
+resource_nonoverlap:battery:C-B00,True,
+resource_nonoverlap:transport_uav:U05,True,
+resource_nonoverlap:battery:B-B00,True,
+resource_nonoverlap:transport_uav:U08,True,
+resource_nonoverlap:battery:C-B01,True,
+resource_nonoverlap:transport_uav:U06,True,
+resource_nonoverlap:battery:B-B01,True,
+resource_nonoverlap:transport_uav:U01,True,
+resource_nonoverlap:battery:A-B00,True,
+resource_nonoverlap:battery:C-B02,True,
+resource_nonoverlap:transport_uav:U02,True,
+resource_nonoverlap:battery:A-B01,True,
+resource_nonoverlap:battery:C-B03,True,
+resource_nonoverlap:transport_uav:U03,True,
+resource_nonoverlap:battery:A-B02,True,
+resource_nonoverlap:battery:B-B02,True,
+resource_nonoverlap:battery:B-B03,True,
+resource_nonoverlap:transport_uav:U04,True,
+resource_nonoverlap:battery:A-B03,True,
+resource_nonoverlap:battery:A-B04,True,
+resource_nonoverlap:battery:A-B05,True,
+charge_duration:C-B00:Q2-S001,True,"actual=1597.506980, expected=1597.506980"
+charge_duration:C-B00:Q2-S009,True,"actual=2564.700945, expected=2564.700945"
+charge_duration:B-B00:Q2-S002,True,"actual=1142.570979, expected=1142.570979"
+charge_duration:B-B00:Q2-S017,True,"actual=1668.477755, expected=1668.477755"
+charge_duration:C-B01:Q2-S003,True,"actual=1501.719644, expected=1501.719644"
+charge_duration:C-B01:Q2-S010,True,"actual=2431.301614, expected=2431.301614"
+charge_duration:B-B01:Q2-S004,True,"actual=1073.704199, expected=1073.704199"
+charge_duration:B-B01:Q2-S019,True,"actual=1693.233017, expected=1693.233017"
+charge_duration:A-B00:Q2-S005,True,"actual=891.843354, expected=891.843354"
+charge_duration:A-B00:Q2-S018,True,"actual=1184.185114, expected=1184.185114"
+charge_duration:C-B02:Q2-S006,True,"actual=2540.049864, expected=2540.049864"
+charge_duration:A-B01:Q2-S007,True,"actual=1279.488349, expected=1279.488349"
+charge_duration:A-B01:Q2-S023,True,"actual=1425.413068, expected=1425.413068"
+charge_duration:C-B03:Q2-S008,True,"actual=1929.334111, expected=1929.334111"
+charge_duration:A-B02:Q2-S011,True,"actual=1391.266185, expected=1391.266185"
+charge_duration:A-B02:Q2-S022,True,"actual=1409.514466, expected=1409.514466"
+charge_duration:B-B02:Q2-S012,True,"actual=1861.251985, expected=1861.251985"
+charge_duration:B-B02:Q2-S024,True,"actual=1574.131816, expected=1574.131816"
+charge_duration:B-B03:Q2-S013,True,"actual=1456.540949, expected=1456.540949"
+charge_duration:B-B03:Q2-S021,True,"actual=1577.891154, expected=1577.891154"
+charge_duration:A-B03:Q2-S014,True,"actual=1143.720994, expected=1143.720994"
+charge_duration:A-B03:Q2-S020,True,"actual=1443.864050, expected=1443.864050"
+charge_duration:A-B04:Q2-S015,True,"actual=1255.439251, expected=1255.439251"
+charge_duration:A-B05:Q2-S016,True,"actual=1459.291235, expected=1459.291235"

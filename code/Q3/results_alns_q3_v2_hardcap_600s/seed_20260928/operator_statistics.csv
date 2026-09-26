@@ -1,0 +1,11 @@
+﻿operator,final_weight
+random_service_repack,0.5333333333333333
+late_service_repack,0.2
+capacity_repack,0.38181818181818183
+cross_service_repack,0.2
+order_move,0.7714285714285714
+merge_split,0.5636363636363637
+critical_chain,0.8666666666666667
+deadline_split,0.2
+related_rebuild,0.2
+relay_shift,0.842857142857143

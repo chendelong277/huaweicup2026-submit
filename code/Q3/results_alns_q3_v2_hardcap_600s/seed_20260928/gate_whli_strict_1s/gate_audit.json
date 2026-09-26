@@ -1,0 +1,67 @@
+{
+  "status": "relay_milp_infeasible",
+  "solver_status": 2,
+  "relay_milp": {
+    "solver_status": 2,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+    "relay_count": 2,
+    "task_count": 19,
+    "candidate_sorties": 1185,
+    "selected": [],
+    "limitations": "20s sampled access coverage; static hover; no energy component assignment/charging, continuous-time proof, or exhaustive location search",
+    "coverage_only": {
+      "sorties": 3,
+      "peak_relay_occupancy": 3,
+      "selected": [
+        {
+          "candidate": "chendelong-RS01/300",
+          "covers": [
+            "12",
+            "5",
+            "16",
+            "7",
+            "15",
+            "20",
+            "21",
+            "8",
+            "14",
+            "23",
+            "17",
+            "24"
+          ],
+          "launch": 84.4744547323196,
+          "ready": 7909.204385403163
+        },
+        {
+          "candidate": "grid10-8/300",
+          "covers": [
+            "19",
+            "22",
+            "14"
+          ],
+          "launch": 2403.2529727385518,
+          "ready": 6732.910802045427
+        },
+        {
+          "candidate": "grid16-3/200",
+          "covers": [
+            "3",
+            "9",
+            "10",
+            "13",
+            "6"
+          ],
+          "launch": 39.44024289657273,
+          "ready": 3953.2100886131975
+        }
+      ]
+    }
+  },
+  "wall_runtime_s": 31.191126999999998,
+  "strict_candidate_step_s": 20.0,
+  "strict_candidate_scope": "full_catalog",
+  "refined_seed_id": "whli-v5-refined-RS01/300",
+  "refined_seed_source": "WHLi historical hover geometry; coverage independently rechecked",
+  "warm_shortlist_tested": false,
+  "warm_shortlist_selected": false
+}

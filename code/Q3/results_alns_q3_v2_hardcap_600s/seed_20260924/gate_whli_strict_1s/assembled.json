@@ -1,0 +1,257 @@
+{
+  "protocol": "sampled trajectory audit, NOT continuous-time certification",
+  "status": "sampled_feasible",
+  "transport_trips": 24,
+  "boxes": 80,
+  "blind_transport_trips": 19,
+  "relay_sorties": 3,
+  "used_energy_components": 3,
+  "hard_deadline_violations": 0,
+  "transport_energy_kwh": 70.71666616475245,
+  "relay_energy_kwh": 3.3057787367378464,
+  "joint_makespan_s": 6606.551838015807,
+  "relay_sortie_plan": [
+    {
+      "candidate": "grid16-3/200",
+      "position": [
+        109.28285779999989,
+        23.021709700000002,
+        671.02587890625
+      ],
+      "agl": 200,
+      "backhaul_margin_db": 1.0572792512976577,
+      "cover_mask": 59,
+      "service_start": 809.1783047203203,
+      "service_end": 2789.907980842997,
+      "launch": 94.8825540928766,
+      "return_time": 3339.4808880459614,
+      "ready": 3639.4808880459614,
+      "energy": 0.8889381214602063,
+      "soc": 72.22068370436855,
+      "relay_drone": "R01",
+      "covers": [
+        "7",
+        "13",
+        "11",
+        "12",
+        "18"
+      ],
+      "sortie_id": "RS01",
+      "energy_component": "RE01"
+    },
+    {
+      "candidate": "chendelong-RS01/300",
+      "position": [
+        109.2068578,
+        23.0517097,
+        768.3634643554688
+      ],
+      "agl": 300.0,
+      "backhaul_margin_db": 11.247172701736218,
+      "cover_mask": 442308,
+      "service_start": 1332.8548780033923,
+      "service_end": 6033.260570644521,
+      "launch": 602.9522326617284,
+      "return_time": 6606.551838015807,
+      "ready": 6906.551838015807,
+      "energy": 1.7230286769052323,
+      "soc": 46.15535384671149,
+      "relay_drone": "R02",
+      "covers": [
+        "14",
+        "6",
+        "19",
+        "8",
+        "20",
+        "15",
+        "16",
+        "21",
+        "22",
+        "10",
+        "17",
+        "24"
+      ],
+      "sortie_id": "RS02",
+      "energy_component": "RE02"
+    },
+    {
+      "candidate": "grid10-8/300",
+      "position": [
+        109.23785779999993,
+        23.059209700000004,
+        642.6147766113281
+      ],
+      "agl": 300,
+      "backhaul_margin_db": 10.821236365547165,
+      "cover_mask": 81920,
+      "service_start": 4487.7626288517085,
+      "service_end": 5816.398294613708,
+      "launch": 3770.1596861375997,
+      "return_time": 6366.910802045427,
+      "ready": 6666.910802045427,
+      "energy": 0.693811938372408,
+      "soc": 78.31837692586225,
+      "relay_drone": "R01",
+      "covers": [
+        "9",
+        "23"
+      ],
+      "sortie_id": "RS03",
+      "energy_component": "RE03"
+    }
+  ],
+  "communications": [
+    {
+      "transport_trip": 6,
+      "site": "S002",
+      "blind_start": 2309.882126338586,
+      "blind_end": 3254.1710143953146,
+      "relay_sortie": "RS02",
+      "relay_drone": "R02"
+    },
+    {
+      "transport_trip": 7,
+      "site": "S013",
+      "blind_start": 809.1783047203203,
+      "blind_end": 1892.9436965142127,
+      "relay_sortie": "RS01",
+      "relay_drone": "R01"
+    },
+    {
+      "transport_trip": 8,
+      "site": "S006",
+      "blind_start": 2852.890908055561,
+      "blind_end": 3456.9392500942954,
+      "relay_sortie": "RS02",
+      "relay_drone": "R02"
+    },
+    {
+      "transport_trip": 9,
+      "site": "S005",
+      "blind_start": 4487.7626288517085,
+      "blind_end": 5816.398294613708,
+      "relay_sortie": "RS03",
+      "relay_drone": "R01"
+    },
+    {
+      "transport_trip": 10,
+      "site": "S003",
+      "blind_start": 4824.607461250804,
+      "blind_end": 5868.192574032752,
+      "relay_sortie": "RS02",
+      "relay_drone": "R02"
+    },
+    {
+      "transport_trip": 11,
+      "site": "S012",
+      "blind_start": 1816.6358271350775,
+      "blind_end": 2618.0873439617426,
+      "relay_sortie": "RS01",
+      "relay_drone": "R01"
+    },
+    {
+      "transport_trip": 12,
+      "site": "S010",
+      "blind_start": 1960.793386640912,
+      "blind_end": 2378.0274328834385,
+      "relay_sortie": "RS01",
+      "relay_drone": "R01"
+    },
+    {
+      "transport_trip": 13,
+      "site": "S001",
+      "blind_start": 1083.8759315881525,
+      "blind_end": 1467.8416718420756,
+      "relay_sortie": "RS01",
+      "relay_drone": "R01"
+    },
+    {
+      "transport_trip": 14,
+      "site": "S001",
+      "blind_start": 1332.8548780033923,
+      "blind_end": 1719.0918255375045,
+      "relay_sortie": "RS02",
+      "relay_drone": "R02"
+    },
+    {
+      "transport_trip": 15,
+      "site": "S002",
+      "blind_start": 3444.5929022049677,
+      "blind_end": 4187.972747903298,
+      "relay_sortie": "RS02",
+      "relay_drone": "R02"
+    },
+    {
+      "transport_trip": 16,
+      "site": "S009",
+      "blind_start": 3700.9633060211536,
+      "blind_end": 4227.073349271702,
+      "relay_sortie": "RS02",
+      "relay_drone": "R02"
+    },
+    {
+      "transport_trip": 17,
+      "site": "S015",
+      "blind_start": 5322.033873040057,
+      "blind_end": 5913.018095481026,
+      "relay_sortie": "RS02",
+      "relay_drone": "R02"
+    },
+    {
+      "transport_trip": 18,
+      "site": "S014",
+      "blind_start": 2155.532161320349,
+      "blind_end": 2789.907980842997,
+      "relay_sortie": "RS01",
+      "relay_drone": "R01"
+    },
+    {
+      "transport_trip": 19,
+      "site": "S008",
+      "blind_start": 2710.7703414031093,
+      "blind_end": 3619.4194876425895,
+      "relay_sortie": "RS02",
+      "relay_drone": "R02"
+    },
+    {
+      "transport_trip": 20,
+      "site": "S011",
+      "blind_start": 3399.8250999658317,
+      "blind_end": 4224.412520367767,
+      "relay_sortie": "RS02",
+      "relay_drone": "R02"
+    },
+    {
+      "transport_trip": 21,
+      "site": "S011",
+      "blind_start": 4213.618563559759,
+      "blind_end": 5008.205983961695,
+      "relay_sortie": "RS02",
+      "relay_drone": "R02"
+    },
+    {
+      "transport_trip": 22,
+      "site": "S003",
+      "blind_start": 4287.1160168972565,
+      "blind_end": 5216.514535250744,
+      "relay_sortie": "RS02",
+      "relay_drone": "R02"
+    },
+    {
+      "transport_trip": 23,
+      "site": "S004",
+      "blind_start": 4997.212629469734,
+      "blind_end": 5691.545510062977,
+      "relay_sortie": "RS03",
+      "relay_drone": "R01"
+    },
+    {
+      "transport_trip": 24,
+      "site": "S005",
+      "blind_start": 5543.165730703356,
+      "blind_end": 6033.260570644521,
+      "relay_sortie": "RS02",
+      "relay_drone": "R02"
+    }
+  ]
+}

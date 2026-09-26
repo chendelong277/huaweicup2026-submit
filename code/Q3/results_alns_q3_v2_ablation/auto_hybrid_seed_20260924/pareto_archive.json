@@ -1,0 +1,28 @@
+{
+  "objectives": [
+    "weighted_tardiness",
+    "joint_makespan_s",
+    "sorties_total",
+    "joint_energy_kwh"
+  ],
+  "feasible_only": true,
+  "entries": [
+    {
+      "id": "J045",
+      "source": "alns_q3_v2",
+      "iteration": 42939,
+      "decode_round": 45,
+      "weighted_tardiness": 0.0,
+      "makespan_s": 7791.917127443331,
+      "joint_makespan_s": 7791.917127443331,
+      "transport_makespan_s": 7791.917127443331,
+      "sorties_total": 26,
+      "transport_sorties": 23,
+      "relay_sorties": 3,
+      "energy_kwh": 71.9567076802434,
+      "joint_energy_kwh": 71.9567076802434,
+      "transport_energy_kwh": 69.20945577340082,
+      "relay_energy_kwh": 2.747251906842582
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "schema_version": "1",
+  "question": "Q2",
+  "algorithm": "q2_order",
+  "trips": [
+    {
+      "trip_id": "Q2-T010",
+      "vehicle_type": "C",
+      "route": [
+        "S007"
+      ],
+      "box_ids": [
+        "S007-MED-01",
+        "S007-WAT-01",
+        "S007-WAT-02",
+        "S007-FOD-01",
+        "S007-HYG-01"
+      ]
+    },
+    {
+      "trip_id": "Q2-T006",
+      "vehicle_type": "B",
+      "route": [
+        "S012"
+      ],
+      "box_ids": [
+        "S012-MED-01",
+        "S012-WAT-01",
+        "S012-FOD-01"
+      ]
+    },
+    {
+      "trip_id": "Q2-T003",
+      "vehicle_type": "B",
+      "route": [
+        "S013"
+      ],
+      "box_ids": [
+        "S013-MED-01",
+        "S013-WAT-01",
+        "S013-FOD-01"
+      ]
+    },
+    {
+      "trip_id": "Q2-T013",
+      "vehicle_type": "B",
+      "route": [
+        "S010"
+      ],
+      "box_ids": [
+        "S010-MED-01",
+        "S010-WAT-01",
+        "S010-FOD-01"
+      ]
+    },
+    {
+      "trip_id": "Q2-T009",
+      "vehicle_type": "B",
+      "route": [
+        "S014"
+      ],
+      "box_ids": [
+        "S014-FOD-01",
+        "S014-WAT-01",
+        "S014-MED-01"
+      ]
+    },
+    {
+      "trip_id": "Q2-T012",
+      "vehicle_type": "C",
+      "route": [
+        "S006"
+      ],
+      "box_ids": [
+        "S006-MED-01",
+        "S006-WAT-01",
+        "S006-WAT-02",
+        "S006-WAT-03",
+        "S006-FOD-01",
+        "S006-HYG-01"
+      ]
+    },
+    {
+      "trip_id": "Q2-T015",
+      "vehicle_type": "C",
+      "route": [
+        "S001"
+      ],
+      "box_ids": [
+        "S001-MED-01",
+        "S001-MED-02",
+        "S001-WAT-01",
+        "S001-WAT-03",
+        "S001-WAT-06",
+        "S001-WAT-04",
+        "S001-WAT-08"
+      ]
+    },
+    {
+      "trip_id": "Q2-T017",
+      "vehicle_type": "C",
+      "route": [
+        "S002"
+      ],
+      "box_ids": [
+        "S002-WAT-01",
+        "S002-HYG-01",
+        "S002-MED-01",
+        "S002-WAT-04",
+        "S002-WAT-02",
+        "S002-WAT-03"
+      ]
+    },
+    {
+      "trip_id": "Q2-T016",
+      "vehicle_type": "C",
+      "route": [
+        "S001"
+      ],
+      "box_ids": [
+        "S001-WAT-02",
+        "S001-WAT-05",
+        "S001-WAT-07",
+        "S001-FOD-03",
+        "S001-FOD-02",
+        "S001-FOD-01",
+        "S001-HYG-02",
+        "S001-HYG-01"
+      ]
+    },
+    {
+      "trip_id": "Q2-T018",
+      "vehicle_type": "B",
+      "route": [
+        "S002"
+      ],
+      "box_ids": [
+        "S002-FOD-02",
+        "S002-FOD-01"
+      ]
+    },
+    {
+      "trip_id": "Q2-T002",
+      "vehicle_type": "B",
+      "route": [
+        "S003"
+      ],
+      "box_ids": [
+        "S003-WAT-01",
+        "S003-FOD-01",
+        "S003-MED-01"
+      ]
+    },
+    {
+      "trip_id": "Q2-T004",
+      "vehicle_type": "C",
+      "route": [
+        "S004"
+      ],
+      "box_ids": [
+        "S004-MED-01",
+        "S004-WAT-01",
+        "S004-WAT-02",
+        "S004-WAT-03",
+        "S004-FOD-01",
+        "S004-HYG-01"
+      ]
+    },
+    {
+      "trip_id": "Q2-T014",
+      "vehicle_type": "C",
+      "route": [
+        "S008"
+      ],
+      "box_ids": [
+        "S008-MED-01",
+        "S008-WAT-01",
+        "S008-WAT-02",
+        "S008-FOD-01",
+        "S008-HYG-01"
+      ]
+    },
+    {
+      "trip_id": "Q2-T007",
+      "vehicle_type": "B",
+      "route": [
+        "S015"
+      ],
+      "box_ids": [
+        "S015-MED-01",
+        "S015-WAT-01",
+        "S015-FOD-01"
+      ]
+    },
+    {
+      "trip_id": "Q2-T001",
+      "vehicle_type": "C",
+      "route": [
+        "S003"
+      ],
+      "box_ids": [
+        "S003-WAT-02",
+        "S003-WAT-03",
+        "S003-WAT-04",
+        "S003-HYG-01",
+        "S003-FOD-02"
+      ]
+    },
+    {
+      "trip_id": "Q2-T005",
+      "vehicle_type": "B",
+      "route": [
+        "S011"
+      ],
+      "box_ids": [
+        "S011-MED-01",
+        "S011-WAT-01",
+        "S011-FOD-01"
+      ]
+    },
+    {
+      "trip_id": "Q2-T008",
+      "vehicle_type": "C",
+      "route": [
+        "S005"
+      ],
+      "box_ids": [
+        "S005-MED-01",
+        "S005-WAT-01",
+        "S005-WAT-02",
+        "S005-WAT-03",
+        "S005-FOD-01",
+        "S005-HYG-01"
+      ]
+    },
+    {
+      "trip_id": "Q2-T011",
+      "vehicle_type": "B",
+      "route": [
+        "S009"
+      ],
+      "box_ids": [
+        "S009-MED-01",
+        "S009-WAT-01",
+        "S009-FOD-01"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "round": 1,
+    "iteration": 0,
+    "elapsed_s": 4.0018107,
+    "trigger": "initial",
+    "feasible": false,
+    "comm_gap_slices": 58,
+    "relay_sorties": 0,
+    "joint_makespan_s": 8834.219670949185,
+    "joint_energy_kwh": 59.39882353891194,
+    "weighted_tardiness": 53481.48548818642,
+    "milp_status": 2,
+    "offending": [
+      "Q2-T001",
+      "Q2-T002",
+      "Q2-T003",
+      "Q2-T004",
+      "Q2-T006",
+      "Q2-T007",
+      "Q2-T008",
+      "Q2-T009",
+      "Q2-T010",
+      "Q2-T011",
+      "Q2-T013",
+      "Q2-T014",
+      "Q2-T017",
+      "Q2-T018"
+    ],
+    "decode_runtime_s": 10.123066600000001
+  }
+]

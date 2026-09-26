@@ -1,0 +1,850 @@
+{
+  "k": 3,
+  "seed": 20260928,
+  "objective_vector": [
+    "shortage_total",
+    "balance_time",
+    "redundancy_total",
+    "relay_extra"
+  ],
+  "invariants": {
+    "weighted_tardiness_s": 0.0,
+    "makespan_s": 6606.551838015807,
+    "sorties_total": 27,
+    "energy_kwh": 74.0224449014903
+  },
+  "entries": [
+    {
+      "assignment": [
+        1,
+        2,
+        2,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "label": "{S008,S009,S011}|{S001,S004,S005,S006,S007,S010,S012,S013,S014,S015}|{S002,S003}",
+      "score": [
+        0,
+        14,
+        2,
+        1.819001,
+        15
+      ],
+      "shortage_total": 14,
+      "balance_time": 1.819001106692955,
+      "redundancy_total": 15,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        2
+      ],
+      "label": "{S012}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S015}",
+      "score": [
+        0,
+        6,
+        2,
+        2.757457,
+        7
+      ],
+      "shortage_total": 6,
+      "balance_time": 2.757457213870566,
+      "redundancy_total": 7,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        0,
+        2
+      ],
+      "label": "{S012}|{S001,S003,S004,S005,S006,S007,S009,S010,S013,S014}|{S002,S008,S011,S015}",
+      "score": [
+        0,
+        10,
+        2,
+        1.980932,
+        11
+      ],
+      "shortage_total": 10,
+      "balance_time": 1.9809322074813998,
+      "redundancy_total": 11,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        2,
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        0,
+        1
+      ],
+      "label": "{S012}|{S002,S008,S011,S015}|{S001,S003,S004,S005,S006,S007,S009,S010,S013,S014}",
+      "score": [
+        0,
+        10,
+        2,
+        1.980932,
+        11
+      ],
+      "shortage_total": 10,
+      "balance_time": 1.9809322074813998,
+      "redundancy_total": 11,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        2
+      ],
+      "label": "{S010,S012}|{S001,S003,S004,S005,S006,S007,S008,S009,S011,S013,S014}|{S002,S015}",
+      "score": [
+        0,
+        9,
+        2,
+        2.40689,
+        10
+      ],
+      "shortage_total": 9,
+      "balance_time": 2.4068898013942386,
+      "redundancy_total": 10,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        2
+      ],
+      "label": "{S012}|{S003,S004,S005,S008,S009,S010,S011}|{S001,S002,S006,S007,S013,S014,S015}",
+      "score": [
+        0,
+        17,
+        3,
+        1.446186,
+        19
+      ],
+      "shortage_total": 17,
+      "balance_time": 1.446185581651181,
+      "redundancy_total": 19,
+      "relay_extra": 3,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        0
+      ],
+      "label": "{S002,S015}|{S001,S003,S004,S005,S006,S007,S008,S009,S011,S013,S014}|{S010,S012}",
+      "score": [
+        0,
+        9,
+        2,
+        2.40689,
+        10
+      ],
+      "shortage_total": 9,
+      "balance_time": 2.4068898013942386,
+      "redundancy_total": 10,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        0,
+        2,
+        2,
+        0,
+        2,
+        2,
+        1,
+        0,
+        2
+      ],
+      "label": "{S001,S004,S005,S006,S007,S012,S013,S014}|{S010}|{S002,S003,S008,S009,S011,S015}",
+      "score": [
+        0,
+        16,
+        2,
+        1.600306,
+        17
+      ],
+      "shortage_total": 16,
+      "balance_time": 1.6003059041654477,
+      "redundancy_total": 17,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2
+      ],
+      "label": "{S002,S003,S004,S005,S009}|{S008,S011}|{S001,S006,S007,S010,S012,S013,S014,S015}",
+      "score": [
+        0,
+        22,
+        2,
+        1.404195,
+        23
+      ],
+      "shortage_total": 22,
+      "balance_time": 1.4041945428755414,
+      "redundancy_total": 23,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0
+      ],
+      "label": "{S001,S006,S007,S009,S010,S013,S014,S015}|{S002,S003,S004,S005,S008,S011}|{S012}",
+      "score": [
+        0,
+        18,
+        2,
+        1.494964,
+        19
+      ],
+      "shortage_total": 18,
+      "balance_time": 1.494964349754724,
+      "redundancy_total": 19,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        2,
+        1,
+        1,
+        1,
+        0,
+        1,
+        2,
+        2,
+        2
+      ],
+      "label": "{S008,S011}|{S002,S003,S004,S005,S009}|{S001,S006,S007,S010,S012,S013,S014,S015}",
+      "score": [
+        0,
+        22,
+        2,
+        1.404195,
+        23
+      ],
+      "shortage_total": 22,
+      "balance_time": 1.4041945428755414,
+      "redundancy_total": 23,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        2
+      ],
+      "label": "{S001,S003,S004,S005,S006,S007,S009,S010,S013,S014}|{S012}|{S002,S008,S011,S015}",
+      "score": [
+        0,
+        10,
+        2,
+        1.980932,
+        11
+      ],
+      "shortage_total": 10,
+      "balance_time": 1.9809322074813998,
+      "redundancy_total": 11,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        2
+      ],
+      "label": "{S012}|{S001,S003,S004,S005,S006,S007,S008,S009,S011,S013,S014}|{S002,S010,S015}",
+      "score": [
+        0,
+        8,
+        3,
+        2.40689,
+        10
+      ],
+      "shortage_total": 8,
+      "balance_time": 2.4068898013942386,
+      "redundancy_total": 10,
+      "relay_extra": 3,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        2,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "label": "{S012}|{S002,S008,S009,S010,S011,S015}|{S001,S003,S004,S005,S006,S007,S013,S014}",
+      "score": [
+        0,
+        12,
+        3,
+        1.779617,
+        14
+      ],
+      "shortage_total": 12,
+      "balance_time": 1.7796173316101402,
+      "redundancy_total": 14,
+      "relay_extra": 3,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        2,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "label": "{S002,S004,S005,S012,S015}|{S003,S008,S009,S010,S011}|{S001,S006,S007,S013,S014}",
+      "score": [
+        0,
+        22,
+        4,
+        1.061178,
+        24
+      ],
+      "shortage_total": 22,
+      "balance_time": 1.0611779882445829,
+      "redundancy_total": 24,
+      "relay_extra": 4,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0
+      ],
+      "label": "{S001,S002,S006,S007,S013,S014,S015}|{S003,S004,S005,S008,S009,S010,S011}|{S012}",
+      "score": [
+        0,
+        17,
+        3,
+        1.446186,
+        19
+      ],
+      "shortage_total": 17,
+      "balance_time": 1.446185581651181,
+      "redundancy_total": 19,
+      "relay_extra": 3,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        2,
+        0,
+        2,
+        2,
+        0,
+        2,
+        2,
+        1,
+        0
+      ],
+      "label": "{S002,S008,S011,S015}|{S012}|{S001,S003,S004,S005,S006,S007,S009,S010,S013,S014}",
+      "score": [
+        0,
+        10,
+        2,
+        1.980932,
+        11
+      ],
+      "shortage_total": 10,
+      "balance_time": 1.9809322074813998,
+      "redundancy_total": 11,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        2,
+        0
+      ],
+      "label": "{S002,S008,S011,S015}|{S001,S003,S004,S005,S006,S007,S009,S010,S013,S014}|{S012}",
+      "score": [
+        0,
+        10,
+        2,
+        1.980932,
+        11
+      ],
+      "shortage_total": 10,
+      "balance_time": 1.9809322074813998,
+      "redundancy_total": 11,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        0
+      ],
+      "label": "{S015}|{S002,S004,S005,S008,S010,S011,S012}|{S001,S003,S006,S007,S009,S013,S014}",
+      "score": [
+        0,
+        14,
+        3,
+        1.465652,
+        16
+      ],
+      "shortage_total": 14,
+      "balance_time": 1.4656518751624612,
+      "redundancy_total": 16,
+      "relay_extra": 3,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        2,
+        0,
+        2,
+        2
+      ],
+      "label": "{S001,S006,S007,S010,S013,S014}|{S002,S008,S011}|{S003,S004,S005,S009,S012,S015}",
+      "score": [
+        0,
+        21,
+        3,
+        1.161652,
+        23
+      ],
+      "shortage_total": 21,
+      "balance_time": 1.161651756746108,
+      "redundancy_total": 23,
+      "relay_extra": 3,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0
+      ],
+      "label": "{S001,S002,S003,S006,S007,S013,S014,S015}|{S004,S005,S008,S009,S010,S011}|{S012}",
+      "score": [
+        0,
+        13,
+        3,
+        1.733126,
+        15
+      ],
+      "shortage_total": 13,
+      "balance_time": 1.7331258457935117,
+      "redundancy_total": 15,
+      "relay_extra": 3,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        0,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "label": "{S001,S006,S007,S013,S014}|{S004,S005,S008,S009,S010,S011}|{S002,S003,S012,S015}",
+      "score": [
+        0,
+        21,
+        4,
+        1.142553,
+        23
+      ],
+      "shortage_total": 21,
+      "balance_time": 1.142552802103037,
+      "redundancy_total": 23,
+      "relay_extra": 4,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        0,
+        1,
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "label": "{S001,S006,S007,S010,S012,S013,S014,S015}|{S002,S003,S004,S005,S009}|{S008,S011}",
+      "score": [
+        0,
+        22,
+        2,
+        1.404195,
+        23
+      ],
+      "shortage_total": 22,
+      "balance_time": 1.4041945428755414,
+      "redundancy_total": 23,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        0,
+        2,
+        0,
+        2,
+        2,
+        2,
+        0,
+        0,
+        1
+      ],
+      "label": "{S001,S003,S006,S007,S010,S012,S013,S014}|{S015}|{S002,S004,S005,S008,S009,S011}",
+      "score": [
+        0,
+        17,
+        2,
+        1.589606,
+        18
+      ],
+      "shortage_total": 17,
+      "balance_time": 1.5896058883977038,
+      "redundancy_total": 18,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        0,
+        1,
+        1
+      ],
+      "label": "{S010}|{S001,S004,S005,S006,S007,S012,S013,S014,S015}|{S002,S003,S008,S009,S011}",
+      "score": [
+        0,
+        15,
+        2,
+        1.718527,
+        16
+      ],
+      "shortage_total": 15,
+      "balance_time": 1.7185273381914297,
+      "redundancy_total": 16,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "label": "{S004,S005,S008,S009,S011,S012}|{S010}|{S001,S002,S003,S006,S007,S013,S014,S015}",
+      "score": [
+        0,
+        13,
+        3,
+        1.733126,
+        15
+      ],
+      "shortage_total": 13,
+      "balance_time": 1.7331258457935117,
+      "redundancy_total": 15,
+      "relay_extra": 3,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      "label": "{S001,S003,S004,S005,S006,S007,S008,S009,S011,S013,S014}|{S010,S012}|{S002,S015}",
+      "score": [
+        0,
+        9,
+        2,
+        2.40689,
+        10
+      ],
+      "shortage_total": 9,
+      "balance_time": 2.4068898013942386,
+      "redundancy_total": 10,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "label": "{S004,S005,S008,S009,S011,S012}|{S001,S006,S007,S010,S013,S014}|{S002,S003,S015}",
+      "score": [
+        0,
+        18,
+        3,
+        1.1664,
+        20
+      ],
+      "shortage_total": 18,
+      "balance_time": 1.1664003857049632,
+      "redundancy_total": 20,
+      "relay_extra": 3,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        1,
+        2,
+        2,
+        2,
+        0,
+        2,
+        1,
+        1,
+        1
+      ],
+      "label": "{S008,S011}|{S001,S006,S007,S010,S012,S013,S014,S015}|{S002,S003,S004,S005,S009}",
+      "score": [
+        0,
+        22,
+        2,
+        1.404195,
+        23
+      ],
+      "shortage_total": 22,
+      "balance_time": 1.4041945428755414,
+      "redundancy_total": 23,
+      "relay_extra": 2,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        1
+      ],
+      "label": "{S012}|{S001,S002,S006,S007,S013,S014,S015}|{S003,S004,S005,S008,S009,S010,S011}",
+      "score": [
+        0,
+        17,
+        3,
+        1.446186,
+        19
+      ],
+      "shortage_total": 17,
+      "balance_time": 1.446185581651181,
+      "redundancy_total": 19,
+      "relay_extra": 3,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        1,
+        2,
+        1,
+        2,
+        2,
+        0,
+        2,
+        0,
+        0
+      ],
+      "label": "{S009,S012,S015}|{S001,S003,S006,S007,S013,S014}|{S002,S004,S005,S008,S010,S011}",
+      "score": [
+        0,
+        17,
+        4,
+        1.364811,
+        19
+      ],
+      "shortage_total": 17,
+      "balance_time": 1.3648107677927268,
+      "redundancy_total": 19,
+      "relay_extra": 4,
+      "within_inventory": false
+    },
+    {
+      "assignment": [
+        2,
+        1,
+        1,
+        1,
+        0,
+        1,
+        2,
+        2,
+        1
+      ],
+      "label": "{S008,S011}|{S002,S003,S004,S005,S009,S015}|{S001,S006,S007,S010,S012,S013,S014}",
+      "score": [
+        0,
+        23,
+        2,
+        1.285973,
+        24
+      ],
+      "shortage_total": 23,
+      "balance_time": 1.2859731088495596,
+      "redundancy_total": 24,
+      "relay_extra": 2,
+      "within_inventory": false
+    }
+  ]
+}

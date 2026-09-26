@@ -1,0 +1,73 @@
+{
+  "status": "relay_milp_infeasible",
+  "solver_status": 2,
+  "relay_milp": {
+    "solver_status": 2,
+    "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+    "relay_count": 2,
+    "task_count": 19,
+    "candidate_sorties": 1056,
+    "selected": [],
+    "limitations": "20s sampled access coverage; static hover; no energy component assignment/charging, continuous-time proof, or exhaustive location search",
+    "coverage_only": {
+      "sorties": 4,
+      "peak_relay_occupancy": 3,
+      "selected": [
+        {
+          "candidate": "grid10-8/300",
+          "covers": [
+            "24",
+            "21",
+            "17",
+            "22"
+          ],
+          "launch": 3932.7593658662295,
+          "ready": 7789.018142240607
+        },
+        {
+          "candidate": "grid5-5/300",
+          "covers": [
+            "9",
+            "15",
+            "4",
+            "18",
+            "23",
+            "14",
+            "20",
+            "16"
+          ],
+          "launch": 678.1922660752643,
+          "ready": 6425.597364988007
+        },
+        {
+          "candidate": "grid8-5/300",
+          "covers": [
+            "6"
+          ],
+          "launch": 152.02972394896682,
+          "ready": 2080.671400449576
+        },
+        {
+          "candidate": "whli-v5-refined-RS01/300",
+          "covers": [
+            "11",
+            "2",
+            "12",
+            "10",
+            "13",
+            "19"
+          ],
+          "launch": 119.86581343724555,
+          "ready": 4499.587324033466
+        }
+      ]
+    }
+  },
+  "wall_runtime_s": 36.766871200000004,
+  "strict_candidate_step_s": 20.0,
+  "strict_candidate_scope": "full_catalog",
+  "refined_seed_id": "whli-v5-refined-RS01/300",
+  "refined_seed_source": "WHLi historical hover geometry; coverage independently rechecked",
+  "warm_shortlist_tested": true,
+  "warm_shortlist_selected": false
+}

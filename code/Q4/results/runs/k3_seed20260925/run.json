@@ -1,0 +1,15 @@
+{
+  "k": 3,
+  "seed": 20260925,
+  "budget_s": 60.0,
+  "frozen_dir": "D:\\iFiles\\文档\\3.学术竞赛\\2026 华为杯\\huaweicup-2026\\members\\WHLi\\Q4\\results\\frozen",
+  "input_sha256": {
+    "audit_freeze.json": "7391841c4cca18ed573559ca9e3e10f5499db3ca0050cdc3136fd71022e7bb90",
+    "communication_links.csv": "d167cf1b7ceeaf20a5ee27c71509bc40405c03b91fab6b51d5b7c75bbde6700c",
+    "delivery_timeline.csv": "bb5b86d10a3eea4501657df66ea71efe73e9ad317f52fe365de11a6b0bba84a8",
+    "relay_plan.csv": "e026e763ff3125f82ea26bfa2d9e22b9252d3b4546ae818d9ad67611e03bc239",
+    "transport_trips.csv": "269828651867c62f2a5e1ca4ead873c1d3e875517fa7c9a50ee15947e1f73b91"
+  },
+  "runtime_s": 60.001,
+  "iterations": 22575
+}

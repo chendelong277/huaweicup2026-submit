@@ -1,0 +1,21 @@
+{
+  "protocol": "multi-stop 1.0s step with phase endpoints; DEM LOS exact pixel-interior traversal",
+  "status": "sampled_feasible",
+  "samples": 37115,
+  "outage_samples": 0,
+  "bad_relay_backhaul": [],
+  "weakest": 0.0057984630532530446,
+  "weakest_point": {
+    "trip": 14,
+    "route": [
+      "S001",
+      "S007"
+    ],
+    "phase": "leg1_cruise",
+    "time": 1332.7163769975487,
+    "source": "direct",
+    "margin_db": 0.0057984630532530446
+  },
+  "outage_breakdown": [],
+  "first_outages": []
+}

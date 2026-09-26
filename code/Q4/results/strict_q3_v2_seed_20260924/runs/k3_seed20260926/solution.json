@@ -1,0 +1,202 @@
+{
+  "k": 3,
+  "seed": 20260926,
+  "iterations": 20208,
+  "runtime_s": 60.003,
+  "label": "{S015}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S012}",
+  "best": {
+    "k": 3,
+    "assignment": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      0
+    ],
+    "groups": [
+      {
+        "group": 0,
+        "components": [
+          "C9"
+        ],
+        "trips": [
+          17
+        ],
+        "counts": {
+          "transport_A": 0,
+          "transport_B": 1,
+          "transport_C": 0,
+          "battery_A": 0,
+          "battery_B": 1,
+          "battery_C": 0,
+          "relay": 1,
+          "energy_component": 1
+        },
+        "witnesses": {
+          "transport_A": 0.0,
+          "transport_B": 4522.350791928691,
+          "transport_C": 0.0,
+          "battery_A": 0.0,
+          "battery_B": 4522.350791928691,
+          "battery_C": 0.0,
+          "relay": 602.9522326617284,
+          "energy_component": 602.9522326617284
+        },
+        "workload_time_s": 1829.9596532339883,
+        "workload_energy_kwh": 2.311871741964539,
+        "box_mass_kg": 25.0
+      },
+      {
+        "group": 1,
+        "components": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "C6",
+          "C7"
+        ],
+        "trips": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "counts": {
+          "transport_A": 4,
+          "transport_B": 2,
+          "transport_C": 2,
+          "battery_A": 7,
+          "battery_B": 3,
+          "battery_C": 4,
+          "relay": 2,
+          "energy_component": 3
+        },
+        "witnesses": {
+          "transport_A": 0.0,
+          "transport_B": 0.0,
+          "transport_C": 0.0,
+          "battery_A": 3454.627797040232,
+          "battery_B": 1207.0573931168958,
+          "battery_C": 1561.5050262646027,
+          "relay": 602.9522326617284,
+          "energy_component": 3770.1596861375997
+        },
+        "workload_time_s": 42682.91523001788,
+        "workload_energy_kwh": 65.64805907345978,
+        "box_mass_kg": 708.0
+      },
+      {
+        "group": 2,
+        "components": [
+          "C8"
+        ],
+        "trips": [
+          11
+        ],
+        "counts": {
+          "transport_A": 0,
+          "transport_B": 1,
+          "transport_C": 0,
+          "battery_A": 0,
+          "battery_B": 1,
+          "battery_C": 0,
+          "relay": 1,
+          "energy_component": 1
+        },
+        "witnesses": {
+          "transport_A": 0.0,
+          "transport_B": 1069.6921885089582,
+          "transport_C": 0.0,
+          "battery_A": 0.0,
+          "battery_B": 1069.6921885089582,
+          "battery_C": 0.0,
+          "relay": 94.8825540928766,
+          "energy_component": 94.8825540928766
+        },
+        "workload_time_s": 1924.3808050477,
+        "workload_energy_kwh": 2.7567353493281415,
+        "box_mass_kg": 25.0
+      }
+    ],
+    "totals": {
+      "transport_A": 4,
+      "transport_B": 4,
+      "transport_C": 2,
+      "battery_A": 7,
+      "battery_B": 5,
+      "battery_C": 4,
+      "relay": 4,
+      "energy_component": 5
+    },
+    "shortage": {
+      "transport_A": 0,
+      "transport_B": 2,
+      "transport_C": 0,
+      "battery_A": 1,
+      "battery_B": 1,
+      "battery_C": 0,
+      "relay": 2,
+      "energy_component": 0
+    },
+    "redundancy": {
+      "transport_A": 0,
+      "transport_B": 2,
+      "transport_C": 0,
+      "battery_A": 0,
+      "battery_B": 1,
+      "battery_C": 0,
+      "relay": 2,
+      "energy_component": 2
+    },
+    "shortage_total": 6,
+    "redundancy_total": 7,
+    "resources_total": 35,
+    "relay_copy_total": 5,
+    "relay_extra": 2,
+    "balance_time": 2.757457213870566,
+    "workload_times": [
+      1829.9596532339883,
+      42682.91523001788,
+      1924.3808050477
+    ],
+    "within_inventory": false,
+    "hard_violations": 0,
+    "score": [
+      0,
+      6,
+      2,
+      2.757457,
+      7
+    ]
+  },
+  "invariants": {
+    "weighted_tardiness_s": 0.0,
+    "makespan_s": 6606.551838015807,
+    "sorties_total": 27,
+    "energy_kwh": 74.0224449014903
+  }
+}

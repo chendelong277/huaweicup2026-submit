@@ -1,0 +1,251 @@
+{
+  "components": {
+    "C1": [
+      "S001",
+      "S006",
+      "S007",
+      "S013",
+      "S014"
+    ],
+    "C5": [
+      "S008",
+      "S011"
+    ],
+    "C2": [
+      "S002"
+    ],
+    "C4": [
+      "S004",
+      "S005"
+    ],
+    "C3": [
+      "S003"
+    ],
+    "C8": [
+      "S012"
+    ],
+    "C7": [
+      "S010"
+    ],
+    "C6": [
+      "S009"
+    ],
+    "C9": [
+      "S015"
+    ]
+  },
+  "global_counts": {
+    "transport_A": 4,
+    "transport_B": 2,
+    "transport_C": 2,
+    "battery_A": 7,
+    "battery_B": 4,
+    "battery_C": 4,
+    "relay": 2,
+    "energy_component": 3
+  },
+  "inventory": {
+    "transport_A": 4,
+    "transport_B": 2,
+    "transport_C": 2,
+    "battery_A": 6,
+    "battery_B": 4,
+    "battery_C": 4,
+    "relay": 2,
+    "energy_component": 6
+  },
+  "k2": {
+    "n_partitions": 255,
+    "pareto_front": [
+      "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S012}",
+      "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S011,S012,S013,S014}|{S010,S015}",
+      "{S001,S002,S003,S004,S005,S006,S007,S010,S012,S013,S014,S015}|{S008,S009,S011}",
+      "{S001,S002,S004,S005,S006,S007,S008,S009,S010,S011,S012,S013,S014,S015}|{S003}",
+      "{S001,S003,S004,S005,S006,S007,S008,S009,S010,S011,S012,S013,S014}|{S002,S015}",
+      "{S001,S003,S004,S005,S006,S007,S008,S009,S011,S012,S013,S014}|{S002,S010,S015}",
+      "{S001,S003,S004,S005,S006,S007,S009,S010,S012,S013,S014,S015}|{S002,S008,S011}",
+      "{S001,S003,S004,S005,S006,S007,S009,S010,S012,S013,S014}|{S002,S008,S011,S015}",
+      "{S001,S003,S004,S005,S006,S007,S009,S012,S013,S014}|{S002,S008,S010,S011,S015}",
+      "{S001,S003,S004,S005,S006,S007,S013,S014}|{S002,S008,S009,S010,S011,S012,S015}",
+      "{S001,S003,S006,S007,S009,S010,S012,S013,S014}|{S002,S004,S005,S008,S011,S015}",
+      "{S001,S003,S006,S007,S009,S013,S014}|{S002,S004,S005,S008,S010,S011,S012,S015}",
+      "{S001,S003,S006,S007,S010,S012,S013,S014}|{S002,S004,S005,S008,S009,S011,S015}",
+      "{S001,S003,S006,S007,S012,S013,S014}|{S002,S004,S005,S008,S009,S010,S011,S015}",
+      "{S001,S003,S006,S007,S013,S014,S015}|{S002,S004,S005,S008,S009,S010,S011,S012}",
+      "{S001,S004,S005,S006,S007,S009,S010,S012,S013,S014,S015}|{S002,S003,S008,S011}",
+      "{S001,S004,S005,S006,S007,S009,S010,S012,S013,S014}|{S002,S003,S008,S011,S015}",
+      "{S001,S006,S007,S009,S010,S012,S013,S014,S015}|{S002,S003,S004,S005,S008,S011}"
+    ],
+    "lexicographic_best": {
+      "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S012}",
+      "score": [
+        0,
+        4,
+        1,
+        1.917119,
+        4
+      ],
+      "shortage": {
+        "transport_A": 0,
+        "transport_B": 1,
+        "transport_C": 0,
+        "battery_A": 1,
+        "battery_B": 1,
+        "battery_C": 0,
+        "relay": 1,
+        "energy_component": 0
+      },
+      "relay_extra": 1,
+      "balance_time": 1.917119098597699,
+      "redundancy": {
+        "transport_A": 0,
+        "transport_B": 1,
+        "transport_C": 0,
+        "battery_A": 0,
+        "battery_B": 1,
+        "battery_C": 0,
+        "relay": 1,
+        "energy_component": 1
+      },
+      "totals": {
+        "transport_A": 4,
+        "transport_B": 3,
+        "transport_C": 2,
+        "battery_A": 7,
+        "battery_B": 5,
+        "battery_C": 4,
+        "relay": 3,
+        "energy_component": 4
+      },
+      "workload_times": [
+        44512.874883251876,
+        1924.3808050477
+      ],
+      "within_inventory": false
+    },
+    "whli_recommended": {
+      "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S012}",
+      "shortage_total": 4,
+      "relay_extra": 1,
+      "balance_time": 1.917119,
+      "redundancy_total": 4
+    },
+    "whli_shortage_first": {
+      "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S012}",
+      "shortage_total": 4,
+      "relay_extra": 1,
+      "balance_time": 1.917119,
+      "redundancy_total": 4
+    },
+    "whli_balance_first": {
+      "partition": "{S001,S006,S007,S009,S010,S012,S013,S014,S015}|{S002,S003,S004,S005,S008,S011}",
+      "shortage_total": 16,
+      "relay_extra": 1,
+      "balance_time": 1.003357,
+      "redundancy_total": 16
+    }
+  },
+  "k3": {
+    "n_partitions": 3025,
+    "pareto_front": [
+      "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S012}|{S015}",
+      "{S001,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S002}|{S012}",
+      "{S001,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S002,S015}|{S012}",
+      "{S001,S003,S004,S005,S006,S007,S008,S009,S011,S013,S014}|{S002,S010,S015}|{S012}",
+      "{S001,S003,S004,S005,S006,S007,S009,S010,S013,S014}|{S002,S008,S011,S015}|{S012}",
+      "{S001,S003,S004,S005,S006,S007,S009,S013,S014}|{S002,S008,S010,S011,S015}|{S012}",
+      "{S001,S003,S004,S005,S006,S007,S010,S013,S014}|{S002,S008,S009,S011,S015}|{S012}",
+      "{S001,S003,S004,S005,S006,S007,S013,S014}|{S002,S008,S011}|{S009,S010,S012,S015}",
+      "{S001,S003,S004,S005,S006,S007,S013,S014}|{S002,S010,S012,S015}|{S008,S009,S011}",
+      "{S001,S003,S004,S005,S006,S007,S013,S014}|{S002}|{S008,S009,S010,S011,S012,S015}",
+      "{S001,S003,S006,S007,S009,S010,S013,S014}|{S002,S004,S005,S008,S011,S015}|{S012}",
+      "{S001,S003,S006,S007,S009,S013,S014}|{S002,S004,S005,S008,S010,S011,S012}|{S015}",
+      "{S001,S003,S006,S007,S009,S013,S014}|{S002,S004,S005,S008,S010,S011,S015}|{S012}",
+      "{S001,S003,S006,S007,S009,S013,S014}|{S002,S004,S005,S008,S011,S012,S015}|{S010}",
+      "{S001,S003,S006,S007,S010,S013,S014}|{S002,S004,S005,S008,S009,S011,S015}|{S012}",
+      "{S001,S003,S006,S007,S013,S014}|{S002,S004,S005,S008,S009,S011,S015}|{S010,S012}",
+      "{S001,S003,S006,S007,S013,S014}|{S002,S004,S005,S010,S012,S015}|{S008,S009,S011}",
+      "{S001,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S002,S003}|{S012}",
+      "{S001,S004,S005,S006,S007,S009,S010,S013,S014}|{S002,S003,S008,S011,S015}|{S012}",
+      "{S001,S006,S007,S013,S014}|{S002,S003,S004,S005}|{S008,S009,S010,S011,S012,S015}",
+      "{S001,S006,S007,S009,S013,S014}|{S002,S003,S008,S011}|{S004,S005,S010,S012,S015}",
+      "{S001,S006,S007,S009,S010,S012,S013,S014}|{S002,S003,S015}|{S004,S005,S008,S011}",
+      "{S001,S006,S007,S010,S012,S013,S014}|{S002,S003,S015}|{S004,S005,S008,S009,S011}",
+      "{S001,S006,S007,S010,S013,S014,S015}|{S002,S003}|{S004,S005,S008,S009,S011,S012}",
+      "{S001,S006,S007,S009,S010,S012,S013,S014}|{S002,S004,S005,S008,S011,S015}|{S003}",
+      "{S001,S006,S007,S009,S010,S012,S013,S014}|{S002,S004,S005,S008,S011}|{S003,S015}",
+      "{S001,S006,S007,S010,S012,S013,S014}|{S002,S004,S005,S008,S011}|{S003,S009,S015}",
+      "{S001,S006,S007,S013,S014}|{S002,S004,S005,S010,S012,S015}|{S003,S008,S009,S011}",
+      "{S001,S006,S007,S013,S014}|{S002,S008,S011,S015}|{S003,S004,S005,S009,S010,S012}"
+    ],
+    "lexicographic_best": {
+      "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S012}|{S015}",
+      "score": [
+        0,
+        6,
+        2,
+        2.757457,
+        7
+      ],
+      "shortage": {
+        "transport_A": 0,
+        "transport_B": 2,
+        "transport_C": 0,
+        "battery_A": 1,
+        "battery_B": 1,
+        "battery_C": 0,
+        "relay": 2,
+        "energy_component": 0
+      },
+      "relay_extra": 2,
+      "balance_time": 2.757457213870566,
+      "redundancy": {
+        "transport_A": 0,
+        "transport_B": 2,
+        "transport_C": 0,
+        "battery_A": 0,
+        "battery_B": 1,
+        "battery_C": 0,
+        "relay": 2,
+        "energy_component": 2
+      },
+      "totals": {
+        "transport_A": 4,
+        "transport_B": 4,
+        "transport_C": 2,
+        "battery_A": 7,
+        "battery_B": 5,
+        "battery_C": 4,
+        "relay": 4,
+        "energy_component": 5
+      },
+      "workload_times": [
+        42682.91523001788,
+        1924.3808050477,
+        1829.9596532339883
+      ],
+      "within_inventory": false
+    },
+    "whli_recommended": {
+      "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S012}|{S015}",
+      "shortage_total": 6,
+      "relay_extra": 2,
+      "balance_time": 2.757457,
+      "redundancy_total": 7
+    },
+    "whli_shortage_first": {
+      "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S012}|{S015}",
+      "shortage_total": 6,
+      "relay_extra": 2,
+      "balance_time": 2.757457,
+      "redundancy_total": 7
+    },
+    "whli_balance_first": {
+      "partition": "{S001,S006,S007,S013,S014}|{S002,S003,S004,S005}|{S008,S009,S010,S011,S012,S015}",
+      "shortage_total": 21,
+      "relay_extra": 3,
+      "balance_time": 1.061178,
+      "redundancy_total": 23
+    }
+  }
+}

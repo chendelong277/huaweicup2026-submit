@@ -1,0 +1,2 @@
+﻿id,source,iteration,elapsed_s,hard_deadline_violations,weighted_tardiness_s,makespan_s,trip_count,energy_kwh,expected_time_misses
+Q2-P-000001-000000004,initial,-1,0.004132699999999989,0,0.0,6374.351717254821,24,70.71666616475245,0

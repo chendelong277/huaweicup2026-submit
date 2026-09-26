@@ -1,0 +1,257 @@
+{
+  "invariants": {
+    "weighted_tardiness_s": 0.0,
+    "makespan_s": 9944.740276713987,
+    "sorties_total": 25,
+    "energy_kwh": 77.90352965881328
+  },
+  "global_counts": {
+    "transport_A": 3,
+    "transport_B": 2,
+    "transport_C": 2,
+    "battery_A": 3,
+    "battery_B": 4,
+    "battery_C": 4,
+    "relay": 2,
+    "energy_component": 3
+  },
+  "inventory": {
+    "transport_A": 4,
+    "transport_B": 2,
+    "transport_C": 2,
+    "battery_A": 6,
+    "battery_B": 4,
+    "battery_C": 4,
+    "relay": 2,
+    "energy_component": 6
+  },
+  "k2": {
+    "feasible": true,
+    "checks": [
+      {
+        "id": "unique_coverage",
+        "ok": true,
+        "detail": "covered=15 expected=15"
+      },
+      {
+        "id": "non_empty_groups",
+        "ok": true,
+        "detail": "groups=2"
+      },
+      {
+        "id": "same_trip_same_group",
+        "ok": true,
+        "detail": "violating_trips=[]"
+      },
+      {
+        "id": "counts_recomputed",
+        "ok": true,
+        "detail": "mismatch_groups=[]"
+      },
+      {
+        "id": "shortage_redundancy_consistent",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "id": "within_inventory_flag",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "id": "shortage_witnesses",
+        "ok": true,
+        "detail": "missing=[]"
+      }
+    ],
+    "k": 2,
+    "shortage_total": 3,
+    "relay_extra": 1,
+    "balance_time": 1.81978,
+    "redundancy_total": 5,
+    "seed": 20260924,
+    "partition": "{S002}|{S001,S003,S004,S005,S006,S007,S008,S009,S010,S011,S012,S013,S014,S015}",
+    "per_seed_best": [
+      {
+        "seed": 20260924,
+        "label": "{S002}|{S001,S003,S004,S005,S006,S007,S008,S009,S010,S011,S012,S013,S014,S015}",
+        "score": [
+          0,
+          3,
+          1,
+          1.81978,
+          5
+        ]
+      },
+      {
+        "seed": 20260925,
+        "label": "{S002}|{S001,S003,S004,S005,S006,S007,S008,S009,S010,S011,S012,S013,S014,S015}",
+        "score": [
+          0,
+          3,
+          1,
+          1.81978,
+          5
+        ]
+      },
+      {
+        "seed": 20260926,
+        "label": "{S001,S003,S004,S005,S006,S007,S008,S009,S010,S011,S012,S013,S014,S015}|{S002}",
+        "score": [
+          0,
+          3,
+          1,
+          1.81978,
+          5
+        ]
+      },
+      {
+        "seed": 20260927,
+        "label": "{S001,S003,S004,S005,S006,S007,S008,S009,S010,S011,S012,S013,S014,S015}|{S002}",
+        "score": [
+          0,
+          3,
+          1,
+          1.81978,
+          5
+        ]
+      },
+      {
+        "seed": 20260928,
+        "label": "{S002}|{S001,S003,S004,S005,S006,S007,S008,S009,S010,S011,S012,S013,S014,S015}",
+        "score": [
+          0,
+          3,
+          1,
+          1.81978,
+          5
+        ]
+      }
+    ],
+    "enumeration_best": "{S001,S003,S004,S005,S006,S007,S008,S009,S010,S011,S012,S013,S014,S015}|{S002}",
+    "enumeration_score": [
+      0,
+      3,
+      1,
+      1.81978,
+      5
+    ],
+    "alns_equals_enumeration": true,
+    "gap_to_enumeration": 0
+  },
+  "k3": {
+    "feasible": true,
+    "checks": [
+      {
+        "id": "unique_coverage",
+        "ok": true,
+        "detail": "covered=15 expected=15"
+      },
+      {
+        "id": "non_empty_groups",
+        "ok": true,
+        "detail": "groups=3"
+      },
+      {
+        "id": "same_trip_same_group",
+        "ok": true,
+        "detail": "violating_trips=[]"
+      },
+      {
+        "id": "counts_recomputed",
+        "ok": true,
+        "detail": "mismatch_groups=[]"
+      },
+      {
+        "id": "shortage_redundancy_consistent",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "id": "within_inventory_flag",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "id": "shortage_witnesses",
+        "ok": true,
+        "detail": "missing=[]"
+      }
+    ],
+    "k": 3,
+    "shortage_total": 5,
+    "relay_extra": 2,
+    "balance_time": 2.585038,
+    "redundancy_total": 8,
+    "seed": 20260924,
+    "partition": "{S008}|{S002}|{S001,S003,S004,S005,S006,S007,S009,S010,S011,S012,S013,S014,S015}",
+    "per_seed_best": [
+      {
+        "seed": 20260924,
+        "label": "{S008}|{S002}|{S001,S003,S004,S005,S006,S007,S009,S010,S011,S012,S013,S014,S015}",
+        "score": [
+          0,
+          5,
+          2,
+          2.585038,
+          8
+        ]
+      },
+      {
+        "seed": 20260925,
+        "label": "{S008}|{S001,S003,S004,S005,S006,S007,S009,S010,S011,S012,S013,S014,S015}|{S002}",
+        "score": [
+          0,
+          5,
+          2,
+          2.585038,
+          8
+        ]
+      },
+      {
+        "seed": 20260926,
+        "label": "{S008}|{S002}|{S001,S003,S004,S005,S006,S007,S009,S010,S011,S012,S013,S014,S015}",
+        "score": [
+          0,
+          5,
+          2,
+          2.585038,
+          8
+        ]
+      },
+      {
+        "seed": 20260927,
+        "label": "{S008}|{S002}|{S001,S003,S004,S005,S006,S007,S009,S010,S011,S012,S013,S014,S015}",
+        "score": [
+          0,
+          5,
+          2,
+          2.585038,
+          8
+        ]
+      },
+      {
+        "seed": 20260928,
+        "label": "{S008}|{S002}|{S001,S003,S004,S005,S006,S007,S009,S010,S011,S012,S013,S014,S015}",
+        "score": [
+          0,
+          5,
+          2,
+          2.585038,
+          8
+        ]
+      }
+    ],
+    "enumeration_best": "{S001,S003,S004,S005,S006,S007,S009,S010,S011,S012,S013,S014,S015}|{S002}|{S008}",
+    "enumeration_score": [
+      0,
+      5,
+      2,
+      2.585038,
+      8
+    ],
+    "alns_equals_enumeration": true,
+    "gap_to_enumeration": 0
+  },
+  "template_fill": "D:\\iFiles\\文档\\3.学术竞赛\\2026 华为杯\\huaweicup-2026\\members\\weiliu\\Q4\\results\\Q4_结果提交.xlsx"
+}

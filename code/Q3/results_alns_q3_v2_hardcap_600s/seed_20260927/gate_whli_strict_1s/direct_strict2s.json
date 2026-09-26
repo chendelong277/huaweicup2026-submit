@@ -1,0 +1,895 @@
+{
+  "protocol": "multi-stop 2-s time sampling with phase endpoints, DEM LOS at exact pixel-interior traversal, blind starts padded -2s for sub-sample onset drift; diagnostic only",
+  "direct_threshold_db": 122,
+  "transport_trips": 23,
+  "trips_with_blind_spots": 18,
+  "trips": [
+    {
+      "trip": 1,
+      "site": "S006",
+      "route": [
+        "S006"
+      ],
+      "start": 0.0,
+      "return_time": 1207.0573931168958,
+      "min_direct_margin_db": 1.8642883584966796,
+      "blocked_sample_count": 244,
+      "bad_sample_count": 0,
+      "blind_intervals": []
+    },
+    {
+      "trip": 2,
+      "site": "S011",
+      "route": [
+        "S011"
+      ],
+      "start": 0.0,
+      "return_time": 1069.6921885089582,
+      "min_direct_margin_db": 2.936239693104767,
+      "blocked_sample_count": 192,
+      "bad_sample_count": 0,
+      "blind_intervals": []
+    },
+    {
+      "trip": 3,
+      "site": "S001",
+      "route": [
+        "S001"
+      ],
+      "start": 0.0,
+      "return_time": 1561.5050262646027,
+      "min_direct_margin_db": 2.2127409353587666,
+      "blocked_sample_count": 360,
+      "bad_sample_count": 0,
+      "blind_intervals": []
+    },
+    {
+      "trip": 4,
+      "site": "S001",
+      "route": [
+        "S001"
+      ],
+      "start": 0.0,
+      "return_time": 1495.5050262646027,
+      "min_direct_margin_db": 2.2127409353587666,
+      "blocked_sample_count": 342,
+      "bad_sample_count": 0,
+      "blind_intervals": []
+    },
+    {
+      "trip": 5,
+      "site": "S010",
+      "route": [
+        "S010"
+      ],
+      "start": 1069.6921885089582,
+      "return_time": 2624.9342144664065,
+      "min_direct_margin_db": -1.6647812751223654,
+      "blocked_sample_count": 359,
+      "bad_sample_count": 213,
+      "blind_intervals": [
+        {
+          "stage": "out_cruise",
+          "start": 1823.4281820329747,
+          "end": 1881.2352538965365,
+          "min_margin": -1.6647812751223654
+        },
+        {
+          "stage": "out_descent",
+          "start": 1879.2352538965365,
+          "end": 1914.849868154349,
+          "min_margin": -1.6647812751223654
+        },
+        {
+          "stage": "handoff_S010",
+          "start": 1912.849868154349,
+          "end": 2154.8498681543488,
+          "min_margin": -1.6569576376574702
+        },
+        {
+          "stage": "return_climb",
+          "start": 2152.8498681543488,
+          "end": 2182.8620467025257,
+          "min_margin": -1.6647812751223654
+        },
+        {
+          "stage": "return_cruise",
+          "start": 2180.8620467025257,
+          "end": 2240.6622282755006,
+          "min_margin": -1.6647812751223654
+        }
+      ]
+    },
+    {
+      "trip": 6,
+      "site": "S012",
+      "route": [
+        "S012"
+      ],
+      "start": 1207.0573931168958,
+      "return_time": 3131.4381981645956,
+      "min_direct_margin_db": -5.447726329435994,
+      "blocked_sample_count": 457,
+      "bad_sample_count": 405,
+      "blind_intervals": [
+        {
+          "stage": "out_cruise",
+          "start": 1954.0010317430151,
+          "end": 2185.7773976915273,
+          "min_margin": -5.447726329435994
+        },
+        {
+          "stage": "out_descent",
+          "start": 2183.7773976915273,
+          "end": 2239.177795640746,
+          "min_margin": -5.447726329435994
+        },
+        {
+          "stage": "handoff_S012",
+          "start": 2237.177795640746,
+          "end": 2479.177795640746,
+          "min_margin": -5.443522108452939
+        },
+        {
+          "stage": "return_climb",
+          "start": 2477.177795640746,
+          "end": 2523.6781272650946,
+          "min_margin": -5.447726329435994
+        },
+        {
+          "stage": "return_cruise",
+          "start": 2521.6781272650946,
+          "end": 2755.4525485696804,
+          "min_margin": -5.447726329435994
+        }
+      ]
+    },
+    {
+      "trip": 7,
+      "site": "S002",
+      "route": [
+        "S002"
+      ],
+      "start": 2624.9342144664065,
+      "return_time": 4384.985587320754,
+      "min_direct_margin_db": -5.483624639638791,
+      "blocked_sample_count": 487,
+      "bad_sample_count": 375,
+      "blind_intervals": [
+        {
+          "stage": "out_cruise",
+          "start": 3307.2276975970303,
+          "end": 3541.118199233424,
+          "min_margin": -5.483624639638791
+        },
+        {
+          "stage": "out_descent",
+          "start": 3539.118199233424,
+          "end": 3576.8999008935803,
+          "min_margin": -5.483624639638791
+        },
+        {
+          "stage": "handoff_S002",
+          "start": 3574.8999008935803,
+          "end": 3786.8999008935803,
+          "min_margin": -5.48198788266518
+        },
+        {
+          "stage": "return_climb",
+          "start": 3784.8999008935803,
+          "end": 3816.717985610377,
+          "min_margin": -5.483624639638791
+        },
+        {
+          "stage": "return_cruise",
+          "start": 3814.717985610377,
+          "end": 4050.6075432953603,
+          "min_margin": -5.483624639638791
+        }
+      ]
+    },
+    {
+      "trip": 8,
+      "site": "S015",
+      "route": [
+        "S015"
+      ],
+      "start": 3131.4381981645956,
+      "return_time": 4961.397851398584,
+      "min_direct_margin_db": -3.6705342518628186,
+      "blocked_sample_count": 344,
+      "bad_sample_count": 300,
+      "blind_intervals": [
+        {
+          "stage": "out_cruise",
+          "start": 3931.121279275962,
+          "end": 4070.9383226331524,
+          "min_margin": -3.6705342518628186
+        },
+        {
+          "stage": "out_descent",
+          "start": 4068.9383226331524,
+          "end": 4109.85802478159,
+          "min_margin": -3.6705342518628186
+        },
+        {
+          "stage": "handoff_S015",
+          "start": 4107.85802478159,
+          "end": 4349.85802478159,
+          "min_margin": -3.6618189938287884
+        },
+        {
+          "stage": "return_climb",
+          "start": 4347.85802478159,
+          "end": 4382.291109905288,
+          "min_margin": -3.6705342518628186
+        },
+        {
+          "stage": "return_cruise",
+          "start": 4380.291109905288,
+          "end": 4522.10550171693,
+          "min_margin": -3.6705342518628186
+        }
+      ]
+    },
+    {
+      "trip": 9,
+      "site": "S014",
+      "route": [
+        "S014"
+      ],
+      "start": 0.0,
+      "return_time": 1989.9708270167878,
+      "min_direct_margin_db": -2.758461694137992,
+      "blocked_sample_count": 390,
+      "bad_sample_count": 322,
+      "blind_intervals": [
+        {
+          "stage": "out_cruise",
+          "start": 842.3212943545682,
+          "end": 966.1631250969356,
+          "min_margin": -2.758461694137992
+        },
+        {
+          "stage": "out_descent",
+          "start": 964.1631250969356,
+          "end": 1062.5420801750606,
+          "min_margin": -2.758461694137992
+        },
+        {
+          "stage": "handoff_S014",
+          "start": 1060.5420801750606,
+          "end": 1272.5420801750606,
+          "min_margin": -2.7354629653367653
+        },
+        {
+          "stage": "return_climb",
+          "start": 1270.5420801750606,
+          "end": 1352.8578760734981,
+          "min_margin": -2.758461694137992
+        },
+        {
+          "stage": "return_cruise",
+          "start": 1350.8578760734981,
+          "end": 1476.6971138772158,
+          "min_margin": -2.758461694137992
+        }
+      ]
+    },
+    {
+      "trip": 10,
+      "site": "S013",
+      "route": [
+        "S013",
+        "S014"
+      ],
+      "start": 0.0,
+      "return_time": 2406.2174096537847,
+      "min_direct_margin_db": -2.758461694137992,
+      "blocked_sample_count": 651,
+      "bad_sample_count": 552,
+      "blind_intervals": [
+        {
+          "stage": "out_cruise",
+          "start": 809.1783047203203,
+          "end": 884.8850604350356,
+          "min_margin": -1.7855298894017437
+        },
+        {
+          "stage": "out_descent",
+          "start": 882.8850604350356,
+          "end": 903.8777899272231,
+          "min_margin": -1.7855298894017437
+        },
+        {
+          "stage": "handoff_S013",
+          "start": 901.8777899272231,
+          "end": 1113.8777899272231,
+          "min_margin": -1.781550181308205
+        },
+        {
+          "stage": "leg1_climb",
+          "start": 1111.8777899272231,
+          "end": 1174.3978949076918,
+          "min_margin": -1.8012117198240247
+        },
+        {
+          "stage": "leg1_cruise",
+          "start": 1172.3978949076918,
+          "end": 1435.884536835495,
+          "min_margin": -2.75129632193827
+        },
+        {
+          "stage": "leg1_descent",
+          "start": 1433.884536835495,
+          "end": 1508.7886628120575,
+          "min_margin": -2.75129632193827
+        },
+        {
+          "stage": "handoff_S014",
+          "start": 1506.7886628120575,
+          "end": 1688.7886628120575,
+          "min_margin": -2.7354629653367653
+        },
+        {
+          "stage": "return_climb",
+          "start": 1686.7886628120575,
+          "end": 1769.104458710495,
+          "min_margin": -2.758461694137992
+        },
+        {
+          "stage": "return_cruise",
+          "start": 1767.104458710495,
+          "end": 1892.9436965142127,
+          "min_margin": -2.758461694137992
+        }
+      ]
+    },
+    {
+      "trip": 11,
+      "site": "S003",
+      "route": [
+        "S003"
+      ],
+      "start": 4384.985587320754,
+      "return_time": 6406.058688512551,
+      "min_direct_margin_db": -5.295768264603538,
+      "blocked_sample_count": 425,
+      "bad_sample_count": 415,
+      "blind_intervals": [
+        {
+          "stage": "out_cruise",
+          "start": 5150.8650082893055,
+          "end": 5374.173815976549,
+          "min_margin": -5.295768264603538
+        },
+        {
+          "stage": "out_descent",
+          "start": 5372.173815976549,
+          "end": 5463.495471249987,
+          "min_margin": -5.295768264603538
+        },
+        {
+          "stage": "handoff_S003",
+          "start": 5461.495471249987,
+          "end": 5673.495471249987,
+          "min_margin": -5.284682453663208
+        },
+        {
+          "stage": "return_climb",
+          "start": 5671.495471249987,
+          "end": 5747.930183977851,
+          "min_margin": -5.295768264603538
+        },
+        {
+          "stage": "return_cruise",
+          "start": 5745.930183977851,
+          "end": 5971.232764707322,
+          "min_margin": -5.295768264603538
+        }
+      ]
+    },
+    {
+      "trip": 12,
+      "site": "S002",
+      "route": [
+        "S002"
+      ],
+      "start": 1495.5050262646027,
+      "return_time": 3606.674483835747,
+      "min_direct_margin_db": -5.483624639638791,
+      "blocked_sample_count": 588,
+      "bad_sample_count": 476,
+      "blind_intervals": [
+        {
+          "stage": "out_cruise",
+          "start": 2309.882126338586,
+          "end": 2543.77262797498,
+          "min_margin": -5.483624639638791
+        },
+        {
+          "stage": "out_descent",
+          "start": 2541.77262797498,
+          "end": 2588.4997550501753,
+          "min_margin": -5.483624639638791
+        },
+        {
+          "stage": "handoff_S002",
+          "start": 2586.4997550501753,
+          "end": 2984.4997550501753,
+          "min_margin": -5.48198788266518
+        },
+        {
+          "stage": "return_climb",
+          "start": 2982.4997550501753,
+          "end": 3020.2814567103314,
+          "min_margin": -5.483624639638791
+        },
+        {
+          "stage": "return_cruise",
+          "start": 3018.2814567103314,
+          "end": 3254.1710143953146,
+          "min_margin": -5.483624639638791
+        }
+      ]
+    },
+    {
+      "trip": 13,
+      "site": "S001",
+      "route": [
+        "S001",
+        "S007"
+      ],
+      "start": 0.0,
+      "return_time": 2199.18854588284,
+      "min_direct_margin_db": -1.218613196386059,
+      "blocked_sample_count": 474,
+      "bad_sample_count": 198,
+      "blind_intervals": [
+        {
+          "stage": "leg1_cruise",
+          "start": 1332.8548780033923,
+          "end": 1396.5862737054124,
+          "min_margin": -1.208597021634887
+        },
+        {
+          "stage": "leg1_descent",
+          "start": 1394.5862737054124,
+          "end": 1432.856415306975,
+          "min_margin": -1.208597021634887
+        },
+        {
+          "stage": "handoff_S007",
+          "start": 1430.856415306975,
+          "end": 1612.856415306975,
+          "min_margin": -1.1992103052344874
+        },
+        {
+          "stage": "return_climb",
+          "start": 1610.856415306975,
+          "end": 1667.3474736565843,
+          "min_margin": -1.218613196386059
+        },
+        {
+          "stage": "return_cruise",
+          "start": 1665.3474736565843,
+          "end": 1719.0918255375045,
+          "min_margin": -1.218613196386059
+        }
+      ]
+    },
+    {
+      "trip": 14,
+      "site": "S001",
+      "route": [
+        "S001",
+        "S013"
+      ],
+      "start": 0.0,
+      "return_time": 1905.1266903323176,
+      "min_direct_margin_db": -1.7855298894017437,
+      "blocked_sample_count": 499,
+      "bad_sample_count": 196,
+      "blind_intervals": [
+        {
+          "stage": "leg1_cruise",
+          "start": 1083.8759315881525,
+          "end": 1185.6512433412925,
+          "min_margin": -1.7836830736790859
+        },
+        {
+          "stage": "leg1_descent",
+          "start": 1183.6512433412925,
+          "end": 1196.3155670717613,
+          "min_margin": -1.7836830736790859
+        },
+        {
+          "stage": "handoff_S013",
+          "start": 1194.3155670717613,
+          "end": 1376.3155670717613,
+          "min_margin": -1.781550181308205
+        },
+        {
+          "stage": "return_climb",
+          "start": 1374.3155670717613,
+          "end": 1392.1428416485842,
+          "min_margin": -1.7855298894017437
+        },
+        {
+          "stage": "return_cruise",
+          "start": 1390.1428416485842,
+          "end": 1467.8416718420756,
+          "min_margin": -1.7855298894017437
+        }
+      ]
+    },
+    {
+      "trip": 15,
+      "site": "S011",
+      "route": [
+        "S011",
+        "S008"
+      ],
+      "start": 1905.1266903323176,
+      "return_time": 4326.47643707457,
+      "min_direct_margin_db": -6.239223370107823,
+      "blocked_sample_count": 582,
+      "bad_sample_count": 402,
+      "blind_intervals": [
+        {
+          "stage": "leg1_cruise",
+          "start": 3069.897569717795,
+          "end": 3281.754380046181,
+          "min_margin": -6.239223370107823
+        },
+        {
+          "stage": "leg1_descent",
+          "start": 3279.754380046181,
+          "end": 3338.560981608681,
+          "min_margin": -6.239223370107823
+        },
+        {
+          "stage": "handoff_S008",
+          "start": 3336.560981608681,
+          "end": 3518.560981608681,
+          "min_margin": -6.235583357082277
+        },
+        {
+          "stage": "return_climb",
+          "start": 3516.560981608681,
+          "end": 3552.5640923671444,
+          "min_margin": -6.2379289943650065
+        },
+        {
+          "stage": "return_cruise",
+          "start": 3550.5640923671444,
+          "end": 3864.4849901197304,
+          "min_margin": -6.2379289943650065
+        }
+      ]
+    },
+    {
+      "trip": 16,
+      "site": "S006",
+      "route": [
+        "S006",
+        "S007"
+      ],
+      "start": 1561.5050262646027,
+      "return_time": 3909.7877644033465,
+      "min_direct_margin_db": -1.229678389850477,
+      "blocked_sample_count": 569,
+      "bad_sample_count": 300,
+      "blind_intervals": [
+        {
+          "stage": "leg1_cruise",
+          "start": 2852.890908055561,
+          "end": 2900.8310095934444,
+          "min_margin": -1.1065241502645478
+        },
+        {
+          "stage": "leg1_descent",
+          "start": 2908.773210739513,
+          "end": 3025.756465094021,
+          "min_margin": -1.229678389850477
+        },
+        {
+          "stage": "handoff_S007",
+          "start": 3023.756465094021,
+          "end": 3349.756465094021,
+          "min_margin": -1.1992103052344874
+        },
+        {
+          "stage": "return_climb",
+          "start": 3347.756465094021,
+          "end": 3415.1457351135523,
+          "min_margin": -1.218613196386059
+        },
+        {
+          "stage": "return_cruise",
+          "start": 3413.1457351135523,
+          "end": 3456.9392500942954,
+          "min_margin": -1.218613196386059
+        }
+      ]
+    },
+    {
+      "trip": 17,
+      "site": "S004",
+      "route": [
+        "S004"
+      ],
+      "start": 3606.674483835747,
+      "return_time": 5911.870092230072,
+      "min_direct_margin_db": -5.840022576303923,
+      "blocked_sample_count": 424,
+      "bad_sample_count": 422,
+      "blind_intervals": [
+        {
+          "stage": "out_cruise",
+          "start": 4567.716097281407,
+          "end": 4711.272704903027,
+          "min_margin": -5.840022576303923
+        },
+        {
+          "stage": "out_descent",
+          "start": 4709.272704903027,
+          "end": 4796.24228803291,
+          "min_margin": -5.840022576303923
+        },
+        {
+          "stage": "handoff_S004",
+          "start": 4794.24228803291,
+          "end": 5192.24228803291,
+          "min_margin": -5.8359514731138376
+        },
+        {
+          "stage": "return_climb",
+          "start": 5190.24228803291,
+          "end": 5260.217954536816,
+          "min_margin": -5.840022576303923
+        },
+        {
+          "stage": "return_cruise",
+          "start": 5258.217954536816,
+          "end": 5403.76831719536,
+          "min_margin": -5.840022576303923
+        }
+      ]
+    },
+    {
+      "trip": 18,
+      "site": "S009",
+      "route": [
+        "S009"
+      ],
+      "start": 4992.690182873457,
+      "return_time": 6553.6182784799985,
+      "min_direct_margin_db": -3.2107092968288384,
+      "blocked_sample_count": 407,
+      "bad_sample_count": 267,
+      "blind_intervals": [
+        {
+          "stage": "out_cruise",
+          "start": 5699.580495337952,
+          "end": 5819.452665735321,
+          "min_margin": -3.2107092968288384
+        },
+        {
+          "stage": "out_descent",
+          "start": 5817.452665735321,
+          "end": 5844.744230676727,
+          "min_margin": -3.2107092968288384
+        },
+        {
+          "stage": "handoff_S009",
+          "start": 5842.744230676727,
+          "end": 6084.744230676727,
+          "min_margin": -3.208800516948372
+        },
+        {
+          "stage": "return_climb",
+          "start": 6082.744230676727,
+          "end": 6105.820534794566,
+          "min_margin": -3.2107092968288384
+        },
+        {
+          "stage": "return_cruise",
+          "start": 6103.820534794566,
+          "end": 6225.6905385885,
+          "min_margin": -3.2107092968288384
+        }
+      ]
+    },
+    {
+      "trip": 19,
+      "site": "S006",
+      "route": [
+        "S006"
+      ],
+      "start": 1989.9708270167878,
+      "return_time": 3303.181693982569,
+      "min_direct_margin_db": 1.8642883584966796,
+      "blocked_sample_count": 272,
+      "bad_sample_count": 0,
+      "blind_intervals": []
+    },
+    {
+      "trip": 20,
+      "site": "S003",
+      "route": [
+        "S003"
+      ],
+      "start": 3909.7877644033465,
+      "return_time": 6346.428911656341,
+      "min_direct_margin_db": -5.295768264603538,
+      "blocked_sample_count": 536,
+      "bad_sample_count": 526,
+      "blind_intervals": [
+        {
+          "stage": "out_cruise",
+          "start": 4824.607461250804,
+          "end": 5047.916268938047,
+          "min_margin": -5.295768264603538
+        },
+        {
+          "stage": "out_descent",
+          "start": 5045.916268938047,
+          "end": 5159.568338029844,
+          "min_margin": -5.295768264603538
+        },
+        {
+          "stage": "handoff_S003",
+          "start": 5157.568338029844,
+          "end": 5555.568338029844,
+          "min_margin": -5.284682453663208
+        },
+        {
+          "stage": "return_climb",
+          "start": 5553.568338029844,
+          "end": 5644.889993303282,
+          "min_margin": -5.295768264603538
+        },
+        {
+          "stage": "return_cruise",
+          "start": 5642.889993303282,
+          "end": 5868.192574032752,
+          "min_margin": -5.295768264603538
+        }
+      ]
+    },
+    {
+      "trip": 21,
+      "site": "S008",
+      "route": [
+        "S008"
+      ],
+      "start": 3048.8476841742818,
+      "return_time": 5225.131928439393,
+      "min_direct_margin_db": -6.2379289943650065,
+      "blocked_sample_count": 461,
+      "bad_sample_count": 459,
+      "blind_intervals": [
+        {
+          "stage": "out_cruise",
+          "start": 3854.4913352450735,
+          "end": 4166.412740063348,
+          "min_margin": -6.2379289943650065
+        },
+        {
+          "stage": "out_descent",
+          "start": 4164.412740063348,
+          "end": 4207.216472973504,
+          "min_margin": -6.2379289943650065
+        },
+        {
+          "stage": "handoff_S008",
+          "start": 4205.216472973504,
+          "end": 4417.216472973504,
+          "min_margin": -6.235583357082277
+        },
+        {
+          "stage": "return_climb",
+          "start": 4415.216472973504,
+          "end": 4451.219583731968,
+          "min_margin": -6.2379289943650065
+        },
+        {
+          "stage": "return_cruise",
+          "start": 4449.219583731968,
+          "end": 4763.140481484554,
+          "min_margin": -6.2379289943650065
+        }
+      ]
+    },
+    {
+      "trip": 22,
+      "site": "S011",
+      "route": [
+        "S011",
+        "S008"
+      ],
+      "start": 3174.1559407745963,
+      "return_time": 5655.505687516848,
+      "min_direct_margin_db": -6.239223370107823,
+      "blocked_sample_count": 597,
+      "bad_sample_count": 417,
+      "blind_intervals": [
+        {
+          "stage": "leg1_cruise",
+          "start": 4368.9268201600735,
+          "end": 4580.7836304884595,
+          "min_margin": -6.239223370107823
+        },
+        {
+          "stage": "leg1_descent",
+          "start": 4578.7836304884595,
+          "end": 4637.5902320509595,
+          "min_margin": -6.239223370107823
+        },
+        {
+          "stage": "handoff_S008",
+          "start": 4635.5902320509595,
+          "end": 4847.5902320509595,
+          "min_margin": -6.235583357082277
+        },
+        {
+          "stage": "return_climb",
+          "start": 4845.5902320509595,
+          "end": 4881.593342809423,
+          "min_margin": -6.2379289943650065
+        },
+        {
+          "stage": "return_cruise",
+          "start": 4879.593342809423,
+          "end": 5193.514240562009,
+          "min_margin": -6.2379289943650065
+        }
+      ]
+    },
+    {
+      "trip": 23,
+      "site": "S005",
+      "route": [
+        "S005"
+      ],
+      "start": 5911.870092230072,
+      "return_time": 7791.917127443332,
+      "min_direct_margin_db": -2.548000935566492,
+      "blocked_sample_count": 365,
+      "bad_sample_count": 353,
+      "blind_intervals": [
+        {
+          "stage": "out_cruise",
+          "start": 6732.958237246034,
+          "end": 6824.823165500765,
+          "min_margin": -2.548000935566492
+        },
+        {
+          "stage": "out_descent",
+          "start": 6822.823165500765,
+          "end": 6890.528609836702,
+          "min_margin": -2.548000935566492
+        },
+        {
+          "stage": "handoff_S005",
+          "start": 6888.528609836702,
+          "end": 7286.528609836702,
+          "min_margin": -2.5434153302055904
+        },
+        {
+          "stage": "return_climb",
+          "start": 7284.528609836702,
+          "end": 7339.092965305453,
+          "min_margin": -2.548000935566492
+        },
+        {
+          "stage": "return_cruise",
+          "start": 7337.092965305453,
+          "end": 7430.954891965845,
+          "min_margin": -2.548000935566492
+        }
+      ]
+    }
+  ]
+}

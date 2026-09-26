@@ -1,0 +1,13 @@
+{
+  "reserve_fraction": 0.2,
+  "random_seed": 20260923,
+  "alns_time_limit_s": 540,
+  "alns_max_iterations": 1000000,
+  "objective_order": [
+    "hard_deadline_violations",
+    "soft_tardiness_priority_seconds",
+    "makespan_s",
+    "trip_count",
+    "energy_kwh"
+  ]
+}

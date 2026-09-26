@@ -1,0 +1,14 @@
+{
+  "objectives": [
+    "weighted_tardiness",
+    "joint_makespan_s"
+  ],
+  "secondary_objectives": [
+    "sorties_total",
+    "joint_energy_kwh"
+  ],
+  "objective_direction": "minimize",
+  "feasible_only": true,
+  "archive_policy": "all_nondominated_feasible_joint_decodes",
+  "entries": []
+}

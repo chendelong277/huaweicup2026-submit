@@ -1,0 +1,94 @@
+{
+  "solver_status": 0,
+  "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "relay_count": 2,
+  "task_count": 18,
+  "candidate_sorties": 1207,
+  "selected": [
+    {
+      "candidate": "grid16-3/200",
+      "position": [
+        109.28285779999989,
+        23.021709700000002,
+        671.02587890625
+      ],
+      "agl": 200,
+      "backhaul_margin_db": 1.0572792512976577,
+      "cover_mask": 55,
+      "service_start": 809.1783047203203,
+      "service_end": 2755.4525485696804,
+      "launch": 94.8825540928766,
+      "return_time": 3305.025455772645,
+      "ready": 3605.025455772645,
+      "energy": 0.8784100727100261,
+      "soc": 72.5496852278117,
+      "relay_drone": "R01",
+      "covers": [
+        "10",
+        "9",
+        "14",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "candidate": "chendelong-RS01/300",
+      "position": [
+        109.2068578,
+        23.0517097,
+        768.3634643554688
+      ],
+      "agl": 300.0,
+      "backhaul_margin_db": 11.247172701736218,
+      "cover_mask": 253896,
+      "service_start": 1332.8548780033923,
+      "service_end": 7430.954891965845,
+      "launch": 602.9522326617284,
+      "return_time": 8004.246159337131,
+      "ready": 8304.24615933713,
+      "energy": 2.150101941753414,
+      "soc": 32.80931432020581,
+      "relay_drone": "R02",
+      "covers": [
+        "13",
+        "12",
+        "16",
+        "15",
+        "7",
+        "21",
+        "8",
+        "22",
+        "20",
+        "11",
+        "18",
+        "23"
+      ]
+    },
+    {
+      "candidate": "grid10-8/300",
+      "position": [
+        109.23785779999993,
+        23.059209700000004,
+        642.6147766113281
+      ],
+      "agl": 300,
+      "backhaul_margin_db": 10.821236365547165,
+      "cover_mask": 8192,
+      "service_start": 4567.716097281407,
+      "service_end": 5403.76831719536,
+      "launch": 3850.1131545672984,
+      "return_time": 5954.28082462708,
+      "ready": 6254.28082462708,
+      "energy": 0.5433003299188384,
+      "soc": 83.0218646900363,
+      "relay_drone": "R01",
+      "covers": [
+        "17"
+      ]
+    }
+  ],
+  "limitations": "20s sampled access coverage; static hover; no energy component assignment/charging, continuous-time proof, or exhaustive location search",
+  "selected_sorties": 3,
+  "total_relay_energy": 3.5718123443822787,
+  "joint_makespan": 8004.246159337131
+}

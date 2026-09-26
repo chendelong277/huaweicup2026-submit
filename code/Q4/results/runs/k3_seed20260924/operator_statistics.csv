@@ -1,0 +1,9 @@
+kind,operator,uses,accepted,final_weight
+destroy,random_removal,5077,4064,1.0421
+destroy,related_removal,5012,3945,1.0571
+destroy,shortage_targeted_removal,4558,3167,0.84
+destroy,balance_targeted_removal,5782,5260,1.2
+repair,greedy_insertion,3985,1774,0.6444
+repair,regret2_insertion,7182,7058,1.2
+repair,optimal_insertion,7383,7383,1.2
+repair,random_insertion,1879,221,0.325

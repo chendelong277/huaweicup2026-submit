@@ -1,0 +1,24 @@
+{
+  "seed": 2,
+  "evaluator": "pipeline.evaluation.evaluate_transport",
+  "all_feasible": true,
+  "points": [
+    {
+      "weighted_tardiness_s": 0.0,
+      "makespan_s": 6346.428911656341,
+      "feasible": true,
+      "violations": [],
+      "metrics": {
+        "transport_sorties": 24,
+        "delivered_box_count": 80,
+        "transport_energy_kwh": 71.11384358131038,
+        "cumulative_operation_s": 46531.17609179075,
+        "makespan_s": 6346.4289116563405,
+        "weighted_tardiness_s": 0.0,
+        "on_time_box_ratio": 1.0,
+        "max_tardiness_s": 0.0
+      },
+      "all_80_boxes_delivered_once": true
+    }
+  ]
+}

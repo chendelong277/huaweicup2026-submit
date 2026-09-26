@@ -1,0 +1,1125 @@
+{
+  "label": "saved_alns_candidate_comparison",
+  "method_note": "既有 ALNS 解仅重新评估；枚举仍为全局候选集权威，不是重新运行 ALNS。",
+  "entries": [
+    {
+      "scenario": "shortage_first",
+      "scenario_name": "缺口优先",
+      "k": 2,
+      "saved_alns_candidate_count": 5,
+      "saved_alns_best": [
+        {
+          "seed": 20260924,
+          "source": "members/weiliu/Q4/results/strict_q3_v2_seed_20260924/runs/k2_seed20260924/solution.json",
+          "partition": "{S012}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}",
+          "score": [
+            0,
+            4,
+            1,
+            1.917119,
+            4
+          ],
+          "shortage_total": 4,
+          "relay_extra": 1,
+          "balance_time": 1.917119,
+          "redundancy_total": 4,
+          "within_inventory": false
+        }
+      ],
+      "enumeration_best": [
+        {
+          "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S012}",
+          "score": [
+            0,
+            4,
+            1,
+            1.917119,
+            4
+          ],
+          "shortage_total": 4,
+          "relay_extra": 1,
+          "balance_time": 1.917119,
+          "redundancy_total": 4,
+          "within_inventory": false
+        }
+      ],
+      "alns_candidate_matches_enumeration": true
+    },
+    {
+      "scenario": "shortage_first",
+      "scenario_name": "缺口优先",
+      "k": 3,
+      "saved_alns_candidate_count": 5,
+      "saved_alns_best": [
+        {
+          "seed": 20260924,
+          "source": "members/weiliu/Q4/results/strict_q3_v2_seed_20260924/runs/k3_seed20260924/solution.json",
+          "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S015}|{S012}",
+          "score": [
+            0,
+            6,
+            2,
+            2.757457,
+            7
+          ],
+          "shortage_total": 6,
+          "relay_extra": 2,
+          "balance_time": 2.757457,
+          "redundancy_total": 7,
+          "within_inventory": false
+        }
+      ],
+      "enumeration_best": [
+        {
+          "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S012}|{S015}",
+          "score": [
+            0,
+            6,
+            2,
+            2.757457,
+            7
+          ],
+          "shortage_total": 6,
+          "relay_extra": 2,
+          "balance_time": 2.757457,
+          "redundancy_total": 7,
+          "within_inventory": false
+        }
+      ],
+      "alns_candidate_matches_enumeration": true
+    },
+    {
+      "scenario": "balance_first",
+      "scenario_name": "工作量均衡优先",
+      "k": 2,
+      "saved_alns_candidate_count": 5,
+      "saved_alns_best": [
+        {
+          "seed": 20260924,
+          "source": "members/weiliu/Q4/results/strict_q3_v2_seed_20260924/runs/k2_seed20260924/solution.json",
+          "partition": "{S012}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}",
+          "score": [
+            0,
+            4,
+            1,
+            1.917119,
+            4
+          ],
+          "shortage_total": 4,
+          "relay_extra": 1,
+          "balance_time": 1.917119,
+          "redundancy_total": 4,
+          "within_inventory": false
+        }
+      ],
+      "enumeration_best": [
+        {
+          "partition": "{S001,S006,S007,S009,S010,S012,S013,S014,S015}|{S002,S003,S004,S005,S008,S011}",
+          "score": [
+            0,
+            16,
+            1,
+            1.003357,
+            16
+          ],
+          "shortage_total": 16,
+          "relay_extra": 1,
+          "balance_time": 1.003357,
+          "redundancy_total": 16,
+          "within_inventory": false
+        }
+      ],
+      "alns_candidate_matches_enumeration": false
+    },
+    {
+      "scenario": "balance_first",
+      "scenario_name": "工作量均衡优先",
+      "k": 3,
+      "saved_alns_candidate_count": 5,
+      "saved_alns_best": [
+        {
+          "seed": 20260924,
+          "source": "members/weiliu/Q4/results/strict_q3_v2_seed_20260924/runs/k3_seed20260924/solution.json",
+          "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S015}|{S012}",
+          "score": [
+            0,
+            6,
+            2,
+            2.757457,
+            7
+          ],
+          "shortage_total": 6,
+          "relay_extra": 2,
+          "balance_time": 2.757457,
+          "redundancy_total": 7,
+          "within_inventory": false
+        }
+      ],
+      "enumeration_best": [
+        {
+          "partition": "{S001,S006,S007,S013,S014}|{S002,S004,S005,S010,S012,S015}|{S003,S008,S009,S011}",
+          "score": [
+            0,
+            19,
+            3,
+            1.061178,
+            21
+          ],
+          "shortage_total": 19,
+          "relay_extra": 3,
+          "balance_time": 1.061178,
+          "redundancy_total": 21,
+          "within_inventory": false
+        }
+      ],
+      "alns_candidate_matches_enumeration": false
+    },
+    {
+      "scenario": "balanced_shortage_first",
+      "scenario_name": "均衡约束下缺口优先",
+      "k": 2,
+      "saved_alns_candidate_count": 0,
+      "saved_alns_best": [],
+      "enumeration_best": [
+        {
+          "partition": "{S001,S003,S004,S005,S006,S007,S009,S010,S012,S013,S014,S015}|{S002,S008,S011}",
+          "score": [
+            0,
+            8,
+            1,
+            1.482317,
+            8
+          ],
+          "shortage_total": 8,
+          "relay_extra": 1,
+          "balance_time": 1.482317,
+          "redundancy_total": 8,
+          "within_inventory": false
+        }
+      ],
+      "alns_candidate_matches_enumeration": false
+    },
+    {
+      "scenario": "balanced_shortage_first",
+      "scenario_name": "均衡约束下缺口优先",
+      "k": 3,
+      "saved_alns_candidate_count": 0,
+      "saved_alns_best": [],
+      "enumeration_best": [
+        {
+          "partition": "{S001,S003,S004,S005,S006,S007,S009,S010,S013,S014}|{S002,S008,S011,S015}|{S012}",
+          "score": [
+            0,
+            10,
+            2,
+            1.980932,
+            11
+          ],
+          "shortage_total": 10,
+          "relay_extra": 2,
+          "balance_time": 1.980932,
+          "redundancy_total": 11,
+          "within_inventory": false
+        }
+      ],
+      "alns_candidate_matches_enumeration": false
+    },
+    {
+      "scenario": "pareto",
+      "scenario_name": "非支配前沿",
+      "k": 2,
+      "saved_alns_candidate_count": 5,
+      "saved_alns_best": [
+        {
+          "seed": 20260924,
+          "source": "members/weiliu/Q4/results/strict_q3_v2_seed_20260924/runs/k2_seed20260924/solution.json",
+          "partition": "{S012}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}",
+          "score": [
+            0,
+            4,
+            1,
+            1.917119,
+            4
+          ],
+          "shortage_total": 4,
+          "relay_extra": 1,
+          "balance_time": 1.917119,
+          "redundancy_total": 4,
+          "within_inventory": false
+        },
+        {
+          "seed": 20260925,
+          "source": "members/weiliu/Q4/results/strict_q3_v2_seed_20260924/runs/k2_seed20260925/solution.json",
+          "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S012}",
+          "score": [
+            0,
+            4,
+            1,
+            1.917119,
+            4
+          ],
+          "shortage_total": 4,
+          "relay_extra": 1,
+          "balance_time": 1.917119,
+          "redundancy_total": 4,
+          "within_inventory": false
+        },
+        {
+          "seed": 20260926,
+          "source": "members/weiliu/Q4/results/strict_q3_v2_seed_20260924/runs/k2_seed20260926/solution.json",
+          "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S012}",
+          "score": [
+            0,
+            4,
+            1,
+            1.917119,
+            4
+          ],
+          "shortage_total": 4,
+          "relay_extra": 1,
+          "balance_time": 1.917119,
+          "redundancy_total": 4,
+          "within_inventory": false
+        },
+        {
+          "seed": 20260927,
+          "source": "members/weiliu/Q4/results/strict_q3_v2_seed_20260924/runs/k2_seed20260927/solution.json",
+          "partition": "{S012}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}",
+          "score": [
+            0,
+            4,
+            1,
+            1.917119,
+            4
+          ],
+          "shortage_total": 4,
+          "relay_extra": 1,
+          "balance_time": 1.917119,
+          "redundancy_total": 4,
+          "within_inventory": false
+        },
+        {
+          "seed": 20260928,
+          "source": "members/weiliu/Q4/results/strict_q3_v2_seed_20260924/runs/k2_seed20260928/solution.json",
+          "partition": "{S012}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}",
+          "score": [
+            0,
+            4,
+            1,
+            1.917119,
+            4
+          ],
+          "shortage_total": 4,
+          "relay_extra": 1,
+          "balance_time": 1.917119,
+          "redundancy_total": 4,
+          "within_inventory": false
+        }
+      ],
+      "enumeration_best": [
+        {
+          "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S012}",
+          "score": [
+            0,
+            4,
+            1,
+            1.917119,
+            4
+          ],
+          "shortage_total": 4,
+          "relay_extra": 1,
+          "balance_time": 1.917119,
+          "redundancy_total": 4,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S011,S012,S013,S014}|{S010,S015}",
+          "score": [
+            0,
+            4,
+            2,
+            1.854203,
+            5
+          ],
+          "shortage_total": 4,
+          "relay_extra": 2,
+          "balance_time": 1.854203,
+          "redundancy_total": 5,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S002,S003,S004,S005,S006,S007,S010,S012,S013,S014,S015}|{S008,S009,S011}",
+          "score": [
+            0,
+            7,
+            1,
+            1.581818,
+            7
+          ],
+          "shortage_total": 7,
+          "relay_extra": 1,
+          "balance_time": 1.581818,
+          "redundancy_total": 7,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S002,S004,S005,S006,S007,S008,S009,S010,S011,S012,S013,S014,S015}|{S003}",
+          "score": [
+            0,
+            5,
+            1,
+            1.797578,
+            5
+          ],
+          "shortage_total": 5,
+          "relay_extra": 1,
+          "balance_time": 1.797578,
+          "redundancy_total": 5,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S004,S005,S006,S007,S008,S009,S010,S011,S012,S013,S014}|{S002,S015}",
+          "score": [
+            0,
+            6,
+            1,
+            1.754457,
+            6
+          ],
+          "shortage_total": 6,
+          "relay_extra": 1,
+          "balance_time": 1.754457,
+          "redundancy_total": 6,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S004,S005,S006,S007,S008,S009,S011,S012,S013,S014}|{S002,S010,S015}",
+          "score": [
+            0,
+            6,
+            2,
+            1.687474,
+            7
+          ],
+          "shortage_total": 6,
+          "relay_extra": 2,
+          "balance_time": 1.687474,
+          "redundancy_total": 7,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S004,S005,S006,S007,S009,S010,S012,S013,S014,S015}|{S002,S008,S011}",
+          "score": [
+            0,
+            8,
+            1,
+            1.482317,
+            8
+          ],
+          "shortage_total": 8,
+          "relay_extra": 1,
+          "balance_time": 1.482317,
+          "redundancy_total": 8,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S004,S005,S006,S007,S009,S010,S012,S013,S014}|{S002,S008,S011,S015}",
+          "score": [
+            0,
+            9,
+            1,
+            1.403502,
+            9
+          ],
+          "shortage_total": 9,
+          "relay_extra": 1,
+          "balance_time": 1.403502,
+          "redundancy_total": 9,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S004,S005,S006,S007,S009,S012,S013,S014}|{S002,S008,S010,S011,S015}",
+          "score": [
+            0,
+            9,
+            2,
+            1.33652,
+            10
+          ],
+          "shortage_total": 9,
+          "relay_extra": 2,
+          "balance_time": 1.33652,
+          "redundancy_total": 10,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S004,S005,S006,S007,S013,S014}|{S002,S008,S009,S010,S011,S012,S015}",
+          "score": [
+            0,
+            10,
+            2,
+            1.186412,
+            11
+          ],
+          "shortage_total": 10,
+          "relay_extra": 2,
+          "balance_time": 1.186412,
+          "redundancy_total": 11,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S006,S007,S009,S010,S012,S013,S014}|{S002,S004,S005,S008,S011,S015}",
+          "score": [
+            0,
+            14,
+            1,
+            1.126965,
+            14
+          ],
+          "shortage_total": 14,
+          "relay_extra": 1,
+          "balance_time": 1.126965,
+          "redundancy_total": 14,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S006,S007,S009,S013,S014}|{S002,S004,S005,S008,S010,S011,S012,S015}",
+          "score": [
+            0,
+            11,
+            2,
+            1.022899,
+            12
+          ],
+          "shortage_total": 11,
+          "relay_extra": 2,
+          "balance_time": 1.022899,
+          "redundancy_total": 12,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S006,S007,S010,S012,S013,S014}|{S002,S004,S005,S008,S009,S011,S015}",
+          "score": [
+            0,
+            15,
+            1,
+            1.059737,
+            15
+          ],
+          "shortage_total": 15,
+          "relay_extra": 1,
+          "balance_time": 1.059737,
+          "redundancy_total": 15,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S006,S007,S012,S013,S014}|{S002,S004,S005,S008,S009,S010,S011,S015}",
+          "score": [
+            0,
+            14,
+            2,
+            1.007245,
+            15
+          ],
+          "shortage_total": 14,
+          "relay_extra": 2,
+          "balance_time": 1.007245,
+          "redundancy_total": 15,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S006,S007,S013,S014,S015}|{S002,S004,S005,S008,S009,S010,S011,S012}",
+          "score": [
+            0,
+            12,
+            2,
+            1.011312,
+            13
+          ],
+          "shortage_total": 12,
+          "relay_extra": 2,
+          "balance_time": 1.011312,
+          "redundancy_total": 13,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S004,S005,S006,S007,S009,S010,S012,S013,S014,S015}|{S002,S003,S008,S011}",
+          "score": [
+            0,
+            11,
+            1,
+            1.279895,
+            11
+          ],
+          "shortage_total": 11,
+          "relay_extra": 1,
+          "balance_time": 1.279895,
+          "redundancy_total": 11,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S004,S005,S006,S007,S009,S010,S012,S013,S014}|{S002,S003,S008,S011,S015}",
+          "score": [
+            0,
+            12,
+            1,
+            1.201081,
+            12
+          ],
+          "shortage_total": 12,
+          "relay_extra": 1,
+          "balance_time": 1.201081,
+          "redundancy_total": 12,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S006,S007,S009,S010,S012,S013,S014,S015}|{S002,S003,S004,S005,S008,S011}",
+          "score": [
+            0,
+            16,
+            1,
+            1.003357,
+            16
+          ],
+          "shortage_total": 16,
+          "relay_extra": 1,
+          "balance_time": 1.003357,
+          "redundancy_total": 16,
+          "within_inventory": false
+        }
+      ],
+      "alns_candidate_matches_enumeration": true
+    },
+    {
+      "scenario": "pareto",
+      "scenario_name": "非支配前沿",
+      "k": 3,
+      "saved_alns_candidate_count": 5,
+      "saved_alns_best": [
+        {
+          "seed": 20260924,
+          "source": "members/weiliu/Q4/results/strict_q3_v2_seed_20260924/runs/k3_seed20260924/solution.json",
+          "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S015}|{S012}",
+          "score": [
+            0,
+            6,
+            2,
+            2.757457,
+            7
+          ],
+          "shortage_total": 6,
+          "relay_extra": 2,
+          "balance_time": 2.757457,
+          "redundancy_total": 7,
+          "within_inventory": false
+        },
+        {
+          "seed": 20260925,
+          "source": "members/weiliu/Q4/results/strict_q3_v2_seed_20260924/runs/k3_seed20260925/solution.json",
+          "partition": "{S012}|{S015}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}",
+          "score": [
+            0,
+            6,
+            2,
+            2.757457,
+            7
+          ],
+          "shortage_total": 6,
+          "relay_extra": 2,
+          "balance_time": 2.757457,
+          "redundancy_total": 7,
+          "within_inventory": false
+        },
+        {
+          "seed": 20260926,
+          "source": "members/weiliu/Q4/results/strict_q3_v2_seed_20260924/runs/k3_seed20260926/solution.json",
+          "partition": "{S015}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S012}",
+          "score": [
+            0,
+            6,
+            2,
+            2.757457,
+            7
+          ],
+          "shortage_total": 6,
+          "relay_extra": 2,
+          "balance_time": 2.757457,
+          "redundancy_total": 7,
+          "within_inventory": false
+        },
+        {
+          "seed": 20260927,
+          "source": "members/weiliu/Q4/results/strict_q3_v2_seed_20260924/runs/k3_seed20260927/solution.json",
+          "partition": "{S012}|{S015}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}",
+          "score": [
+            0,
+            6,
+            2,
+            2.757457,
+            7
+          ],
+          "shortage_total": 6,
+          "relay_extra": 2,
+          "balance_time": 2.757457,
+          "redundancy_total": 7,
+          "within_inventory": false
+        },
+        {
+          "seed": 20260928,
+          "source": "members/weiliu/Q4/results/strict_q3_v2_seed_20260924/runs/k3_seed20260928/solution.json",
+          "partition": "{S012}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S015}",
+          "score": [
+            0,
+            6,
+            2,
+            2.757457,
+            7
+          ],
+          "shortage_total": 6,
+          "relay_extra": 2,
+          "balance_time": 2.757457,
+          "redundancy_total": 7,
+          "within_inventory": false
+        }
+      ],
+      "enumeration_best": [
+        {
+          "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S012}|{S015}",
+          "score": [
+            0,
+            6,
+            2,
+            2.757457,
+            7
+          ],
+          "shortage_total": 6,
+          "relay_extra": 2,
+          "balance_time": 2.757457,
+          "redundancy_total": 7,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S002}|{S012}",
+          "score": [
+            0,
+            7,
+            2,
+            2.625585,
+            8
+          ],
+          "shortage_total": 7,
+          "relay_extra": 2,
+          "balance_time": 2.625585,
+          "redundancy_total": 8,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S002,S015}|{S012}",
+          "score": [
+            0,
+            8,
+            2,
+            2.507364,
+            9
+          ],
+          "shortage_total": 8,
+          "relay_extra": 2,
+          "balance_time": 2.507364,
+          "redundancy_total": 9,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S004,S005,S006,S007,S008,S009,S011,S013,S014}|{S002,S010,S015}|{S012}",
+          "score": [
+            0,
+            8,
+            3,
+            2.40689,
+            10
+          ],
+          "shortage_total": 8,
+          "relay_extra": 3,
+          "balance_time": 2.40689,
+          "redundancy_total": 10,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S004,S005,S006,S007,S009,S010,S013,S014}|{S002,S008,S011,S015}|{S012}",
+          "score": [
+            0,
+            10,
+            2,
+            1.980932,
+            11
+          ],
+          "shortage_total": 10,
+          "relay_extra": 2,
+          "balance_time": 1.980932,
+          "redundancy_total": 11,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S004,S005,S006,S007,S009,S013,S014}|{S002,S008,S010,S011,S015}|{S012}",
+          "score": [
+            0,
+            11,
+            3,
+            1.880458,
+            13
+          ],
+          "shortage_total": 11,
+          "relay_extra": 3,
+          "balance_time": 1.880458,
+          "redundancy_total": 13,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S004,S005,S006,S007,S010,S013,S014}|{S002,S008,S009,S011,S015}|{S012}",
+          "score": [
+            0,
+            12,
+            2,
+            1.880091,
+            13
+          ],
+          "shortage_total": 12,
+          "relay_extra": 2,
+          "balance_time": 1.880091,
+          "redundancy_total": 13,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S004,S005,S006,S007,S013,S014}|{S002,S008,S011}|{S009,S010,S012,S015}",
+          "score": [
+            0,
+            12,
+            3,
+            1.779617,
+            14
+          ],
+          "shortage_total": 12,
+          "relay_extra": 3,
+          "balance_time": 1.779617,
+          "redundancy_total": 14,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S004,S005,S006,S007,S013,S014}|{S002,S010,S012,S015}|{S008,S009,S011}",
+          "score": [
+            0,
+            12,
+            3,
+            1.779617,
+            14
+          ],
+          "shortage_total": 12,
+          "relay_extra": 3,
+          "balance_time": 1.779617,
+          "redundancy_total": 14,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S004,S005,S006,S007,S013,S014}|{S002}|{S008,S009,S010,S011,S012,S015}",
+          "score": [
+            0,
+            12,
+            3,
+            1.779617,
+            14
+          ],
+          "shortage_total": 12,
+          "relay_extra": 3,
+          "balance_time": 1.779617,
+          "redundancy_total": 14,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S006,S007,S009,S010,S013,S014}|{S002,S004,S005,S008,S011,S015}|{S012}",
+          "score": [
+            0,
+            15,
+            2,
+            1.566126,
+            16
+          ],
+          "shortage_total": 15,
+          "relay_extra": 2,
+          "balance_time": 1.566126,
+          "redundancy_total": 16,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S006,S007,S009,S013,S014}|{S002,S004,S005,S008,S010,S011,S012}|{S015}",
+          "score": [
+            0,
+            14,
+            3,
+            1.465652,
+            16
+          ],
+          "shortage_total": 14,
+          "relay_extra": 3,
+          "balance_time": 1.465652,
+          "redundancy_total": 16,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S006,S007,S009,S013,S014}|{S002,S004,S005,S008,S010,S011,S015}|{S012}",
+          "score": [
+            0,
+            14,
+            3,
+            1.465652,
+            16
+          ],
+          "shortage_total": 14,
+          "relay_extra": 3,
+          "balance_time": 1.465652,
+          "redundancy_total": 16,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S006,S007,S009,S013,S014}|{S002,S004,S005,S008,S011,S012,S015}|{S010}",
+          "score": [
+            0,
+            14,
+            3,
+            1.465652,
+            16
+          ],
+          "shortage_total": 14,
+          "relay_extra": 3,
+          "balance_time": 1.465652,
+          "redundancy_total": 16,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S006,S007,S010,S013,S014}|{S002,S004,S005,S008,S009,S011,S015}|{S012}",
+          "score": [
+            0,
+            16,
+            2,
+            1.465285,
+            17
+          ],
+          "shortage_total": 16,
+          "relay_extra": 2,
+          "balance_time": 1.465285,
+          "redundancy_total": 17,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S006,S007,S013,S014}|{S002,S004,S005,S008,S009,S011,S015}|{S010,S012}",
+          "score": [
+            0,
+            17,
+            2,
+            1.410394,
+            18
+          ],
+          "shortage_total": 17,
+          "relay_extra": 2,
+          "balance_time": 1.410394,
+          "redundancy_total": 18,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S003,S006,S007,S013,S014}|{S002,S004,S005,S010,S012,S015}|{S008,S009,S011}",
+          "score": [
+            0,
+            15,
+            3,
+            1.364811,
+            17
+          ],
+          "shortage_total": 15,
+          "relay_extra": 3,
+          "balance_time": 1.364811,
+          "redundancy_total": 17,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S002,S003}|{S012}",
+          "score": [
+            0,
+            9,
+            2,
+            2.321952,
+            10
+          ],
+          "shortage_total": 9,
+          "relay_extra": 2,
+          "balance_time": 2.321952,
+          "redundancy_total": 10,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S004,S005,S006,S007,S009,S010,S013,S014}|{S002,S003,S008,S011,S015}|{S012}",
+          "score": [
+            0,
+            13,
+            2,
+            1.677299,
+            14
+          ],
+          "shortage_total": 13,
+          "relay_extra": 2,
+          "balance_time": 1.677299,
+          "redundancy_total": 14,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S006,S007,S013,S014}|{S002,S003,S004,S005}|{S008,S009,S010,S011,S012,S015}",
+          "score": [
+            0,
+            21,
+            3,
+            1.061178,
+            23
+          ],
+          "shortage_total": 21,
+          "relay_extra": 3,
+          "balance_time": 1.061178,
+          "redundancy_total": 23,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S006,S007,S009,S013,S014}|{S002,S003,S008,S011}|{S004,S005,S010,S012,S015}",
+          "score": [
+            0,
+            18,
+            3,
+            1.162019,
+            20
+          ],
+          "shortage_total": 18,
+          "relay_extra": 3,
+          "balance_time": 1.162019,
+          "redundancy_total": 20,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S006,S007,S009,S010,S012,S013,S014}|{S002,S003,S015}|{S004,S005,S008,S011}",
+          "score": [
+            0,
+            19,
+            2,
+            1.386814,
+            20
+          ],
+          "shortage_total": 19,
+          "relay_extra": 2,
+          "balance_time": 1.386814,
+          "redundancy_total": 20,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S006,S007,S010,S012,S013,S014}|{S002,S003,S015}|{S004,S005,S008,S009,S011}",
+          "score": [
+            0,
+            20,
+            2,
+            1.285973,
+            21
+          ],
+          "shortage_total": 20,
+          "relay_extra": 2,
+          "balance_time": 1.285973,
+          "redundancy_total": 21,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S006,S007,S010,S013,S014,S015}|{S002,S003}|{S004,S005,S008,S009,S011,S012}",
+          "score": [
+            0,
+            17,
+            3,
+            1.279873,
+            19
+          ],
+          "shortage_total": 17,
+          "relay_extra": 3,
+          "balance_time": 1.279873,
+          "redundancy_total": 19,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S006,S007,S009,S010,S012,S013,S014}|{S002,S004,S005,S008,S011,S015}|{S003}",
+          "score": [
+            0,
+            19,
+            2,
+            1.386814,
+            20
+          ],
+          "shortage_total": 19,
+          "relay_extra": 2,
+          "balance_time": 1.386814,
+          "redundancy_total": 20,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S006,S007,S009,S010,S012,S013,S014}|{S002,S004,S005,S008,S011}|{S003,S015}",
+          "score": [
+            0,
+            19,
+            2,
+            1.386814,
+            20
+          ],
+          "shortage_total": 19,
+          "relay_extra": 2,
+          "balance_time": 1.386814,
+          "redundancy_total": 20,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S006,S007,S010,S012,S013,S014}|{S002,S004,S005,S008,S011}|{S003,S009,S015}",
+          "score": [
+            0,
+            21,
+            2,
+            1.285973,
+            22
+          ],
+          "shortage_total": 21,
+          "relay_extra": 2,
+          "balance_time": 1.285973,
+          "redundancy_total": 22,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S006,S007,S013,S014}|{S002,S004,S005,S010,S012,S015}|{S003,S008,S009,S011}",
+          "score": [
+            0,
+            19,
+            3,
+            1.061178,
+            21
+          ],
+          "shortage_total": 19,
+          "relay_extra": 3,
+          "balance_time": 1.061178,
+          "redundancy_total": 21,
+          "within_inventory": false
+        },
+        {
+          "partition": "{S001,S006,S007,S013,S014}|{S002,S008,S011,S015}|{S003,S004,S005,S009,S010,S012}",
+          "score": [
+            0,
+            21,
+            3,
+            1.061178,
+            23
+          ],
+          "shortage_total": 21,
+          "relay_extra": 3,
+          "balance_time": 1.061178,
+          "redundancy_total": 23,
+          "within_inventory": false
+        }
+      ],
+      "alns_candidate_matches_enumeration": true
+    }
+  ]
+}

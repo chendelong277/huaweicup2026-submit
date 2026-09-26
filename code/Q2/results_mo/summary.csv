@@ -1,0 +1,4 @@
+﻿weighted_tardiness_s,makespan_s,energy_kwh,sorties,seed,origin,on_merged_front
+0.0,6346.428911656341,70.98075283785872,24,0,seed_0,False
+0.0,6346.428911656341,70.91342057544797,24,1,seed_1,True
+0.0,6346.428911656341,71.11384358131038,24,2,seed_2,False

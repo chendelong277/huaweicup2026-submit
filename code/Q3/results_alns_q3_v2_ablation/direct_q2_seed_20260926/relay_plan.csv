@@ -1,0 +1,1 @@
+﻿relay_task_id,relay_type,relay_id,energy_component_id,x,y,hover_height_m,depart_time_s,service_start_s,service_end_s,return_time_s,energy_kwh,soc_end

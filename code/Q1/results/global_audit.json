@@ -1,0 +1,11 @@
+{
+  "expected_box_count": 80,
+  "assigned_box_count": 80,
+  "assigned_unique_box_count": 80,
+  "missing_boxes": [],
+  "unexpected_boxes": [],
+  "duplicate_boxes": [],
+  "every_box_exactly_once": true,
+  "all_batches_feasible": true,
+  "overall_pass": true
+}

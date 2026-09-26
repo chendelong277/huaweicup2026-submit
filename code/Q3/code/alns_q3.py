@@ -1,0 +1,132 @@
+"""ALNS-Q3: Q2 ALNS transport with WHLi-style relay set-cover gate.
+
+The transport candidate is passed through a global two-relay occupancy MILP.
+Only a fully audited candidate may be called feasible; failed gates retain
+the diagnostic artifact instead of an unsafe relay plan.
+"""
+from __future__ import annotations
+import hashlib, json, shutil, subprocess, sys, time
+from pathlib import Path
+from whli_q3_gate import q2_json, run as strict_gate
+from relay_feedback import run as feedback_run
+
+def run(data_root: Path, output_dir: Path, budget_s: float = 100.0,
+        seed: int = 20260924, full_audit: bool = False) -> dict:
+    started = time.perf_counter(); output_dir.mkdir(parents=True, exist_ok=True)
+    q2_dir = output_dir / "q2_transport"
+    q3_dir = output_dir / "q3_gate"
+    # Reserve enough wall time for WHLi strict candidate screening (~55 s on
+    # the reference machine) and I/O, rather than spending most of the budget
+    # on transport-only search.
+    q2_budget = max(1.0, float(budget_s) * 0.20)
+    root = Path(__file__).resolve().parents[4]
+    run_q2 = root / "members" / "weiliu" / "Q2" / "code" / "run_alns_q2.py"
+    py = sys.executable
+    subprocess.run([py, str(run_q2), "--data-root", str(data_root),
+                    "--output-dir", str(q2_dir), "--time-limit", str(q2_budget),
+                    "--seed", str(seed)], check=True)
+    q3_dir.mkdir(parents=True,exist_ok=True)
+    baseline_transport=q3_dir/"transport_before_feedback.json"
+    q2_json(q2_dir,baseline_transport)
+    feedback_transport=q3_dir/"transport_after_feedback.json"
+    feedback=feedback_run(data_root,baseline_transport,feedback_transport,
+                          budget_s=max(1.0,min(6.0,budget_s*.06)),seed=seed)
+    wh= root / "members" / "WHLi" / "experiments"
+    warm_transport=wh/"q2_v5_reassign.json"
+    warm_feedback=None
+    warm_feedback_transport=q3_dir/"transport_whli_warm_feedback.json"
+    if warm_transport.exists():
+        warm_feedback=feedback_run(data_root,warm_transport,warm_feedback_transport,
+                                   budget_s=max(1.0,min(4.0,budget_s*.04)),seed=seed+1)
+    # Keep the user's priority order: hard constraints, delivery lateness,
+    # then the relay-feasibility surrogate used only for candidate screening.
+    rank=lambda a:(a[0],a[1],a[2],a[3],a[4])
+    use_warm=(warm_feedback is not None and warm_feedback["candidate_written"] and
+              rank(warm_feedback["final_objective"])<rank(feedback["final_objective"]))
+    gate_transport=warm_feedback_transport if use_warm else feedback_transport
+    candidate_source="WHLi Q2 v5 warm transport + relay feedback" if use_warm else "ALNS-Q2 transport + relay feedback"
+    # Verify the actual schedule handed to Q3.  The ALNS-Q2 directory audit
+    # cannot certify a different, re-ordered WHLi warm schedule.
+    verify_script=root/"members"/"WHLi"/"code"/"verify.py"
+    verify_run=subprocess.run([py,str(verify_script),str(data_root),str(gate_transport)],
+                              cwd=root,text=True,capture_output=True)
+    (q3_dir/"candidate_transport_verify.txt").write_text(
+        verify_run.stdout+verify_run.stderr,encoding="utf-8")
+    if verify_run.returncode != 0:
+        raise RuntimeError("Q3 candidate transport failed independent hard-constraint verification")
+    candidate_transport=json.loads(gate_transport.read_text(encoding="utf-8"))
+    remaining = max(0.0, float(budget_s) - (time.perf_counter()-started))
+    gate = strict_gate(data_root,q2_dir,q3_dir,dense=True,strict_step_s=20.0,
+                       transport_file=gate_transport if (use_warm or feedback["candidate_written"]) else baseline_transport,
+                       deadline_perf=None if full_audit else started+budget_s)
+    audit = {"relay_gate_status":gate["status"],"relay_gate_solver_status":gate["solver_status"],
+             "relay_gate_runtime_s":gate["wall_runtime_s"],"relay_gate_audit":str((q3_dir/"gate_audit.json").relative_to(output_dir))}
+    audit["relay_feedback"] = feedback
+    audit["whli_warm_feedback"] = warm_feedback
+    audit["gate_candidate_source"] = candidate_source
+    q2_audit = json.loads((q2_dir / "global_audit.json").read_text(encoding="utf-8"))
+    incumbent=wh/"q3_v5_assembled_opt.json"
+    dense=wh/"q3_v5_dense05_opt.json"
+    closure=wh/"q3_v5_continuity.json"
+    ref=None
+    if all(p.exists() for p in (incumbent,dense,closure)):
+        plan=json.loads(incumbent.read_text(encoding="utf-8"))
+        dense_a=json.loads(dense.read_text(encoding="utf-8"))
+        closure_a=json.loads(closure.read_text(encoding="utf-8"))
+        if (plan.get("status")=="feasible" and plan.get("hard_deadline_violations")==0
+                and dense_a.get("outage_samples")==0 and closure_a.get("continuous_feasible") is True):
+            ref={"source":"members/WHLi/experiments/q3_v5_assembled_opt.json",
+                 "provenance":"pre-existing WHLi incumbent, not generated by this ALNS-Q3 run",
+                 "joint_makespan_s":plan["joint_makespan_s"],
+                 "joint_energy_kwh":plan["transport_energy_kwh"]+plan["relay_energy_kwh"],
+                 "transport_trips":plan["transport_trips"],"relay_sorties":plan["relay_sorties"],
+                 "dense_outages":dense_a["outage_samples"],
+                 "refined_min_margin_db":closure_a["global_refined_min_db"],
+                 "source_sha256":hashlib.sha256(incumbent.read_bytes()).hexdigest()}
+            shutil.copy2(incumbent,output_dir/"selected_q3_solution.json")
+    audit.update({"solver": "ALNS-Q3", "algorithm_family": "E007-ALNS-with-Q3-communication-decoder",
+                  "seed": seed, "budget_s": float(budget_s),
+                  "full_audit_requested":full_audit,
+                  "budget_semantics":"search and relay MILP; full-audit mode may exceed budget for dense/closure verification",
+                  "q2_budget_s": q2_budget, "wall_runtime_s": time.perf_counter()-started,
+                  "remaining_budget_after_q2_s": remaining,
+                  "q2_alns_baseline_hard_audit": {k: q2_audit.get(k) for k in (
+                      "box_count", "delivered_unique", "route_closed",
+                      "hard_deadline_violations", "hard_deadline_violation_boxes",
+                      "expected_time_misses", "overall_pass")},
+                  "transport_hard_audit": {
+                      "source":candidate_source,
+                      "verification_file":str((q3_dir/"candidate_transport_verify.txt").relative_to(output_dir)),
+                      "independently_verified":True,
+                      "box_count":sum(len(t["boxes"]) for t in candidate_transport["trips"]),
+                      "hard_deadline_violations":len(candidate_transport["hard_violations"]),
+                      "weighted_tardiness":candidate_transport["weighted_tardiness"]},
+                  "joint_priority_status": {
+                      "hard_constraints_pass": gate["status"]=="fully_audited_feasible",
+                      "delivery_timeliness_pass": len(candidate_transport["hard_violations"])==0,
+                      "all_tasks_completion_s": gate.get("assembled",{}).get("joint_makespan_s",candidate_transport["makespan"]),
+                      "energy_kwh": gate.get("assembled",{}).get("transport_energy_kwh",candidate_transport["energy"])+gate.get("assembled",{}).get("relay_energy_kwh",0)}})
+    audit["alns_candidate_feasible"] = audit["joint_priority_status"]["hard_constraints_pass"] and not use_warm
+    audit["gate_candidate_fully_audited"] = audit["joint_priority_status"]["hard_constraints_pass"]
+    audit["incumbent_reference"] = ref
+    audit["selected_source"] = (candidate_source if audit["gate_candidate_fully_audited"] else
+                                "pre_existing_whli_incumbent" if ref else "none")
+    audit["selected_feasible"] = audit["gate_candidate_fully_audited"] or ref is not None
+    if audit["gate_candidate_fully_audited"] and (q3_dir/"assembled.json").exists():
+        selected=gate["assembled"]
+        audit["selected_joint_makespan_s"]=selected["joint_makespan_s"]
+        audit["selected_joint_energy_kwh"]=selected["transport_energy_kwh"]+selected["relay_energy_kwh"]
+        if ref and (ref["joint_makespan_s"],ref["joint_energy_kwh"]) <= (audit["selected_joint_makespan_s"],audit["selected_joint_energy_kwh"]):
+            audit["selected_source"]="pre_existing_whli_incumbent"
+            audit["selected_joint_makespan_s"]=ref["joint_makespan_s"]
+            audit["selected_joint_energy_kwh"]=ref["joint_energy_kwh"]
+        else:
+            shutil.copy2(q3_dir/"assembled.json",output_dir/"selected_q3_solution.json")
+    elif ref:
+        audit["selected_joint_makespan_s"] = ref["joint_makespan_s"]
+        audit["selected_joint_energy_kwh"] = ref["joint_energy_kwh"]
+    (output_dir / "global_audit.json").write_text(json.dumps(audit, ensure_ascii=False, indent=2), encoding="utf-8")
+    # The Q2 CSV files remain under q2_transport.  They do not represent the
+    # feedback-retimed transport or a selected WHLi incumbent; copying them to
+    # the root output would create a mixed, inconsistent Q3 handoff.
+    return audit

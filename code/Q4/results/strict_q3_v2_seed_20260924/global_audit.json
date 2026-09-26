@@ -1,0 +1,257 @@
+{
+  "invariants": {
+    "weighted_tardiness_s": 0.0,
+    "makespan_s": 6606.551838015807,
+    "sorties_total": 27,
+    "energy_kwh": 74.0224449014903
+  },
+  "global_counts": {
+    "transport_A": 4,
+    "transport_B": 2,
+    "transport_C": 2,
+    "battery_A": 7,
+    "battery_B": 4,
+    "battery_C": 4,
+    "relay": 2,
+    "energy_component": 3
+  },
+  "inventory": {
+    "transport_A": 4,
+    "transport_B": 2,
+    "transport_C": 2,
+    "battery_A": 6,
+    "battery_B": 4,
+    "battery_C": 4,
+    "relay": 2,
+    "energy_component": 6
+  },
+  "k2": {
+    "feasible": true,
+    "checks": [
+      {
+        "id": "unique_coverage",
+        "ok": true,
+        "detail": "covered=15 expected=15"
+      },
+      {
+        "id": "non_empty_groups",
+        "ok": true,
+        "detail": "groups=2"
+      },
+      {
+        "id": "same_trip_same_group",
+        "ok": true,
+        "detail": "violating_trips=[]"
+      },
+      {
+        "id": "counts_recomputed",
+        "ok": true,
+        "detail": "mismatch_groups=[]"
+      },
+      {
+        "id": "shortage_redundancy_consistent",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "id": "within_inventory_flag",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "id": "shortage_witnesses",
+        "ok": true,
+        "detail": "missing=[]"
+      }
+    ],
+    "k": 2,
+    "shortage_total": 4,
+    "relay_extra": 1,
+    "balance_time": 1.917119,
+    "redundancy_total": 4,
+    "seed": 20260924,
+    "partition": "{S012}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}",
+    "per_seed_best": [
+      {
+        "seed": 20260924,
+        "label": "{S012}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}",
+        "score": [
+          0,
+          4,
+          1,
+          1.917119,
+          4
+        ]
+      },
+      {
+        "seed": 20260925,
+        "label": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S012}",
+        "score": [
+          0,
+          4,
+          1,
+          1.917119,
+          4
+        ]
+      },
+      {
+        "seed": 20260926,
+        "label": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S012}",
+        "score": [
+          0,
+          4,
+          1,
+          1.917119,
+          4
+        ]
+      },
+      {
+        "seed": 20260927,
+        "label": "{S012}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}",
+        "score": [
+          0,
+          4,
+          1,
+          1.917119,
+          4
+        ]
+      },
+      {
+        "seed": 20260928,
+        "label": "{S012}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}",
+        "score": [
+          0,
+          4,
+          1,
+          1.917119,
+          4
+        ]
+      }
+    ],
+    "enumeration_best": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014,S015}|{S012}",
+    "enumeration_score": [
+      0,
+      4,
+      1,
+      1.917119,
+      4
+    ],
+    "alns_equals_enumeration": true,
+    "gap_to_enumeration": 0
+  },
+  "k3": {
+    "feasible": true,
+    "checks": [
+      {
+        "id": "unique_coverage",
+        "ok": true,
+        "detail": "covered=15 expected=15"
+      },
+      {
+        "id": "non_empty_groups",
+        "ok": true,
+        "detail": "groups=3"
+      },
+      {
+        "id": "same_trip_same_group",
+        "ok": true,
+        "detail": "violating_trips=[]"
+      },
+      {
+        "id": "counts_recomputed",
+        "ok": true,
+        "detail": "mismatch_groups=[]"
+      },
+      {
+        "id": "shortage_redundancy_consistent",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "id": "within_inventory_flag",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "id": "shortage_witnesses",
+        "ok": true,
+        "detail": "missing=[]"
+      }
+    ],
+    "k": 3,
+    "shortage_total": 6,
+    "relay_extra": 2,
+    "balance_time": 2.757457,
+    "redundancy_total": 7,
+    "seed": 20260924,
+    "partition": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S015}|{S012}",
+    "per_seed_best": [
+      {
+        "seed": 20260924,
+        "label": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S015}|{S012}",
+        "score": [
+          0,
+          6,
+          2,
+          2.757457,
+          7
+        ]
+      },
+      {
+        "seed": 20260925,
+        "label": "{S012}|{S015}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}",
+        "score": [
+          0,
+          6,
+          2,
+          2.757457,
+          7
+        ]
+      },
+      {
+        "seed": 20260926,
+        "label": "{S015}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S012}",
+        "score": [
+          0,
+          6,
+          2,
+          2.757457,
+          7
+        ]
+      },
+      {
+        "seed": 20260927,
+        "label": "{S012}|{S015}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}",
+        "score": [
+          0,
+          6,
+          2,
+          2.757457,
+          7
+        ]
+      },
+      {
+        "seed": 20260928,
+        "label": "{S012}|{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S015}",
+        "score": [
+          0,
+          6,
+          2,
+          2.757457,
+          7
+        ]
+      }
+    ],
+    "enumeration_best": "{S001,S002,S003,S004,S005,S006,S007,S008,S009,S010,S011,S013,S014}|{S012}|{S015}",
+    "enumeration_score": [
+      0,
+      6,
+      2,
+      2.757457,
+      7
+    ],
+    "alns_equals_enumeration": true,
+    "gap_to_enumeration": 0
+  },
+  "template_fill": null
+}

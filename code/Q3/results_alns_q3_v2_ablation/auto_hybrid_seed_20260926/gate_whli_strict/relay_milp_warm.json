@@ -1,0 +1,9 @@
+{
+  "solver_status": 2,
+  "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+  "relay_count": 2,
+  "task_count": 19,
+  "candidate_sorties": 170,
+  "selected": [],
+  "limitations": "20s sampled access coverage; static hover; no energy component assignment/charging, continuous-time proof, or exhaustive location search"
+}

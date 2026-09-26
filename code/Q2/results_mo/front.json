@@ -1,0 +1,70 @@
+{
+  "version": "mo-r1",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "point_count": 1,
+  "dominance_check": {
+    "pairwise_nondominated": true,
+    "violating_pairs": []
+  },
+  "anchor_relations": [
+    {
+      "anchor": "WHLi_anchor_1_wt0",
+      "anchor_weighted_tardiness_s": 0.0,
+      "anchor_makespan_s": 9530.2,
+      "relation": "dominated_by_our_front",
+      "dominating_point": {
+        "weighted_tardiness_s": 0.0,
+        "makespan_s": 6346.428911656341,
+        "seed": 1
+      },
+      "our_points_dominated_by_anchor": 0
+    },
+    {
+      "anchor": "WHLi_anchor_2",
+      "anchor_weighted_tardiness_s": 35871.1,
+      "anchor_makespan_s": 9830.1,
+      "relation": "dominated_by_our_front",
+      "dominating_point": {
+        "weighted_tardiness_s": 0.0,
+        "makespan_s": 6346.428911656341,
+        "seed": 1
+      },
+      "our_points_dominated_by_anchor": 0
+    },
+    {
+      "anchor": "WHLi_anchor_3",
+      "anchor_weighted_tardiness_s": 46207.0,
+      "anchor_makespan_s": 10129.8,
+      "relation": "dominated_by_our_front",
+      "dominating_point": {
+        "weighted_tardiness_s": 0.0,
+        "makespan_s": 6346.428911656341,
+        "seed": 1
+      },
+      "our_points_dominated_by_anchor": 0
+    },
+    {
+      "anchor": "E005_alns_plain",
+      "anchor_weighted_tardiness_s": 0.0,
+      "anchor_makespan_s": 6043.32,
+      "relation": "dominates_some_our_point",
+      "dominating_point": null,
+      "our_points_dominated_by_anchor": 1
+    }
+  ],
+  "front": [
+    {
+      "seed": 1,
+      "weighted_tardiness_s": 0.0,
+      "makespan_s": 6346.428911656341,
+      "energy_kwh": 70.91342057544797,
+      "sorties": 24,
+      "origin": "seed_1",
+      "on_merged_front": true
+    }
+  ]
+}

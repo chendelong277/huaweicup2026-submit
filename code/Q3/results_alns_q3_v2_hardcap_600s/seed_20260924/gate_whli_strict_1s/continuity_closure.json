@@ -1,0 +1,159 @@
+{
+  "protocol": "2s coarse scan + 0.05s refined resampling (strict pixel-interior LOS) around per-trip weakest instants, blind window bounds and relay service bounds (+-5s)",
+  "q3_source": "members\\weiliu\\Q3\\results_alns_q3_v2_hardcap_600s\\seed_20260924\\gate_whli_strict_1s\\assembled.json",
+  "bad_relay_backhaul": [],
+  "regions_checked": 99,
+  "refined_samples": 19829,
+  "per_trip": {
+    "1": {
+      "coarse_2s_min": 2.2131,
+      "coarse_time": 774.0,
+      "refined_005_min": 2.2128,
+      "refined_time": 772.45
+    },
+    "2": {
+      "coarse_2s_min": 1.8644,
+      "coarse_time": 652.0,
+      "refined_005_min": 1.8643,
+      "refined_time": 651.8
+    },
+    "3": {
+      "coarse_2s_min": 2.2131,
+      "coarse_time": 744.0,
+      "refined_005_min": 2.2128,
+      "refined_time": 742.45
+    },
+    "4": {
+      "coarse_2s_min": 2.9363,
+      "coarse_time": 574.0,
+      "refined_005_min": 2.9362,
+      "refined_time": 573.75
+    },
+    "5": {
+      "coarse_2s_min": 1.8645,
+      "coarse_time": 952.0,
+      "refined_005_min": 1.8643,
+      "refined_time": 952.45
+    },
+    "6": {
+      "coarse_2s_min": 0.8108,
+      "coarse_time": 2589.51,
+      "refined_005_min": 0.8108,
+      "refined_time": 2588.505
+    },
+    "7": {
+      "coarse_2s_min": 0.0399,
+      "coarse_time": 808.0,
+      "refined_005_min": 0.0096,
+      "refined_time": 809.15
+    },
+    "8": {
+      "coarse_2s_min": 0.2839,
+      "coarse_time": 2831.51,
+      "refined_005_min": 0.282,
+      "refined_time": 2831.605
+    },
+    "9": {
+      "coarse_2s_min": 6.9914,
+      "coarse_time": 5816.67,
+      "refined_005_min": 6.9856,
+      "refined_time": 5816.424
+    },
+    "10": {
+      "coarse_2s_min": 3.6529,
+      "coarse_time": 5159.79,
+      "refined_005_min": 3.6529,
+      "refined_time": 5159.588
+    },
+    "11": {
+      "coarse_2s_min": 4.6686,
+      "coarse_time": 2103.69,
+      "refined_005_min": 4.6686,
+      "refined_time": 2101.842
+    },
+    "12": {
+      "coarse_2s_min": 5.3051,
+      "coarse_time": 2497.06,
+      "refined_005_min": 5.3013,
+      "refined_time": 2497.157
+    },
+    "13": {
+      "coarse_2s_min": 2.2128,
+      "coarse_time": 664.0,
+      "refined_005_min": 2.2127,
+      "refined_time": 663.8
+    },
+    "14": {
+      "coarse_2s_min": 0.0197,
+      "coarse_time": 1332.0,
+      "refined_005_min": 0.0032,
+      "refined_time": 1332.85
+    },
+    "15": {
+      "coarse_2s_min": 0.8108,
+      "coarse_time": 3714.3,
+      "refined_005_min": 0.8108,
+      "refined_time": 3714.299
+    },
+    "16": {
+      "coarse_2s_min": 2.1605,
+      "coarse_time": 3848.07,
+      "refined_005_min": 2.1605,
+      "refined_time": 3846.173
+    },
+    "17": {
+      "coarse_2s_min": 8.5742,
+      "coarse_time": 5280.35,
+      "refined_005_min": 8.5673,
+      "refined_time": 5280.201
+    },
+    "18": {
+      "coarse_2s_min": 0.035,
+      "coarse_time": 2791.21,
+      "refined_005_min": 0.0009,
+      "refined_time": 2789.911
+    },
+    "19": {
+      "coarse_2s_min": 5.8734,
+      "coarse_time": 3065.13,
+      "refined_005_min": 5.8734,
+      "refined_time": 3063.527
+    },
+    "20": {
+      "coarse_2s_min": 5.5028,
+      "coarse_time": 2827.05,
+      "refined_005_min": 5.4737,
+      "refined_time": 2826.104
+    },
+    "21": {
+      "coarse_2s_min": 5.5028,
+      "coarse_time": 3640.85,
+      "refined_005_min": 5.4737,
+      "refined_time": 3639.898
+    },
+    "22": {
+      "coarse_2s_min": 3.6529,
+      "coarse_time": 4654.63,
+      "refined_005_min": 3.6529,
+      "refined_time": 4654.278
+    },
+    "23": {
+      "coarse_2s_min": 9.4477,
+      "coarse_time": 5245.41,
+      "refined_005_min": 9.4477,
+      "refined_time": 5245.061
+    },
+    "24": {
+      "coarse_2s_min": 0.0641,
+      "coarse_time": 6033.32,
+      "refined_005_min": 0.0624,
+      "refined_time": 6033.275
+    }
+  },
+  "global_refined_min_db": 0.0009280605551822418,
+  "global_refined_where": {
+    "trip": 18,
+    "time": 2789.911
+  },
+  "continuous_feasible": true
+}

@@ -1,0 +1,60 @@
+{
+  "source_frozen_dir": "members/weiliu/Q4/results/frozen_alns_q3_v2_seed_20260924",
+  "source_files_sha256": {
+    "audit_freeze.json": "4d6b96866754dfe6bef52e20ec5ef2e392519a460ad314de2c0778f80be3649c",
+    "communication_links.csv": "8a154a69c71fa1249e2386ab378ed8fa53b895b95b4d53ded365ca6381e30432",
+    "delivery_timeline.csv": "4db981feeeed3a0cfaa321130cdf8efdb67d9bc37606f31e06af674d6977ba61",
+    "relay_plan.csv": "18f580aae79620ef81f4fa5c65d99081924c2be1b9fcfc272f66fcbf7a71ed11",
+    "transport_trips.csv": "94e685f5ad1266e4651320f6b7ff3e1e3083c1d2bee0f5868fa1f34fc37de529"
+  },
+  "enumeration_counts": {
+    "2": 255,
+    "3": 3025
+  },
+  "expected_enumeration_counts": {
+    "2": 255,
+    "3": 3025
+  },
+  "components_count": 9,
+  "transport_trips": 24,
+  "relay_sorties": 3,
+  "global_counts": {
+    "transport_A": 4,
+    "transport_B": 2,
+    "transport_C": 2,
+    "battery_A": 7,
+    "battery_B": 4,
+    "battery_C": 4,
+    "relay": 2,
+    "energy_component": 3
+  },
+  "inventory": {
+    "transport_A": 4,
+    "transport_B": 2,
+    "transport_C": 2,
+    "battery_A": 6,
+    "battery_B": 4,
+    "battery_C": 4,
+    "relay": 2,
+    "energy_component": 6
+  },
+  "frozen_invariants": {
+    "weighted_tardiness_s": 0.0,
+    "makespan_s": 6606.551838015807,
+    "sorties_total": 27,
+    "energy_kwh": 74.0224449014903
+  },
+  "scenarios": [
+    "shortage_first",
+    "balance_first",
+    "balanced_shortage_first",
+    "pareto"
+  ],
+  "balance_thresholds": {
+    "2": 1.5,
+    "3": 2.0
+  },
+  "optimizer_run": false,
+  "authority": "full_exhaustive_enumeration",
+  "saved_alns_candidate_comparison": true
+}

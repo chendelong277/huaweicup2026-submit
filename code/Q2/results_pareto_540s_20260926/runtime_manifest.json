@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-09-26T00:28:19",
+  "runtime_s": 541.2121026515961,
+  "data_root": "configured at runtime",
+  "files": [
+    {
+      "path": "# D-项目文件夹-LW/D题题目/数据/无人机应急物资运输基础数据/调度中心与服务区.xlsx",
+      "sha256": "541a7af1ded08c9a3ff448480332cb5f6a54902f0afa6e9bcd50c1d2b2b34e38"
+    },
+    {
+      "path": "# D-项目文件夹-LW/D题题目/数据/无人机应急物资运输基础数据/运输无人机数据.xlsx",
+      "sha256": "9296a657c07e042afba6aeea7999665d9cd24e00b592fd6c269de6e338480dcb"
+    },
+    {
+      "path": "# D-项目文件夹-LW/D题题目/数据/无人机应急物资运输基础数据/物资需求与配送时限.xlsx",
+      "sha256": "5a3346159ceddcf585859d270b8f62114b388a1f737fbe64ffde0ee1fdc8170a"
+    },
+    {
+      "path": "# D-项目文件夹-LW/D题题目/数据/镇龙乡地理空间数据/镇龙乡及周边地理数据/数字高程模型数据（DEM）/镇龙乡及周边30米DEM.mat",
+      "sha256": "c68703e0cc8f94f4bd52ff6e9974b66a2dae33865f0723ad71c04b6694bf4fbf"
+    },
+    {
+      "path": "# D-项目文件夹-LW/Solution/Q1/results/batching_baseline.csv",
+      "sha256": "7af495402b80f9bead3c4e1dd96095db3823703696f0f3f6aa44367caed9b517"
+    },
+    {
+      "path": "# D-项目文件夹-LW/Solution/Q1/code/q1_solver.py",
+      "sha256": "730c929588470e2044dd708ea36840d15ae001f283cfad8400e57ff5b5492cdb"
+    },
+    {
+      "path": "AAA-2026华为杯-精简/weiliu/Q2/code/q2_solver_v2.py",
+      "sha256": "c52a5a331899f80b61781ae6a648959e86dc8773741fb9489d1ca2d027b6be31"
+    },
+    {
+      "path": "AAA-2026华为杯-精简/weiliu/Q2/code/alns_warm_start.csv",
+      "sha256": "6a3f3400ec290f6fc9ca8ccb7408578b75729a64f8cf4179e64fa7b1f88c2cfb"
+    },
+    {
+      "path": "huaweicup-2026/members/chendelong/experiments/e001/q2_full/seed_1/solution.json",
+      "sha256": "3a136bf22e2da3d8ad19c368ab306a2dad8cf0a93be7f665e569a48eaf6ac948"
+    }
+  ],
+  "random_seed": 20260923,
+  "alns_iterations": 152063,
+  "time_limit_s": 540.0,
+  "audit": {
+    "box_count": 80,
+    "delivered_unique": true,
+    "duplicate_or_missing": [],
+    "route_closed": true,
+    "hard_deadline_violations": 0,
+    "hard_deadline_violation_boxes": [],
+    "expected_time_misses": 0,
+    "weighted_tardiness_priority_seconds": 0.0,
+    "soft_tardiness_priority_seconds": 0.0,
+    "trip_count": 24,
+    "total_energy_kwh": 70.71666616475245,
+    "makespan_s": 6374.351717254821,
+    "overall_pass": true,
+    "runtime_s": 541.2111024856567,
+    "reserve_fraction": 0.2,
+    "solver": "q2_v2_external_warm_start_persistent_order_cross_service_alns",
+    "random_seed": 20260923,
+    "alns_iterations": 152063,
+    "alns_runtime_s": 540.0030442,
+    "time_limit_s": 540.0,
+    "warm_start_source": "external_warm",
+    "external_warm_start_loaded": true,
+    "persistent_order_layer": true,
+    "cross_service_repack": true,
+    "dispatch_order": [
+      "Q2-S001",
+      "Q2-S002",
+      "Q2-S003",
+      "Q2-S004",
+      "Q2-S005",
+      "Q2-S006",
+      "Q2-S007",
+      "Q2-S008",
+      "Q2-S009",
+      "Q2-S010",
+      "Q2-S011",
+      "Q2-S012",
+      "Q2-S013",
+      "Q2-S014",
+      "Q2-S015",
+      "Q2-S016",
+      "Q2-S017",
+      "Q2-S018",
+      "Q2-S019",
+      "Q2-S020",
+      "Q2-S021",
+      "Q2-S022",
+      "Q2-S023",
+      "Q2-S024"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at_utc": "2026-09-23T07:25:25.309999+00:00",
+  "python": "3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19041-SP0",
+  "command": "python code/q1_solver.py --data-root <problem_data_root> --output-dir results",
+  "deterministic": true,
+  "random_seed": null,
+  "config": {
+    "default_reserve_fraction": 0.2,
+    "sensitivity_reserve_fractions": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4
+    ],
+    "tradeoff_objectives": [
+      "flights_energy_time",
+      "energy_flights_time",
+      "time_flights_energy"
+    ],
+    "numerical_tolerance": 1e-09
+  },
+  "input_sha256": {
+    "调度中心与服务区.xlsx": "541a7af1ded08c9a3ff448480332cb5f6a54902f0afa6e9bcd50c1d2b2b34e38",
+    "运输无人机数据.xlsx": "9296a657c07e042afba6aeea7999665d9cd24e00b592fd6c269de6e338480dcb",
+    "物资需求与配送时限.xlsx": "5a3346159ceddcf585859d270b8f62114b388a1f737fbe64ffde0ee1fdc8170a",
+    "镇龙乡及周边30米DEM.mat": "c68703e0cc8f94f4bd52ff6e9974b66a2dae33865f0723ad71c04b6694bf4fbf"
+  },
+  "code_sha256": "730c929588470e2044dd708ea36840d15ae001f283cfad8400e57ff5b5492cdb",
+  "elapsed_seconds": 46.570133399999996
+}
